@@ -7,6 +7,7 @@
     font-size: 16px;
 }
 
+
 .padding {
     padding: 7% 5%;
 }
@@ -25,39 +26,40 @@
 
 
 
-.mb-40{
+.mb-40 {
     margin-bottom: 40px;
 }
 
-.mt-40{
+.mt-40 {
     margin-top: 40px;
 }
 
-.mt-60{
+.mt-60 {
     margin-top: 60px;
 }
 
-.mb-8per{
+.mb-8per {
     margin-bottom: 8%;
 }
 
-.mt-8per{
+.mt-8per {
     margin-top: 8%;
 }
 
-.marginT-desktop{
+.marginT-desktop {
     margin-top: 100px;
 }
 
-ul{
+ul {
     font-family: Poppins-Regular;
     margin-left: 10px;
     color: black;
 }
 
-ul li{
+ul li {
     margin-bottom: 10px;
 }
+
 /* 
 img {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -81,15 +83,15 @@ img:hover {
         font-size: 14px;
     }
 
-    br.desktop{
+    br.desktop {
         display: none;
     }
 
-    .marginT-mobile{
+    .marginT-mobile {
         margin-top: 50px;
     }
 
-    .marginT-desktop{
+    .marginT-desktop {
         margin-top: 0px;
     }
 }
