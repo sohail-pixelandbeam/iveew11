@@ -10,8 +10,6 @@
     cursor: pointer;
 }
 
-/* next commmit  */
-
 @media (max-width:700px) {
     .switchIcon {
         width: 35px;
