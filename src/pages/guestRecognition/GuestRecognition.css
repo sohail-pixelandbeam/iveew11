@@ -1,0 +1,55 @@
+.guestRec-hero{
+    background-image: url('../../assets/imgs/guestRecImg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    padding:5% 0%;
+    padding-top: 10%;
+}
+
+.guestRec-bgSec{
+    display: flex;
+}
+
+.guestRec-bgSec-left{
+    background-image: url('../../assets/imgs/guestRecImg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex:5;
+    min-height: 300px; 
+    padding: 5%;
+}
+
+.guestRec-bgSec-left h1{
+    font-size: 56px;
+    font-family: Poppins-ExtraBold;
+    line-height: 63px;
+}
+
+.guestRec-bgSec img{
+    flex:4;
+    width: 100px;
+}
+
+@media screen and (max-width:799px) {
+    .guestRec-bgSec{
+        flex-direction: column;
+    }
+    .guestRec-bgSec-left h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .guestRec-bgSec img{
+        width: 100%;
+    }
+
+    .guestRec-bgSec-left h1{
+        font-size: 30px;
+        font-family: Poppins-ExtraBold;
+        line-height: 38px;
+    }
+}

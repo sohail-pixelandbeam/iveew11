@@ -1,0 +1,78 @@
+.geoLocMsg-hero {
+    background-image: url('../../assets/imgs/geoLocMsgImg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    padding: 5% 0%;
+    padding-top: 10%;
+}
+
+.geoLocMsg-textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #C1C1C1;
+    border-radius: 11px;
+}
+
+.geoLocMsg-form-heading {
+    font-family: Poppins-SemiBold;
+    font-size: 26px;
+    line-height: 34px;
+    color: black;
+}
+
+.geoLocMsg-form-subHeading {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    line-height: 34px;
+    color: #A3A3A3;
+}
+
+.geoLocMsg-marginT {
+    height: 80px;
+}
+
+.geoLocMsg-label1 {
+    height: 47px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    min-width: 100px;
+}
+
+.geoLocMsg-radio {
+    height: 47px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 40px;
+}
+
+.geoLocMsg-radio input {
+    height: 20px;
+}
+
+
+
+
+
+.geoLocMsg-innerInputBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+@media (max-width:700px) {
+    .geoLocMsg-textarea {
+        /* margin-left: 5%; */
+        width: 100%;
+    }
+
+    .geoLocMsg-marginT {
+        height: 20px;
+    }
+}

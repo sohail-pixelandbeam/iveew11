@@ -1,0 +1,129 @@
+.message360Padding {
+    padding: 0px 12%;
+}
+
+.message360Padding img {
+    width: 100%;
+}
+
+.message360-heading1 {
+    font-size: 26px;
+    font-family: Poppins-SemiBold;
+    color: black;
+    line-height: 34px;
+}
+
+.message360-text1 {
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    line-height: 25px;
+    color: black;
+}
+
+.message360-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.message360-icon1 img {
+    width: 84px;
+    height: 84px;
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.message360-hero {
+    background-image: url('../../assets/imgs/message360bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.message360-hero-heading {
+    font-size: 85px;
+    font-family: Poppins-ExtraBold;
+    color: white;
+    text-align: center;
+}
+
+.message360-hero-contentBox {
+    padding: 0%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.message360-hero-content {
+    font-size: 23px;
+    color: white;
+    font-family: Poppins-SemiBold;
+    line-height: 34px;
+    text-align: center;
+
+}
+
+.message360-mobileImg {
+    display: none;
+}
+
+.message360-desktopImg {
+    display: block;
+}
+
+/* section 2  */
+
+.message360-list {
+    font-size: 26px;
+    font-family: Poppins-Regular;
+}
+
+.message360-ListSection {
+    padding: 0% 20%;
+    padding-top: 8%;
+}
+
+
+
+@media screen and (max-width:799px) {
+    .message360-hero-heading {
+        font-size: 40px;
+    }
+
+    .message360-hero-contentBox {
+        padding: 10%;
+        padding-bottom: 15%;
+        padding-top: 40%;
+    }
+
+    .message360-hero-content {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .message360Padding {
+        padding: 0px 5%;
+    }
+
+    .message360-desktopImg {
+        display: none;
+    }
+
+    .message360-mobileImg {
+        display: block;
+    }
+
+    .message360-ListSection {
+        padding: 0% 10%;
+    }
+
+    .message360-list {
+        font-size: 18px;
+    }
+}

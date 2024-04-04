@@ -1,0 +1,15 @@
+.pricing-sec1{
+    background-color: #F9F9F9;
+}
+
+.pricing-blackDiv{
+    height: 60px;
+    background-color: black;
+}
+
+@media  (max-width:700px) {
+    .pricing-mobile-margintT{
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+}

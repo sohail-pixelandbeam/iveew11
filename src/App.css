@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Poppins-Regular, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.padding {
+    padding: 7% 5%;
+}
+
+.global-heading1 {
+    font-family: Poppins-ExtraBold, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 56px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.global-text1 {
+    font-size: 20px;
+    font-family: Poppins-Regular;
+}
+
+
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mb-8per{
+    margin-bottom: 8%;
+}
+
+.mt-8per{
+    margin-top: 8%;
+}
+
+.marginT-desktop{
+    margin-top: 100px;
+}
+
+ul{
+    font-family: Poppins-Regular;
+    margin-left: 10px;
+    color: black;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+/* 
+img {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+
+@media screen and (max-width:699px) {
+    .global-heading1 {
+        font-family: Poppins-Bold, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .global-text1 {
+        font-size: 14px;
+    }
+
+    br.desktop{
+        display: none;
+    }
+
+    .marginT-mobile{
+        margin-top: 50px;
+    }
+
+    .marginT-desktop{
+        margin-top: 0px;
+    }
+}

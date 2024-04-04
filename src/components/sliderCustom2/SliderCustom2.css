@@ -1,0 +1,93 @@
+.sliderItem1 {
+    width: 100%;
+    background-color: #F9F9F9;
+    color: #212121;
+    border-radius: 12px;
+    min-height: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    padding: 8%;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.sliderItem1:hover {
+    transform: translateY(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color: var(--primary-bg);
+    color: white;
+    border-radius: 12px;
+}
+
+.sliderItem1 img {
+    width: 100%;
+}
+
+.sliderItem1-heading {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Poppins-Medium;
+    margin-top: 20px;
+}
+
+.sliderItem1-content {
+    margin: 20px 0px;
+    font-size: 14px;
+}
+
+
+
+.slick-slide>div {
+    margin: 0px 20px;
+}
+
+.slider-navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 5%;
+    margin-top: -25px;
+    z-index: 5;
+    position: absolute;
+}
+
+.slider-navigation img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.slider-navigation img:hover {
+    opacity: 0.9;
+}
+
+.slick-slider {
+    background: white;
+    /* margin: 0px -2%; */
+}
+
+.customeSlder-ruler{
+    height: 5px;
+    background: transparent;
+    width: 100%;
+    margin: 5% 0px;
+    position: relative;
+}
+
+
+
+@media screen and (max-width:1450px) {
+    .sliderItem1 {
+        min-height: 370px;
+    }
+}
+
+@media  (max-width:699px) {
+    .customeSlder-ruler{
+        height: 5px;
+        background: transparent;
+        width: 100%;
+        margin: 15% 0px;
+        position: relative;
+    }
+}
