@@ -54,3 +54,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width:1000px) {
+    .signUp-right-main{
+        padding: 3% 5% ;
+    }
+
+    .signUp-bottom-bar{
+        padding: 5px 20px;
+    }
+}

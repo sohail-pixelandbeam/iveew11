@@ -9,19 +9,21 @@ import Btn from '../../components/btn/Btn';
 import BtnIcon from '../../components/BtnIcon/BtnIcon';
 import { Grid } from '@mui/material'
 import { Visibility } from '@mui/icons-material';
+import useIsMobile from '../../hooks/useIsMobile';
 
 export default function SignUp() {
     const navigate = useNavigate();
+    const isMobile = useIsMobile();
     return (
         <div className='signUp-box'>
             <Grid container spacing={0}>
-                <Grid item sm={5}>
+                {!isMobile && <Grid item sm={5}>
                     <div className="signUP-left">
                         <img src={logo} alt="logo" className='signUp-logo' onClick={() => navigate('/')} />
                         <div className="global-heading2 mt-40" style={{ textAlign: 'left' }}>Get started with iVeeW</div>
                         <div>Answer a couple of questions and we'll connect you with the right team member</div>
                     </div>
-                </Grid>
+                </Grid>}
                 <Grid item sm={7} xs={12}>
                     <div className="signUP-right">
                         <div>
