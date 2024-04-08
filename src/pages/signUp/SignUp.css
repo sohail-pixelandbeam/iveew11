@@ -1,0 +1,56 @@
+.signUp-box{
+    padding: 0px;
+}
+
+.signUP-left{
+    min-height: 100vh;
+    background-color: #F8D9C7;
+    padding: 5%;
+}
+
+.signUp-logo{
+    width: 150px;
+}
+
+/* sign up right  */
+
+.signUP-right{
+    padding: 2%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.signUp-right-top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.signUp-right-main{
+    padding: 3% 15% ;
+}
+
+.signUp-names{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.signUp-names div{
+    width: 100%;
+}
+
+.signUp-bottom-bar{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px 10%;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}

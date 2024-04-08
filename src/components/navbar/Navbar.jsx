@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -112,10 +112,16 @@ export default function NavBar({ active, hideModal }) {
                         </div>
                         {isMobile && <div className="navLinks-box">
                              <Btn
-                                onClick={onCursorEnter}
+                                onClick={() => {
+                                navigate('/SignIn')
+                                onCursorEnter();
+                            }}
                                 className='navBtn1' label="Sign In" />
                             <Btn
-                                onClick={onCursorEnter}
+                                onClick={() => {
+                                navigate('/SignUp')
+                                onCursorEnter();
+                            }}
                                 className='navBtn' label="Get Started" />
                         </div>}
 
@@ -123,11 +129,17 @@ export default function NavBar({ active, hideModal }) {
                     <div className='navLinks'>
                         <div
                             className="link-nb1"
-                            onClick={() => onCursorEnter}
+                            onClick={() => {
+                                navigate('/SignIn')
+                                onCursorEnter();
+                            }}
                         >Sign In</div>
                         <Btn
                             className='navBtn' label="Get Started"
-                            onClick={() => onCursorEnter}
+                            onClick={() => {
+                                navigate('/SignUp')
+                                onCursorEnter();
+                            }}
                         />
                     </div>
                 </div>

@@ -12,6 +12,8 @@ import MobileMarketStrategies from '../pages/mobileMarketStrategies/MobileMarket
 import AIBot from '../pages/aiBot/AIBot';
 import Pricing from '../pages/pricing/Pricing';
 import GeoLocationMessagin from '../pages/geoLocationMessaging/GeoLocationMessaging';
+import SignUp from '../pages/signUp/SignUp';
+import SignIn from '../pages/signIn/SignIn';
 
 
 
@@ -35,6 +37,8 @@ export default function AppRouter() {
                     <Route path='/AIBot' element={<AIBot />}></Route>
                     <Route path='/Pricing' element={<Pricing />}></Route>
                     <Route path='/GeoLocationMessaging' element={<GeoLocationMessagin />}></Route>
+                    <Route path='/SignUp' element={<SignUp/>}></Route>
+                    <Route path='/SignIn' element={<SignIn/>}></Route>
                 </Routes>
             </BrowserRouter>
         </>

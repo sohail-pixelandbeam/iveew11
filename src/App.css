@@ -19,6 +19,13 @@
     text-align: center;
 }
 
+.global-heading2 {
+    font-family: Poppins-ExtraBold, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+
 .global-text1 {
     font-size: 20px;
     font-family: Poppins-Regular;
@@ -50,6 +57,26 @@
     margin-top: 100px;
 }
 
+.checkBox-style-global{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 30px 0px;
+}
+
+.checkBox-style-global input{
+    width: 30px;
+}
+
+.checkBox-style-global div{
+    font-size: 14px;
+}
+
+
+
+
+
 ul {
     font-family: Poppins-Regular;
     margin-left: 10px;
@@ -72,12 +99,14 @@ img:hover {
 
 
 @media screen and (max-width:699px) {
-    .global-heading1 {
+    .global-heading1, .global-heading2 {
         font-family: Poppins-Bold, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 30px;
         line-height: 38px;
         text-align: center;
     }
+
+    
 
     .global-text1 {
         font-size: 14px;

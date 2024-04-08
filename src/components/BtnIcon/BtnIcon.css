@@ -1,0 +1,40 @@
+.btnIcon-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 11px;
+    margin: 8px 0px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 1px solid lightgray;
+    height: 47px;
+    margin-bottom: 15px;
+}
+
+.btnIcon-box img{
+    width: 25px;
+}
+
+.btnIcon-box button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btnIcon-box:hover {
+    opacity: 0.9;
+    transition: 0.5s ease;
+}
+
+@media (max-width:699px) {
+    .btnIcon-box {
+        height: 45px;
+        font-size: 14px;
+    }
+
+
+}
