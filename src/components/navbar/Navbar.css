@@ -38,10 +38,9 @@
 }
 
 
-.navLinks {
+.navLinks, .navLinks-box {
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
 
@@ -54,7 +53,7 @@
     padding: 3px 5px;
     border-radius: 5px;
     border: 1px solid transparent;
-
+    margin-right: 20px;
 }
 
 .link-nb:hover {
@@ -69,6 +68,8 @@
     display: flex;
     align-items: center;
     padding: 3px 5px;
+    margin-right: 20px;
+
 }
 
 .link-nb1:hover {
@@ -76,10 +77,20 @@
     transition: 0.5s ease;
 }
 
+.link-nb2 {
+    color: var(--primary-bg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px;
+    margin-right: 20px;
+}
+
 
 .icon {
     display: none;
 }
+
 
 .navBtn {
     width: 184px;
@@ -112,21 +123,22 @@
     .navLinks {
         flex-direction: column;
         align-items: flex-start;
+        justify-content: space-between;
         position: fixed;
         z-index: 88;
         top: 0px;
-        right: -300px;
+        left: -310px;
         width: 300px;
-        min-height: 120vh;
+        min-height: 105vh;
         background-color: white;
         border: 1px solid lightgray;
         transition: 1s ease;
-        padding-left: 30px;
-        padding-top: 30px;
+        /* padding-left: 30px; */
+        padding-bottom: 100px;
     }
 
     .active {
-        right: 0px;
+        left: 0px;
     }
 
     .link {
@@ -136,6 +148,66 @@
 
     .icon {
         display: block;
+    }
+
+    .link-nb {
+        color: #252525;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 3px 5px;
+        border-radius: 5px;
+        border: 1px solid transparent;
+    }
+    
+    .link-nb:hover {
+        border: 1px solid lightgray;
+        transition: 0.5s ease;
+    }
+
+    .link-nb, .link-nb1, .link-nb2{
+        width: 300px;
+        border-bottom: 1px solid lightgray;
+        padding: 12px;
+        margin-right: 0px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navLinks-box{
+        width: 300px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-top: 1px solid lightgray;
+    }
+
+    .navBtn{
+        width: 270px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .navBtn1 {
+        width: 270px;
+        height: 45px;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    
+    .navBtn1:hover {
+        opacity: 0.9;
+        transition: 0.5s ease;
     }
 
 

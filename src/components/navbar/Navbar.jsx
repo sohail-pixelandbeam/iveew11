@@ -6,6 +6,7 @@ import logo from '../../assets/imgs/logoCombine.png'
 import Btn from "../btn/Btn";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import './Navbar.css'
 import ProductsNav from "./ProductsNav";
 import SolutionsNav from "./SolutionsNav";
@@ -81,27 +82,24 @@ export default function NavBar({ active, hideModal }) {
                 <img onClick={() => navigate('/')} src={logo} className="logo-nb" />
                 <div className="nb-links-box">
                     <div className={activeMenu}>
+                        <div className="navLinks-box">
+                       {isMobile && <div
+                            className="link-nb2"
+                            onClick={() =>setMenu(false)}
+                        >Close
+                        </div>}
                         <div
                             className="link-nb"
                             onMouseEnter={() => onCursorEnter('Products')}
                             onClick={() => onCursorEnter('Products')}
                         >Products
-                            {activeLink === 'Products' ? <KeyboardArrowUpIcon fontSize="small" sx={{ color: '#F56B3F' }} /> : <KeyboardArrowDownIcon fontSize="small" />}
+                        {
+                            isMobile ? <KeyboardArrowRightIcon  sx={{ color: '#F56B3F' }}/> :
+                            activeLink === 'Products' ? <KeyboardArrowUpIcon fontSize="small" sx={{ color: '#F56B3F' }} /> : <KeyboardArrowDownIcon fontSize="small" />
+                        }
+                        
+                            
                         </div>
-                        {/* <div
-                            className="link-nb"
-                            onMouseEnter={() => onCursorEnter('Solutions')}
-                            onClick={() => onCursorEnter('Solutions')}
-                        >Solutions
-                            {activeLink === 'Solutions' ? <KeyboardArrowUpIcon fontSize="small" sx={{ color: '#F56B3F' }} /> : <KeyboardArrowDownIcon fontSize="small" />}
-                        </div>
-                        <div
-                            className="link-nb"
-                            onMouseEnter={() => onCursorEnter('Resources')}
-                            onClick={() => onCursorEnter('Resources')}
-                        >Resources
-                            {activeLink === 'Resources' ? <KeyboardArrowUpIcon fontSize="small" sx={{ color: '#F56B3F' }} /> : <KeyboardArrowDownIcon fontSize="small" />}
-                        </div> */}
                         <div
                             className="link-nb"
                             onMouseEnter={() => onCursorEnter('Pricing')}
@@ -110,17 +108,16 @@ export default function NavBar({ active, hideModal }) {
                                 navigate('/Pricing');
                             }}
                         >Pricing
-                            {/* {activeLink === 'Pricing' ? <KeyboardArrowUpIcon fontSize="small" sx={{ color: '#F56B3F' }} /> : <KeyboardArrowDownIcon fontSize="small" />} */}
                         </div>
-                        {isMobile && <>
-                            <div
-                                className="link-nb1"
+                        </div>
+                        {isMobile && <div className="navLinks-box">
+                             <Btn
                                 onClick={onCursorEnter}
-                            >Sign In</div>
+                                className='navBtn1' label="Sign In" />
                             <Btn
                                 onClick={onCursorEnter}
                                 className='navBtn' label="Get Started" />
-                        </>}
+                        </div>}
 
                     </div>
                     <div className='navLinks'>
