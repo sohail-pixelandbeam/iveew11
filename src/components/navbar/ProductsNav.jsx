@@ -19,6 +19,7 @@ import icon16 from '../../assets/imgs/icon16.png'
 import icon17 from '../../assets/imgs/icon17.png'
 import icon18 from '../../assets/imgs/icon18.png'
 import icon19 from '../../assets/imgs/icon19.png'
+import icon20 from '../../assets/imgs/icon20.png'
 import active1 from '../../assets/imgs/active1.png'
 import active2 from '../../assets/imgs/active2.png'
 import active3 from '../../assets/imgs/active3.png'
@@ -38,6 +39,7 @@ import active16 from '../../assets/imgs/active16.png'
 import active17 from '../../assets/imgs/active17.png'
 import active18 from '../../assets/imgs/active18.png'
 import active19 from '../../assets/imgs/active19.png'
+import active20 from '../../assets/imgs/active20.png'
 import hoverNavBottom from '../../assets/imgs/hoverNavBottom.png'
 import hoverNavBottom1 from '../../assets/imgs/hoverNavBottom1.png'
 import { Grid, Modal } from '@mui/material'
@@ -47,17 +49,12 @@ import useIsMobile from '../../hooks/useIsMobile'
 export default function ProductsNav({ showNote, setActiveLink }) {
     let [show, setShow] = useState(true)
     let [hovered, setHovered] = useState('');
+    let [hovered1, setHovered1] = useState('');
     let isMobile = useIsMobile();
     const navigate = useNavigate();
 
 
     const data1 = [
-        {
-            icon: icon1,
-            active: active1,
-            label: 'Message-360',
-            to: '/Message360',
-        },
         {
             icon: icon2,
             active: active2,
@@ -180,6 +177,40 @@ export default function ProductsNav({ showNote, setActiveLink }) {
 
     ]
 
+    const data5 = [
+        {
+            icon: icon20,
+            active: active20,
+            label: 'Internet Booking Engine',
+            to: '/'
+        },
+        {
+            icon: icon12,
+            active: active12,
+            label: 'Geo-Location Messaging ',
+            to: '/GeoLocationMessaging'
+        },
+        {
+            icon: icon14,
+            active: active14,
+            label: 'Messaging',
+            to: '/SpecialityMessaging',
+        },
+        {
+            icon: icon9,
+            active: active9,
+            label: 'Voucher-Loyalty-Gift cards',
+            to: '/'
+        },
+        {
+            icon: icon8,
+            active: active8,
+            label: 'Special Occasions',
+            to: '/'
+        },
+
+    ]
+
     const handleNavigation = (to) => {
         navigate(to);
         setActiveLink('');
@@ -215,7 +246,35 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                         <Grid item sm={1} xs={12} />
                                         <Grid item sm={3} xs={12}>
                                             <div className="naved-items">
-                                                {data1.map(item => (
+                                            <div className="naved-item" key={"Message-360"}
+                                                        onMouseEnter={() => setHovered("Message-360")}
+                                                        onClick={() => handleNavigation('/Message360')}
+                                                    >
+                                                        <div className="naved-img-box">
+                                                            {hovered === 'Message-360' ? <img src={active1} alt="img" /> :
+                                                                <img src={icon1} alt="img" />}
+                                                        </div>
+                                                        <div className="naved-item-label">{'Message-360'}</div>
+                                                    </div>
+                                                    {
+                                                      hovered === "Message-360" && 
+                                                      <div style={{background:'lightgray', borderRadius:'12px'}}>
+                                                        {data5.map(item => (
+                                                        <div className="naved-item" key={item.label}
+                                                            onMouseEnter={() => setHovered1(item.label)}
+                                                            onClick={() => handleNavigation(item?.to)}
+                                                        >
+                                                            <div className="naved-img-box">
+                                                                {hovered1 === item.label ? <img src={item.active} alt="img" /> :
+                                                                    <img src={item.icon} alt="img" />}
+                                                            </div>
+                                                            <div className="naved-item-label">{item.label}</div>
+    
+                                                        </div>
+                                                    ))}
+                                                      </div>
+                                                    }
+                                                      {data1.map(item => (
                                                     <div className="naved-item" key={item.label}
                                                         onMouseEnter={() => setHovered(item.label)}
                                                         onClick={() => handleNavigation(item?.to)}
