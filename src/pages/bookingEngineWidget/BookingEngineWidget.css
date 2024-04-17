@@ -1,0 +1,46 @@
+.bookingEngineWidget-hero{
+    background-image: url('../../assets/imgs/bookEngImg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    padding:5% 0%;
+    padding-top: 10%;
+}
+
+.bookEngWid-formBox{
+    margin: 0% 25%;
+    min-height: 100px;
+    border: 1px solid gray;
+}
+
+.bookEngWid-formContentBox{
+    padding: 5%;
+}
+
+.bookEngWid-heading1{
+    color:  black;
+    font-size: 26px;
+    font-family: Poppins-SemiBold;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bookEngWid-heading2{
+    color:  black;
+    font-size: 21px;
+    font-family: Poppins-Medium;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bookEngWid-inputsBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

@@ -21,9 +21,9 @@ export default function SelectBox({ label, options, onSelect, selected }) {
     }, [])
 
     return (
-        <div className='selectBox' >
-            <div className="selectLabel">{(val === '') ? label : ''}</div>
-            <select id="select" value={val} onChange={onChange}>
+        <div>
+            <div className="input1-label">{label}</div>
+            <select id="select" className='inputBox1' value={val} onChange={onChange}>
                 <option key='' value=''> </option>
                 {options.map((option) => (
                     <option key={option} value={option}>
@@ -31,7 +31,11 @@ export default function SelectBox({ label, options, onSelect, selected }) {
                     </option>
                 ))}
             </select>
+
         </div>
+
+
+
     );
 };
 

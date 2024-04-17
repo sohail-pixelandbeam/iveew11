@@ -14,6 +14,7 @@ import Pricing from '../pages/pricing/Pricing';
 import GeoLocationMessagin from '../pages/geoLocationMessaging/GeoLocationMessaging';
 import SignUp from '../pages/signUp/SignUp';
 import SignIn from '../pages/signIn/SignIn';
+import BookingEngineWidget from '../pages/bookingEngineWidget/BookingEngineWidget';
 
 
 
@@ -37,6 +38,7 @@ export default function AppRouter() {
                     <Route path='/AIBot' element={<AIBot />}></Route>
                     <Route path='/Pricing' element={<Pricing />}></Route>
                     <Route path='/GeoLocationMessaging' element={<GeoLocationMessagin />}></Route>
+                    <Route path='/BookingEngineWidget' element={<BookingEngineWidget/>}></Route>
                     <Route path='/SignUp' element={<SignUp/>}></Route>
                     <Route path='/SignIn' element={<SignIn/>}></Route>
                 </Routes>
