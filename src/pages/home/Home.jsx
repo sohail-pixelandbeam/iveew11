@@ -113,7 +113,15 @@ export default function Home() {
                                 <Grid item md={6.5} xs={12}>
                                     <div className="home-watch-heading">Guest Recognition</div>
                                     <div className="home-watch-content">
-                                        Our patented guest recognition application allows hotels and businesses to recognize guests and customers when approaching the hotel or entering a store. Geofencing and beacons allow hotels and businesses to see guests go through virtual geofence.Greeting by their name, recognizing them in the lobby, front desk, restaurant or spa by using Beacons and Ultra WideBands.
+                                        <ul>
+                                            <li>The search results highlight the significant value of recognizing and rewarding loyal and repeat guests in the hospitality industry. Here are the key points: Knowing your guests on a deeper level provides numerous benefits1: Better identify high-value guests and cater to their needs.</li>
+                                            <li>Upsell and personalize the experience for repeat guests before they arrive.</li>
+                                            <li>Provide more personalized service based on guest preferences and behavior.</li>
+                                            <li>
+                                            Improve marketing efforts by targeting guests with relevant, personalized messages.
+                                            </li>
+                                    
+                                        </ul>
                                     </div>
                                 </Grid>
                                 <Grid item sm={4} xs={12}>
