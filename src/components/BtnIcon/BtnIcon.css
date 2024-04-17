@@ -1,6 +1,6 @@
 .btnIcon-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     cursor: pointer;
     padding: 12px;
@@ -12,10 +12,11 @@
     border: 1px solid lightgray;
     height: 47px;
     margin-bottom: 15px;
+    gap: 10px;
 }
 
 .btnIcon-box img{
-    width: 25px;
+    width: 18px;
 }
 
 .btnIcon-box button{

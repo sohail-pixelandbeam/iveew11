@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import logo from '../../assets/imgs/logoCombine.png'
 import google from '../../assets/imgs/google.png'
 import microsoft from '../../assets/imgs/microsoft.png'
+import facebook from '../../assets/imgs/facebook.png'
 import InputIcon from '../../components/inputIcon/InputIcon';
 import Btn from '../../components/btn/Btn';
 import BtnIcon from '../../components/BtnIcon/BtnIcon';
@@ -20,15 +21,17 @@ export default function SignIn() {
                 </div>
             </div>
             <div className="signIn-main">
-                <div className="signIn-main-heading">Hello</div>
-                <div className="signIn-main-subHeading">Sign in to your IVeeW account</div>
+                <div className="signIn-main-heading mb-8per">Sign in to your iVeew account</div>
+                {/* <div className="signIn-main-subHeading">Sign in to your IVeeW account</div> */}
                 <InputIcon
-                    label='Email'
+                    label='Email address'
+                    placeholder='Email address'
                 />
-                <div className="checkBox-style-global">
+                {/* <div className="checkBox-style-global">
                     <input type="checkBox" />
                     <div>Remember this account</div>
-                </div>
+                </div> */}
+                <div className="mb-8per"></div>
                 <Btn label='Sign In' style={{ width: '100%', borderRadius: '11px' }} />
                 <div className="signIn-text">OR</div>
                 <BtnIcon
@@ -36,16 +39,16 @@ export default function SignIn() {
                     icon={google}
                 />
                 <BtnIcon
-                    label='Sign in with Microsoft'
-                    icon={microsoft}
+                    label='Sign in with Facebook'
+                    icon={facebook}
                 />
 
-                <div className="signIn-footer">
+                {/* <div className="signIn-footer">
                     <div>        Copyright © 2024 Brex Inc.</div>
                     <p className='signIn-link-text'> Brex Platform Agreement</p>
                     <div>|</div>
                     <p className='signIn-link-text'>Privacy Policy</p>
-                </div>
+                </div> */}
             </div>
 
         </div>

@@ -214,6 +214,7 @@ export default function GeoFencing() {
             <section className="padding marginT-mobile">
                 <div className="global-heading1">Geo-Conquesting</div>
                 <div className="geoFence-sec8-text">Is a cutting-edge marketing strategy that  involves targeting visitors <br className='desktop' /> to competitor  locations through geofencing</div>
+                <div style={{visibility:'hidden'}}>
                 <div className="geoFence-heading1 marginT-mobile" style={{ textAlign: 'center' }}>Follow the steps in Geo-Fencing</div>
                 <div style={{ padding: '0% 10%', paddingTop: '8%' }}>
                     <Grid container spacing={5}>
@@ -237,6 +238,7 @@ export default function GeoFencing() {
                             </div>
                         </Grid>
                     </Grid>
+                </div>
                 </div>
             </section>
             <Footer />

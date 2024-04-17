@@ -103,7 +103,7 @@ export default function BookingEngineWidget() {
                             />
                         </div>
                         <InputIcon
-                            label='Virtul Number'
+                            label='Virtual Number'
                             placeholder='(970)331-9874'
                             isMobileNumber={true}
                         />

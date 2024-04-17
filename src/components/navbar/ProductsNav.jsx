@@ -182,7 +182,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             icon: icon20,
             active: active20,
             label: 'Internet Booking Engine',
-            to: '/'
+            to: '/BookingEngineWidget'
         },
         {
             icon: icon12,
