@@ -92,7 +92,7 @@ export default function Home() {
                 {/* section 2  */}
                 <section className='home-sec2-box padding'>
                     <div className="global-heading1" >Empower customers or guests to receive   <br />personalized offers that relate to them the most</div>
-                    <div className="home-sec2-text">Trusted Customers</div>
+                    <div className="home-sec2-text">Trusted Partners</div>
                     <div className='home-sec2-imgs' >
                         <Grid container spacing={2}>
                             <Grid item sm={4} xs={12}>
