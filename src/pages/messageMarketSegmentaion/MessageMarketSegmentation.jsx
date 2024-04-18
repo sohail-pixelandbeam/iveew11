@@ -4,7 +4,6 @@ import { Grid } from '@mui/material'
 import Btn from '../../components/btn/Btn'
 import NavBar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
-import SliderCustom from '../../components/sliderCustom/SliderCustom'
 import geoFenceImg6 from '../../assets/imgs/geoFenceImg6.png'
 import msgSegImg2 from '../../assets/imgs/msgSegImg2.png'
 import msgSegImg3 from '../../assets/imgs/msgSegImg3.png'
@@ -81,7 +80,6 @@ export default function MessageMarketSegmentation() {
             <img src={geoFenceImg6} alt="img" width='100%' />
             {/* section 3  */}
             <div className="mt-8per"></div>
-            <SliderCustom/>
             <Footer />
         </>
     )

@@ -187,7 +187,6 @@ export default function Home() {
                     </div>
                 </section>
                 {/* section 8  */}
-                <SliderCustom/>
                 {/* Footer  */}
                 <Footer />
             </div>

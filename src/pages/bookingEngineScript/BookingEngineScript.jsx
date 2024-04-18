@@ -6,7 +6,6 @@ import { Grid } from '@mui/material'
 import Btn from '../../components/btn/Btn'
 import NavBar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
-import SliderCustom from '../../components/sliderCustom/SliderCustom'
 import useIsMobile from '../../hooks/useIsMobile'
 
 
@@ -83,9 +82,6 @@ export default function BookingEngineScript() {
                     </Grid>
                 </div>
             </section>
-            <div className=" marginT-mobile">
-                <SliderCustom />
-            </div>
             <Footer />
         </>
     )

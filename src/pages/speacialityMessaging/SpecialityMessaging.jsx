@@ -138,7 +138,6 @@ export default function SpecialityMessaging() {
           </Grid>
         </div>
       </section>
-      <SliderCustom />
       <Footer />
     </>
   )
