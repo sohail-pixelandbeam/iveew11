@@ -44,3 +44,10 @@
     align-items: center;
     gap: 20px;
 }
+
+@media screen and (max-width:699px) {
+    .bookEngWid-formBox{
+        margin: 0%;
+        border: 1px solid gray;
+    }
+}

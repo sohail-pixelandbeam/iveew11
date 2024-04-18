@@ -59,7 +59,7 @@ export default function BookingEngineWidget() {
 
                     {isMobile && <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-leftBox">
-                            <img src={bookingEngWidgetImg2} alt="img" width='90%' />
+                            <img src={bookingEngWidgetImg2} alt="img" width='100%' />
                         </div>
                     </Grid>}
                     <Grid item sm={6} xs={12}>
