@@ -78,8 +78,8 @@
 }
 
 .naved-img-box {
-    width: 60px;
-    height: 60px;
+    min-width: 80px;
+    min-height: 80px;
     background-color: #FFFFFF;
     border-radius: 7px;
     border: 1px solid #DEDEDE;
@@ -89,13 +89,18 @@
 }
 
 .naved-img-box img {
-    width: 34px;
-    height: 34px;
+    width: 50px;
+    height: 50px;
 }
 
 .naved-item-label {
-    font-family: Poppins-Medium;
+    font-family: Poppins-SemiBold;
     color: #212121;
+}
+
+.naved-item-description {
+    font-size: 13px;
+    padding-right: 10%;
 }
 
 .naved-item:hover {

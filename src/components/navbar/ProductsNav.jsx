@@ -211,6 +211,72 @@ export default function ProductsNav({ showNote, setActiveLink }) {
 
     ]
 
+    const applications1 = [
+        {
+            icon: icon18,
+            active: active18,
+            label: 'Partneres',
+            to: '/',
+            description: 'Integration with a quality of suppliers, providing over 20,000 hotel PMS and 100,000 tickets, tours and activities'
+        },
+        {
+            icon: icon15,
+            active: active15,
+            label: 'Guest Recognition',
+            to: '/GuestRecognition',
+            description: 'Pretend Application allows businesses to send out messages based on Geolocation and beacons'
+        },
+        {
+            icon: icon1,
+            active: active1,
+            label: 'Mobile Strategies',
+            to: '/MobileMarketStrategies',
+            description: 'Encourage guests returns based on offers, convert OTA bookings to direct'
+        }
+    ]
+
+    const applications2 = [
+        {
+            icon: icon7,
+            active: active7,
+            label: 'Personalization',
+            to: '/',
+            description: 'P Engine-AI aids the process of selects various offers. Purchase In Hotel and 3rd party offers prior to arrival'
+        },
+        {
+            icon: icon3,
+            active: active3,
+            label: 'Market Segmentation',
+            to: '/MessageMarketSegmentation',
+            description: 'Personalization leads to knowing your guest, which serves up more segmented offers, which increase guest experiences'
+        },
+        {
+            icon: icon12,
+            active: active12,
+            label: 'Geo Referencing',
+            to: '/GeoLocationMessaging',
+            description: 'Geofencing, Geoconquestions, Geolocation are all factors in using GeoOffers'
+        },
+    ]
+
+
+    const applications3 = [
+        {
+            icon: icon14,
+            active: active14,
+            label: 'Messaging',
+            to: '/SpecialityMessaging',
+            description: "1:1 \n Blast-M \n Special Occasions"
+        },
+        {
+            icon: icon9,
+            active: active9,
+            label: 'Tickets Tours Activities',
+            to: '/',
+            description: 'Relevant, Programmatic offers from around the world. Book in advance'
+        },
+    ]
+
     const handleNavigation = (to) => {
         navigate(to);
         setActiveLink('');
@@ -236,17 +302,15 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                             <div className="productsNav-inner">
                                 <div className="naved-innerBox">
                                     <Grid container spacing={2}>
-                                        <Grid item sm={8} xs={10}>
+                                        <Grid item sm={10} xs={10}>
                                             <div className="naved-heading">Applications</div>
                                         </Grid>
-                                        <Grid item xs={1} />
-                                        {!isMobile && <Grid item sm={2} xs={10}>
+                                        {/* {!isMobile && <Grid item sm={2} xs={10}>
                                             <div className="naved-heading">Platform</div>
-                                        </Grid>}
-                                        <Grid item sm={1} xs={12} />
-                                        <Grid item sm={3} xs={12}>
+                                        </Grid>} */}
+                                        <Grid item sm={4} xs={12}>
                                             <div className="naved-items">
-                                            <div className="naved-item" key={"Message-360"}
+                                                {/* <div className="naved-item" key={"Message-360"}
                                                         onMouseEnter={() => setHovered("Message-360")}
                                                         onClick={() => handleNavigation('/Message360')}
                                                     >
@@ -255,8 +319,8 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                                 <img src={icon1} alt="img" />}
                                                         </div>
                                                         <div className="naved-item-label">{'Message-360'}</div>
-                                                    </div>
-                                                    {
+                                                    </div> */}
+                                                {/* {
                                                       hovered === "Message-360" && 
                                                       <div style={{background:'lightgray', borderRadius:'12px'}}>
                                                         {data5.map(item => (
@@ -273,8 +337,9 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                         </div>
                                                     ))}
                                                       </div>
-                                                    }
-                                                      {data1.map(item => (
+                                                    } */}
+
+                                                {applications1.map(item => (
                                                     <div className="naved-item" key={item.label}
                                                         onMouseEnter={() => setHovered(item.label)}
                                                         onClick={() => handleNavigation(item?.to)}
@@ -283,15 +348,17 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                             {hovered === item.label ? <img src={item.active} alt="img" /> :
                                                                 <img src={item.icon} alt="img" />}
                                                         </div>
-                                                        <div className="naved-item-label">{item.label}</div>
-
+                                                        <div>
+                                                            <div className="naved-item-label">{item?.label}</div>
+                                                            <div className="naved-item-description">{item?.description}</div>
+                                                        </div>
                                                     </div>
                                                 ))}
                                             </div>
                                         </Grid>
-                                        <Grid item sm={3} xs={12}>
+                                        <Grid item sm={4} xs={12}>
                                             <div className="naved-items">
-                                                {data2.map(item => (
+                                                {applications2.map(item => (
                                                     <div className="naved-item" key={item.label}
                                                         onMouseEnter={() => setHovered(item.label)}
                                                         onClick={() => handleNavigation(item?.to)}
@@ -300,15 +367,18 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                             {hovered === item.label ? <img src={item.active} alt="img" /> :
                                                                 <img src={item.icon} alt="img" />}
                                                         </div>
-                                                        <div className="naved-item-label">{item.label}</div>
+                                                        <div>
+                                                            <div className="naved-item-label">{item?.label}</div>
+                                                            <div className="naved-item-description">{item?.description}</div>
+                                                        </div>
 
                                                     </div>
                                                 ))}
                                             </div>
                                         </Grid>
-                                        <Grid item sm={3} xs={12}>
+                                        <Grid item sm={4} xs={12}>
                                             <div className="naved-items">
-                                                {data3.map(item => (
+                                                {applications3.map(item => (
                                                     <div className="naved-item" key={item.label}
                                                         onMouseEnter={() => setHovered(item.label)}
                                                         onClick={() => handleNavigation(item?.to)}
@@ -317,16 +387,27 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                             {hovered === item.label ? <img src={item.active} alt="img" /> :
                                                                 <img src={item.icon} alt="img" />}
                                                         </div>
-                                                        <div className="naved-item-label">{item.label}</div>
+                                                        <div>
+                                                            <div className="naved-item-label">{item?.label}</div>
+                                                            <div className="naved-item-description">
+                                                                {item?.description.split('\n').map((line, index) => (
+                                                                    <React.Fragment key={index}>
+                                                                        {line}
+                                                                        <br />
+                                                                    </React.Fragment>
+                                                                ))}
+                                                            </div>
+                                                        </div>
 
                                                     </div>
                                                 ))}
                                             </div>
                                         </Grid>
-                                        {isMobile && <Grid item xs={10}>
+                                        {/* {isMobile && <Grid item xs={10}>
                                             <div className="naved-heading">Platform</div>
-                                        </Grid>}
-                                        <Grid item sm={3} xs={12}>
+                                        </Grid>} */}
+
+                                        {/* <Grid item sm={3} xs={12}>
                                             <div className="naved-items">
                                                 {data4.map(item => (
                                                     <div className="naved-item" key={item.label} onMouseEnter={() => setHovered(item.label)}
@@ -341,7 +422,8 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                     </div>
                                                 ))}
                                             </div>
-                                        </Grid>
+                                        </Grid> */}
+
                                     </Grid>
 
                                 </div>

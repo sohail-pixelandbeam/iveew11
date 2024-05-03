@@ -12,11 +12,6 @@ import ProductsNav from "./ProductsNav";
 import SolutionsNav from "./SolutionsNav";
 import ResourcesNav from "./ResourcesNav";
 
-
-
-
-
-
 export default function NavBar({ active, hideModal }) {
     let [menu, setMenu] = useState(false);
     let [activeMenu, setActiveMenu] = useState('navLinks');
