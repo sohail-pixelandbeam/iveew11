@@ -240,7 +240,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             icon: icon7,
             active: active7,
             label: 'Personalization',
-            to: '/',
+            to: '/Personalization',
             description: 'P Engine-AI aids the process of selects various offers. Purchase In Hotel and 3rd party offers prior to arrival'
         },
         {

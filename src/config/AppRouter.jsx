@@ -15,6 +15,7 @@ import GeoLocationMessagin from '../pages/geoLocationMessaging/GeoLocationMessag
 import SignUp from '../pages/signUp/SignUp';
 import SignIn from '../pages/signIn/SignIn';
 import BookingEngineWidget from '../pages/bookingEngineWidget/BookingEngineWidget';
+import Personalization from '../pages/personalization/Personalization';
 
 
 
@@ -37,6 +38,7 @@ export default function AppRouter() {
                     <Route path='/MobileMarketStrategies' element={<MobileMarketStrategies />}></Route>
                     <Route path='/AIBot' element={<AIBot />}></Route>
                     <Route path='/Pricing' element={<Pricing />}></Route>
+                    <Route path='/Personalization' element={<Personalization/>}></Route>
                     <Route path='/GeoLocationMessaging' element={<GeoLocationMessagin />}></Route>
                     <Route path='/BookingEngineWidget' element={<BookingEngineWidget/>}></Route>
                     <Route path='/SignUp' element={<SignUp/>}></Route>
