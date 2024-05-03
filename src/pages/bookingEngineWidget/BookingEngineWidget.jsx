@@ -2,19 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './BookingEngineWidget.css';
 import bookingEngWidgetImg2 from '../../assets/imgs/bookingEngWidgetImg2.png';
 import NavBar from '../../components/navbar/Navbar';
-import geoImg1 from '../../assets/imgs/geoImg1.png';
-import geoFenceImg2 from '../../assets/imgs/geoFenceImg2.png';
-import geoFenceImg3 from '../../assets/imgs/geoFenceImg3.png';
-import geoFenceImg4 from '../../assets/imgs/geoFenceImg4.png';
-import geoFenceImg5 from '../../assets/imgs/geoFenceImg5.png';
-import geoFenceImg6 from '../../assets/imgs/geoFenceImg6.png';
-import geoFenceIcon1 from '../../assets/imgs/geoFenceIcon1.png';
-import geoFenceIcon2 from '../../assets/imgs/geoFenceIcon2.png';
-import geoFenceIcon3 from '../../assets/imgs/geoFenceIcon3.png';
-import geoFenceIcon4 from '../../assets/imgs/geoFenceIcon4.png';
-import geoFenceIcon5 from '../../assets/imgs/geoFenceIcon5.png';
-import geoFenceIcon6 from '../../assets/imgs/geoFenceIcon6.png';
-import geoFenceIcon7 from '../../assets/imgs/geoFenceIcon7.png';
 import EastIcon from '@mui/icons-material/East';
 import Btn from '../../components/btn/Btn';
 import InputField from '../../components/inputField/InputField'
@@ -42,8 +29,8 @@ export default function BookingEngineWidget() {
             {/* section 1  */}
             <section className='bookingEngineWidget-hero'>
                 <div className="geoFence-hero-contentBox">
-                    <div className="geoFence-hero-heading">Booking Engine
-                        <br className='desktop' /> Widget</div>
+                    <div className="geoFence-hero-heading">Mobile Wallet
+                        <br className='desktop' /> Confirmations</div>
 
                     <div className="geoFence-hero-btns">
                         <Btn label='Get Started' />

@@ -275,6 +275,13 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/',
             description: 'Relevant, Programmatic offers from around the world. Book in advance'
         },
+        {
+            icon: icon4,
+            active: active4,
+            label: 'IBE - Mobile Wallet Confirms',
+            to: '/BookingEngineWidget',
+            description: 'Confirmation stored in Mobile Wallet. 9% hotel usage and 99% airlines.'
+        },
     ]
 
     const handleNavigation = (to) => {

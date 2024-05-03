@@ -12,9 +12,12 @@ import img13 from '../../assets/imgs/img13.png';
 import img14 from '../../assets/imgs/img14.png';
 import img15 from '../../assets/imgs/img15.png';
 import img16 from '../../assets/imgs/img16.png';
-import affImg1 from '../../assets/imgs/affImg1.png'
-import affImg2 from '../../assets/imgs/affImg2.png'
-import affImg3 from '../../assets/imgs/affImg3.png'
+import affImg1 from '../../assets/imgs/affImg1.jpeg'
+import affImg2 from '../../assets/imgs/affImg2.jpeg'
+import affImg3 from '../../assets/imgs/affImg3.jpeg'
+import affImg4 from '../../assets/imgs/affImg4.png'
+import affImg5 from '../../assets/imgs/affImg5.png'
+import affImg6 from '../../assets/imgs/affImg6.png'
 import { CardLeft } from './CardLeft';
 import { CardRight } from './CardRight';
 import EastIcon from '@mui/icons-material/East';
@@ -36,15 +39,15 @@ export default function Home() {
             explanation: "Per Location",
             price: "$350/month per location",
             btnLabel: "Set-up account to get started",
-            features: ['Messaging','Market Segmentation', 'Personalization', 'Reputation Management','Booking/Purchase Confirmation', 'Chatbot AI', 'QR Platform (20 Codes)'],
-            specialNote:'Select 4'
+            features: ['Messaging', 'Market Segmentation', 'Personalization', 'Reputation Management', 'Booking/Purchase Confirmation', 'Chatbot AI', 'QR Platform (20 Codes)'],
+            specialNote: 'Select 4'
         },
         {
             heading: "SME-Premium",
             explanation: "Per Location",
             price: "$450/month per location",
             btnLabel: "Contact sales",
-            features: ['Customer Recognition', 'Blast-M','Message-360','Loyality Integration', 'Geofencing', 'Voucher & Gift Cards'],
+            features: ['Customer Recognition', 'Blast-M', 'Message-360', 'Loyality Integration', 'Geofencing', 'Voucher & Gift Cards'],
             specialNote: 'Select 4',
         },
         {
@@ -52,11 +55,11 @@ export default function Home() {
             explanation: "Per Location",
             price: "$700/month per location",
             btnLabel: "Contact sales",
-            features: ['Inspirations','Asset Tracking','RFID (100 tags)','QR Platform (100 Codes)'],
+            features: ['Inspirations', 'Asset Tracking', 'RFID (100 tags)', 'QR Platform (100 Codes)'],
             specialNote: 'All Platforms',
         },
     ]
- 
+
     const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
     const handleThumbnailClick = () => {
@@ -75,7 +78,7 @@ export default function Home() {
                     <Grid container spacing={5}>
                         <Grid item sm={6} >
                             <div className="home-banner-heading">
-                                The AI Powered Tools <br className='desktop'/>
+                                The AI Powered Tools <br className='desktop' />
                                 To Connect Customers <br />
                                 And Guests
                             </div>
@@ -85,7 +88,7 @@ export default function Home() {
                             <Btn label='Get Started' />
                         </Grid>
                         <Grid item sm={6} >
-                            
+
                         </Grid>
                     </Grid>
                 </section>
@@ -94,15 +97,36 @@ export default function Home() {
                     <div className="global-heading1" >Empower customers or guests to receive   <br />personalized offers that relate to them the most</div>
                     <div className="home-sec2-text">Trusted Partners</div>
                     <div className='home-sec2-imgs' >
-                        <Grid container spacing={2}>
+                        <Grid container spacing={5}>
                             <Grid item sm={4} xs={12}>
-                                <img className='home-sec-2-img' src={affImg1} alt="companies" />
+                                <div className='home-sec-2-img-box' >
+                                    <img className='home-sec-2-img' src={affImg1} alt="companies" />
+                                </div>
                             </Grid>
                             <Grid item sm={4} xs={12}>
-                                <img className='home-sec-2-img' src={affImg2} alt="companies" />
+                                <div className='home-sec-2-img-box' >
+                                    <img className='home-sec-2-img' src={affImg2} alt="companies" />
+                                </div>
                             </Grid>
                             <Grid item sm={4} xs={12}>
-                                <img className='home-sec-2-img' src={affImg3} alt="companies" />
+                                <div className='home-sec-2-img-box' >
+                                    <img className='home-sec-2-img' src={affImg3} alt="companies" />
+                                </div>
+                            </Grid>
+                            <Grid item sm={4} xs={12}>
+                                <div className='home-sec-2-img-box' >
+                                    <img className='home-sec-2-img' src={affImg4} alt="companies" />
+                                </div>
+                            </Grid>
+                            <Grid item sm={4} xs={12}>
+                                <div className='home-sec-2-img-box' >
+                                    <img className='home-sec-2-img' src={affImg5} alt="companies" />
+                                </div>
+                            </Grid>
+                            <Grid item sm={4} xs={12}>
+                                <div className='home-sec-2-img-box' >
+                                    <img className='home-sec-2-img' src={affImg6} alt="companies" />
+                                </div>
                             </Grid>
                         </Grid>
                     </div>
@@ -118,9 +142,9 @@ export default function Home() {
                                             <li>Upsell and personalize the experience for repeat guests before they arrive.</li>
                                             <li>Provide more personalized service based on guest preferences and behavior.</li>
                                             <li>
-                                            Improve marketing efforts by targeting guests with relevant, personalized messages.
+                                                Improve marketing efforts by targeting guests with relevant, personalized messages.
                                             </li>
-                                    
+
                                         </ul>
                                     </div>
                                 </Grid>
@@ -157,9 +181,9 @@ export default function Home() {
                 </section>
 
                 {/* section 3  */}
-        
-                <SliderCustom2/>
-               
+
+                <SliderCustom2 />
+
                 {/* section 7  */}
                 <section>
                     <div className="home-sec7-box padding">
@@ -171,7 +195,7 @@ export default function Home() {
                                         <Grid item md={4} sm={6} xs={12}
                                             key={item.heading}>
                                             <PricingCard
-                                                onClick={()=>navigate('/Pricing')}
+                                                onClick={() => navigate('/Pricing')}
                                                 heading={item.heading}
                                                 features={item.features}
                                                 btnLabel={item.btnLabel}

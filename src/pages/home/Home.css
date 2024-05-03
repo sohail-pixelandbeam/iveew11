@@ -54,8 +54,13 @@
     gap: 50px;
 }
 
-.home-sec-2-img {
+.home-sec-2-img-box {
     width: 100%;
+    text-align: center;
+}
+
+.home-sec-2-img{
+    width: 70%;
 }
 
 .home-sec2-watch-main{
