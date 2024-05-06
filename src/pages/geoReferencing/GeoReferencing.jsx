@@ -4,19 +4,9 @@ import geoReferencingImg1 from '../../assets/imgs/geoReferencingImg1.jpeg';
 import geoImg1 from '../../assets/imgs/geoImg1.png'
 import geoFenceImg2 from '../../assets/imgs/geoFenceImg2.png'
 import NavBar from '../../components/navbar/Navbar';
-import EastIcon from '@mui/icons-material/East';
-import Btn from '../../components/btn/Btn';
-import InputField from '../../components/inputField/InputField'
 import { Grid } from '@mui/material';
 import Footer from '../../components/footer/Footer';
 import useIsMobile from '../../hooks/useIsMobile';
-import InputIcon from '../../components/inputIcon/InputIcon';
-import { BorderAll } from '@mui/icons-material';
-import SelectBox from '../../components/selectBox/SelectBox';
-import languages from '../../assets/json/languages.json';
-
-
-
 
 
 export default function GeoReferencing() {
@@ -70,7 +60,7 @@ export default function GeoReferencing() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-blackBox">
                             <img src={geoReferencingImg1} alt="img" />
-                            <div>Contact Ginny at <br /> sales@iveew.co</div>
+                            <div style={{textAlign:'center'}}>Contact Ginny at <br /> sales@iveew.co</div>
                         </div>
                     </Grid>
                     <Grid item sm={6} xs={12}>

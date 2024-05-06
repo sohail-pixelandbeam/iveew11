@@ -296,6 +296,14 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/BookingEngineWidget',
             description: 'Confirmation stored in Mobile Wallet. 9% hotel usage and 99% airlines.'
         },
+        
+        {
+            icon: icon12,
+            active: active12,
+            label: 'Geo Conquesting',
+            to: '/GeoConquesting',
+            description: 'Geofencing, Geoconquestings, Geolocation are all factors in using GeoOffers'
+        },
     ]
 
     const handleNavigation = (to) => {
