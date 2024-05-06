@@ -83,9 +83,9 @@ export default function Home() {
                                 And Guests
                             </div>
                             <div className="home-banner-content">
-                                This is dummy text which is used to inesses involves using location-based technology to create virtual boundaries around a physical location, such as a hotel, to trigger personalized interactions with guests. This technology allows hotels to offer tailored services and promotions based on a guest's location .
+                                Using artificial intelligence (ai) and machine learning (ml), brands can analyze data objectively, improving insights and generating actionable reports that can be used to make data-driven decisions.
+                                With ai and ml, these insights are more sophisticated and valuable to brands, allowing them to enhance and improve the customer journey.
                             </div>
-                            <Btn label='Get Started' />
                         </Grid>
                         <Grid item sm={6} >
 

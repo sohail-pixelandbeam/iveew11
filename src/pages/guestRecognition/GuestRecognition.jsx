@@ -29,11 +29,7 @@ export default function GuestRecognition() {
                     <Grid container spacing={5}>
                         <Grid item sm={6} xs={12}>
                             <div className="spMsg-hero-contentBox">
-                                <div className="spMsg-hero-heading ">Our <br className='desktop' /> patented <br className='desktop' /> guest recognition</div>
-                                <div className="spMsg-hero-btns">
-                                    <Btn label='Get Started' />
-                                    <Btn label="Open an account" className='geoFence-hero-btn' style={{ padding: '0px 45px' }} />
-                                </div>
+                                <div className="spMsg-hero-heading ">Patented <br className='desktop' /> Guest Recognition</div>
                             </div>
                         </Grid>
 
@@ -62,52 +58,52 @@ export default function GuestRecognition() {
                         </Grid>
                     </Grid>
                 </div>
-                 {/* section 2 watch */}
-                 <div className='home-sec2-watch-main' >
-                        <div className="home-sec2-watch-box">
-                            <Grid container spacing={5}>
-                                <Grid item md={6.5} xs={12}>
-                                    <div className="home-watch-heading">Guest Recognition</div>
-                                    <div className="home-watch-content">
-                                        <ul>
-                                            <li>The search results highlight the significant value of recognizing and rewarding loyal and repeat guests in the hospitality industry. Here are the key points: Knowing your guests on a deeper level provides numerous benefits1: Better identify high-value guests and cater to their needs.</li>
-                                            <li>Upsell and personalize the experience for repeat guests before they arrive.</li>
-                                            <li>Provide more personalized service based on guest preferences and behavior.</li>
-                                            <li>
+                {/* section 2 watch */}
+                <div className='home-sec2-watch-main' >
+                    <div className="home-sec2-watch-box">
+                        <Grid container spacing={5}>
+                            <Grid item md={6.5} xs={12}>
+                                <div className="home-watch-heading">Guest Recognition</div>
+                                <div className="home-watch-content">
+                                    <ul>
+                                        <li>The search results highlight the significant value of recognizing and rewarding loyal and repeat guests in the hospitality industry. Here are the key points: Knowing your guests on a deeper level provides numerous benefits1: Better identify high-value guests and cater to their needs.</li>
+                                        <li>Upsell and personalize the experience for repeat guests before they arrive.</li>
+                                        <li>Provide more personalized service based on guest preferences and behavior.</li>
+                                        <li>
                                             Improve marketing efforts by targeting guests with relevant, personalized messages.
-                                            </li>
-                                    
-                                        </ul>
-                                    </div>
-                                </Grid>
-                                <Grid item sm={4} xs={12}>
-                                    <div className="home-watch-img1">
-                                        {isVideoPlaying ? (
-                                            <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
-                                        ) : (
-                                            <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
-                                        )}
-                                    </div>
-                                    {/* <img src={imgWatch} alt="imgWatch" className='home-watch-img1' /> */}
-                                </Grid>
+                                        </li>
+
+                                    </ul>
+                                </div>
                             </Grid>
-                        </div>
-                        <div className="home-sec2-video-box">
-                            <Grid container spacing={5}>
-                                <Grid item md={7} xs={12}>
-                                </Grid>
-                                <Grid item md={5} xs={12}>
-                                    <div className="home-watch-img">
-                                        {isVideoPlaying ? (
-                                            <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
-                                        ) : (
-                                            <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
-                                        )}
-                                    </div>
-                                </Grid>
+                            <Grid item sm={4} xs={12}>
+                                <div className="home-watch-img1">
+                                    {isVideoPlaying ? (
+                                        <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
+                                    ) : (
+                                        <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
+                                    )}
+                                </div>
+                                {/* <img src={imgWatch} alt="imgWatch" className='home-watch-img1' /> */}
                             </Grid>
-                        </div>
+                        </Grid>
                     </div>
+                    <div className="home-sec2-video-box">
+                        <Grid container spacing={5}>
+                            <Grid item md={7} xs={12}>
+                            </Grid>
+                            <Grid item md={5} xs={12}>
+                                <div className="home-watch-img">
+                                    {isVideoPlaying ? (
+                                        <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
+                                    ) : (
+                                        <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
+                                    )}
+                                </div>
+                            </Grid>
+                        </Grid>
+                    </div>
+                </div>
             </section>
             <Footer />
         </>
