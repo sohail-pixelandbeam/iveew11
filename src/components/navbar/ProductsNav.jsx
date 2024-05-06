@@ -261,7 +261,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             icon: icon12,
             active: active12,
             label: 'Geo Referencing',
-            to: '/GeoLocationMessaging',
+            to: '/GeoReferencing',
             description: 'Geofencing, Geoconquestions, Geolocation are all factors in using GeoOffers'
         },
         {

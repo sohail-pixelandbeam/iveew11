@@ -28,7 +28,7 @@ export default function Footer() {
                         <div className="f-link"  onClick={()=>handleNavigate('/GeoFencing')}>Geo-fence</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/')}>Personalizaiton</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/ReputationManagement')}>Reputation Management</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Message-360</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/Message360')}>Message-360</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/')}>Message- Segmentation</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/')}>Blast-M</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/')}>Chatbot AI</div>
