@@ -16,6 +16,7 @@ import SignUp from '../pages/signUp/SignUp';
 import SignIn from '../pages/signIn/SignIn';
 import BookingEngineWidget from '../pages/bookingEngineWidget/BookingEngineWidget';
 import Personalization from '../pages/personalization/Personalization';
+import GuestReturn360 from '../pages/guestReturn360/GuestReturn360';
 
 
 
@@ -41,6 +42,7 @@ export default function AppRouter() {
                     <Route path='/Personalization' element={<Personalization/>}></Route>
                     <Route path='/GeoLocationMessaging' element={<GeoLocationMessagin />}></Route>
                     <Route path='/BookingEngineWidget' element={<BookingEngineWidget/>}></Route>
+                    <Route path='/GuestReturn360' element={<GuestReturn360/>}></Route>
                     <Route path='/SignUp' element={<SignUp/>}></Route>
                     <Route path='/SignIn' element={<SignIn/>}></Route>
                 </Routes>

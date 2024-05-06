@@ -138,13 +138,12 @@ export default function Home() {
                                     <div className="home-watch-heading">Guest Recognition</div>
                                     <div className="home-watch-content">
                                         <ul>
-                                            <li>The search results highlight the significant value of recognizing and rewarding loyal and repeat guests in the hospitality industry. Here are the key points: Knowing your guests on a deeper level provides numerous benefits1: Better identify high-value guests and cater to their needs.</li>
-                                            <li>Upsell and personalize the experience for repeat guests before they arrive.</li>
-                                            <li>Provide more personalized service based on guest preferences and behavior.</li>
-                                            <li>
-                                                Improve marketing efforts by targeting guests with relevant, personalized messages.
+                                            <li>Knowing your guests on a deeper level makes it easier to identify high-value customers and cater to their needs
                                             </li>
-
+                                            <li>Provide more personalized service based on guest preferences and behavior
+                                            </li>
+                                            <li>Improve marketing efforts by targeting guests with a relevant, personalized message
+                                            </li>
                                         </ul>
                                     </div>
                                 </Grid>

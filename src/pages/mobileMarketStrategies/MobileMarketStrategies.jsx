@@ -26,11 +26,7 @@ export default function MobileMarketStrategies() {
             <div className="mblMarket-hero" >
                 <div style={{ textAlign: 'center' }}>
                     <div className="spMsg-hero-contentBox">
-                        <div className="spMsg-hero-heading ">Mobile market  <br className='desktop' /> strategies</div>
-                        <div className="spMsg-hero-btns" style={{ justifyContent: 'center' }}>
-                            <Btn label='Get Started' />
-                            <Btn label="Open an account" className='geoFence-hero-btn' style={{ padding: '0px 45px' }} />
-                        </div>
+                        <div className="spMsg-hero-heading ">Mobile <br className='desktop' /> Strategies</div>
                     </div>
                 </div>
             </div>

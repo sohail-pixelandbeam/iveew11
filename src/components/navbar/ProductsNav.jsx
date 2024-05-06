@@ -232,6 +232,13 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             label: 'Mobile Strategies',
             to: '/MobileMarketStrategies',
             description: 'Encourage guests returns based on offers, convert OTA bookings to direct'
+        },
+        {
+            icon: icon6,
+            active: active6,
+            label: 'Guest Return - 360',
+            to: '/GuestReturn360',
+            description: 'OTA - Direct Conversions',
         }
     ]
 
@@ -257,6 +264,13 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/GeoLocationMessaging',
             description: 'Geofencing, Geoconquestions, Geolocation are all factors in using GeoOffers'
         },
+        {
+            icon: icon10,
+            active: active10,
+            label:'Geo Fencing',
+            to:'/GeoFencing',
+            description:'Geofencing is a versatile tool that has not been utilized in travel as much as others',
+        }
     ]
 
 

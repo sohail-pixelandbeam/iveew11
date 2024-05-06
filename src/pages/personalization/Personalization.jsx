@@ -24,15 +24,12 @@ export default function Personalization() {
     return (
         <>
             <NavBar hideModal={true} />
-            <div className="guestRec-hero">
+            <div className="bookingEngineWidget-hero">
                 <div>
                     <Grid container spacing={5}>
-                        <Grid item sm={6} xs={12}>
-                            <div className="spMsg-hero-contentBox">
-                                <div className="spMsg-hero-heading ">Personalization</div>
-                                <div className="spMsg-hero-btns">
-                                    <Btn label='Get Started' />
-                                    <Btn label="Open an account" className='geoFence-hero-btn' style={{ padding: '0px 15px' }} />
+                        <Grid item sm={12} xs={12}>
+                            <div className="spMsg-hero-contentBox" style={{textAlign: 'center'}}>
+                                <div className="spMsg-hero-heading ">AI Powered Tools for Personalization
                                 </div>
                             </div>
                         </Grid>
@@ -46,13 +43,13 @@ export default function Personalization() {
                 {/* 1st  */}
                 <div>
                     <Grid container spacing={5}>
-                    <Grid item sm={12} xs={12}>
+                        <Grid item sm={12} xs={12}>
                             <div className="message360Padding marginT-mobile">
                                 <img src={personalizationImg2} alt="img" />
                             </div>
                         </Grid>
                         <Grid item sm={2} xs={12}>
-                           
+
                         </Grid>
                         <Grid item sm={8} xs={12}>
                             <div className="message360Padding">

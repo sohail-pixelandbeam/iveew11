@@ -33,12 +33,10 @@ export default function GeoFencing() {
             {/* section 1  */}
             <section className='geoFence-hero'>
                 <div className="geoFence-hero-contentBox">
-                    <div className="geoFence-hero-heading">Geo fencing <br className='desktop' /> revolutionizes travel</div>
-                    <div className="geoFence-hero-content">In essence, geofencing is a versatile tool that  enables businesses to engage with consumers in  real time based on their physical location, offering  personalized experiences and targeted marketing  messages.</div>
-                    <div className="geoFence-hero-btns">
-                        <Btn label='Get Started' />
-                        <Btn label="Open an account" className='geoFence-hero-btn' style={{ padding: '0px 45px' }} />
+                    <div className="geoFence-hero-heading">Geo fencing <br className='desktop' /> revolutionizes Travel</div>
+                    <div className="geoFence-hero-content">Geofencing is a versatile tool that has not been utilized in travel as much as others; but advertisers are seeing the value it provides by helping to track guest while on property, in real-time, and automated responses
                     </div>
+
                 </div>
             </section>
             {/* section 2  */}
@@ -214,31 +212,31 @@ export default function GeoFencing() {
             <section className="padding marginT-mobile">
                 <div className="global-heading1">Geo-Conquesting</div>
                 <div className="geoFence-sec8-text">Is a cutting-edge marketing strategy that  involves targeting visitors <br className='desktop' /> to competitor  locations through geofencing</div>
-                <div style={{visibility:'hidden'}}>
-                <div className="geoFence-heading1 marginT-mobile" style={{ textAlign: 'center' }}>Follow the steps in Geo-Fencing</div>
-                <div style={{ padding: '0% 10%', paddingTop: '8%' }}>
-                    <Grid container spacing={5}>
-                        <Grid item sm={6} xs={12}>
-                            <div className="geoFence-sec8-dataBox">
-                                <img src={geoFenceIcon6} alt='icon' width='66px' />
-                                <div className="geoFence-heading1">Ask us</div>
-                                <p>At the bottom of the form, ask about  geo-conquesting and we will send  you the information</p>
-                            </div>
+                <div style={{ visibility: 'hidden' }}>
+                    <div className="geoFence-heading1 marginT-mobile" style={{ textAlign: 'center' }}>Follow the steps in Geo-Fencing</div>
+                    <div style={{ padding: '0% 10%', paddingTop: '8%' }}>
+                        <Grid container spacing={5}>
+                            <Grid item sm={6} xs={12}>
+                                <div className="geoFence-sec8-dataBox">
+                                    <img src={geoFenceIcon6} alt='icon' width='66px' />
+                                    <div className="geoFence-heading1">Ask us</div>
+                                    <p>At the bottom of the form, ask about  geo-conquesting and we will send  you the information</p>
+                                </div>
+                            </Grid>
+                            <Grid item sm={6} xs={12}>
+                                <div className="geoFence-sec8-dataBox">
+                                    <img src={geoFenceIcon7} alt='icon' width='66px' />
+                                    <div className="geoFence-heading1">Choose</div>
+                                    <p>Under Creatives- choose a voucher  or game, make it enticing. Use it for  now or next time.</p>
+                                </div>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <div className='geoFence-sec8-btn'>
+                                    <div className="home-card-btnTxt" style={{ marginTop: '20px' }}>Contact us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
+                                </div>
+                            </Grid>
                         </Grid>
-                        <Grid item sm={6} xs={12}>
-                            <div className="geoFence-sec8-dataBox">
-                                <img src={geoFenceIcon7} alt='icon' width='66px' />
-                                <div className="geoFence-heading1">Choose</div>
-                                <p>Under Creatives- choose a voucher  or game, make it enticing. Use it for  now or next time.</p>
-                            </div>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <div className='geoFence-sec8-btn'>
-                                <div className="home-card-btnTxt" style={{ marginTop: '20px' }}>Contact us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
-                            </div>
-                        </Grid>
-                    </Grid>
-                </div>
+                    </div>
                 </div>
             </section>
             <Footer />
