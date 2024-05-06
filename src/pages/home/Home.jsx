@@ -182,7 +182,6 @@ export default function Home() {
 
                 {/* section 3  */}
 
-                <SliderCustom2 />
 
                 {/* section 7  */}
                 <section>
