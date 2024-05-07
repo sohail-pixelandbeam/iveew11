@@ -286,7 +286,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             icon: icon9,
             active: active9,
             label: 'Tickets Tours Activities',
-            to: '/',
+            to: '/TickeitngTours',
             description: 'Relevant, Programmatic offers from around the world. Book in advance'
         },
         {

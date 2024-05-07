@@ -19,6 +19,7 @@ import Personalization from '../pages/personalization/Personalization';
 import GuestReturn360 from '../pages/guestReturn360/GuestReturn360';
 import GeoReferencing from '../pages/geoReferencing/GeoReferencing';
 import GeoConquestiong from '../pages/geoConquesting/GeoConguesting';
+import TicketingTours from '../pages/ticketingTours/TicketingTours';
 
 
 
@@ -47,6 +48,7 @@ export default function AppRouter() {
                     <Route path='/GuestReturn360' element={<GuestReturn360 />}></Route>
                     <Route path='/GeoReferencing' element={<GeoReferencing />}></Route>
                     <Route path='/GeoConquesting' element={<GeoConquestiong/>}></Route>
+                    <Route path='/TickeitngTours' element={<TicketingTours/>}></Route> 
                     <Route path='/SignUp' element={<SignUp />}></Route>
                     <Route path='/SignIn' element={<SignIn />}></Route>
                 </Routes>

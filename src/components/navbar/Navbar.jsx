@@ -85,15 +85,22 @@ export default function NavBar({ active, hideModal }) {
                         </div>}
                         <div
                             className="link-nb"
+                            onMouseEnter={() => onCursorEnter('Home')}
+                            onClick={() => {
+                                onCursorEnter('Home');
+                                navigate('/');
+                            }}
+                        >Home
+                        </div>
+                        <div
+                            className="link-nb"
                             onMouseEnter={() => onCursorEnter('Products')}
                             onClick={() => onCursorEnter('Products')}
-                        >Products
+                        >Applications
                         {
                             isMobile ? <KeyboardArrowRightIcon  sx={{ color: '#F56B3F' }}/> :
                             activeLink === 'Products' ? <KeyboardArrowUpIcon fontSize="small" sx={{ color: '#F56B3F' }} /> : <KeyboardArrowDownIcon fontSize="small" />
-                        }
-                        
-                            
+                        } 
                         </div>
                         <div
                             className="link-nb"
