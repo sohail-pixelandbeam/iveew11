@@ -42,6 +42,7 @@ import active19 from '../../assets/imgs/active19.png'
 import active20 from '../../assets/imgs/active20.png'
 import hoverNavBottom from '../../assets/imgs/hoverNavBottom.png'
 import hoverNavBottom1 from '../../assets/imgs/hoverNavBottom1.png'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Grid, Modal } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import useIsMobile from '../../hooks/useIsMobile'
@@ -239,10 +240,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             label: 'Guest Return - 360',
             to: '/GuestReturn360',
             description: 'OTA - Direct Conversions',
-        }
-    ]
-
-    const applications2 = [
+        },
         {
             icon: icon7,
             active: active7,
@@ -257,6 +255,10 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/MessageMarketSegmentation',
             description: 'Personalization leads to knowing your guest, which serves up more segmented offers, which increase guest experiences'
         },
+    ]
+
+    const applications2 = [
+
         {
             icon: icon12,
             active: active12,
@@ -267,14 +269,10 @@ export default function ProductsNav({ showNote, setActiveLink }) {
         {
             icon: icon10,
             active: active10,
-            label:'Geo Fencing',
-            to:'/GeoFencing',
-            description:'Geofencing is a versatile tool that has not been utilized in travel as much as others',
-        }
-    ]
-
-
-    const applications3 = [
+            label: 'Geo Fencing',
+            to: '/GeoFencing',
+            description: 'Geofencing is a versatile tool that has not been utilized in travel as much as others',
+        },
         {
             icon: icon14,
             active: active14,
@@ -296,7 +294,6 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/BookingEngineWidget',
             description: 'Confirmation stored in Mobile Wallet. 9% hotel usage and 99% airlines.'
         },
-        
         {
             icon: icon12,
             active: active12,
@@ -305,6 +302,8 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             description: 'Geofencing, Geoconquestings, Geolocation are all factors in using GeoOffers'
         },
     ]
+
+
 
     const handleNavigation = (to) => {
         navigate(to);
@@ -406,30 +405,41 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                             </div>
                                         </Grid>
                                         <Grid item sm={4} xs={12}>
-                                            <div className="naved-items">
-                                                {applications3.map(item => (
-                                                    <div className="naved-item" key={item.label}
-                                                        onMouseEnter={() => setHovered(item.label)}
-                                                        onClick={() => handleNavigation(item?.to)}
-                                                    >
-                                                        <div className="naved-img-box">
-                                                            {hovered === item.label ? <img src={item.active} alt="img" /> :
-                                                                <img src={item.icon} alt="img" />}
-                                                        </div>
-                                                        <div>
-                                                            <div className="naved-item-label">{item?.label}</div>
-                                                            <div className="naved-item-description">
-                                                                {item?.description.split('\n').map((line, index) => (
-                                                                    <React.Fragment key={index}>
-                                                                        {line}
-                                                                        <br />
-                                                                    </React.Fragment>
-                                                                ))}
-                                                            </div>
-                                                        </div>
-
+                                            <div className='naved-anouncements-box'>
+                                                <div className="naved-anouncements-heading-box">
+                                                    <div>Anouncements</div>
+                                                    <div className='anouncements-view-all'>View all <ArrowForwardIcon fontSize='small' /> </div>
+                                                </div>
+                                                <div className="naved-anouncement">
+                                                    <div className="naved-anouncement-heading">
+                                                        Flight Information Widget
+                                                        Coming Soon
                                                     </div>
-                                                ))}
+                                                    <div className="naved-anouncement-content">
+                                                        Flight information widget can provide delays, cancellations and gate changes for your guests.  Male it easier for your guests to receive their travel information.
+                                                        <br /><br />
+                                                        Links for:
+                                                        <ul>
+                                                            <li>Delays</li>
+                                                            <li>Cancellations</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div className="naved-anouncement">
+                                                    <div className="naved-anouncement-heading">
+                                                        QR Generator
+                                                    </div>
+                                                    <div className="naved-anouncement-content">
+                                                        Liks to:
+                                                        <ul>
+                                                            <li>Tips</li>
+                                                            <li>Pool and Lobby Service for Drinks</li>
+                                                            <li>Driver License Verification</li>
+                                                            <li>Information</li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </Grid>
                                         {/* {isMobile && <Grid item xs={10}>

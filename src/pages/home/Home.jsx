@@ -76,15 +76,15 @@ export default function Home() {
                 {/* section 1 banner section  */}
                 <section className='home-banner-box'>
                     <Grid container spacing={5}>
-                        <Grid item sm={6} >
+                        <Grid item sm={7} >
                             <div className="home-banner-heading">
-                                The AI Powered Tools <br className='desktop' />
-                                To Connect Customers <br />
-                                And Guests
+                                ai Powered Hospitality Tools connecting <span> with </span> guests
                             </div>
                             <div className="home-banner-content">
                                 Using artificial intelligence (ai) and machine learning (ml), brands can analyze data objectively, improving insights and generating actionable reports that can be used to make data-driven decisions.
+                                <br /><br />
                                 With ai and ml, these insights are more sophisticated and valuable to brands, allowing them to enhance and improve the customer journey.
+
                             </div>
                         </Grid>
                         <Grid item sm={6} >
@@ -94,8 +94,8 @@ export default function Home() {
                 </section>
                 {/* section 2  */}
                 <section className='home-sec2-box padding'>
-                    <div className="global-heading1" >Empower customers or guests to receive   <br />personalized offers that relate to them the most</div>
-                    <div className="home-sec2-text">Trusted Partners</div>
+                    <div className="global-heading1 mb-8per" >Partners</div>
+                    {/* <div className="home-sec2-text">Trusted Partners</div> */}
                     <div className='home-sec2-imgs' >
                         <Grid container spacing={5}>
                             <Grid item sm={4} xs={12}>

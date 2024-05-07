@@ -17,6 +17,12 @@
     font-size: 53px;
 }
 
+.home-banner-heading span{
+    font-family: Poppins-Bold;
+    font-size: 53px;
+    color: red;
+}
+
 .home-banner-content{
     margin: 8% 0px;
     margin-right: 8%;
@@ -417,6 +423,11 @@
 
     .home-banner-heading {
         font-size: 30px;
+    }
+
+    .home-banner-heading span{
+        font-size: 30px;
+        color: red;
     }
 
     .home-banner-right div {

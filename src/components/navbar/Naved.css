@@ -108,6 +108,61 @@
     background-color: #D9D9D9;
 }
 
+.naved-anouncements-box{
+    background: lightgray;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.naved-anouncements-heading-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.naved-anouncements-heading-box div{
+    font-family: Poppins-SemiBold;
+}
+
+.naved-anouncement{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.naved-anouncement-heading{
+    font-family: Poppins-SemiBold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.naved-anouncement-content{
+    text-align: justify;
+}
+
+.naved-anouncement-content ul{
+    margin-top: 20px;
+}
+.naved-anouncement-content ul li{
+    margin-top: -7px;
+
+}
+
+
+
+
+
+.anouncements-view-all{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: red;
+    cursor: pointer;
+}
+
 /* SOLUTONs MODAL  */
 .naved-solution-text {
     color: #585858;
