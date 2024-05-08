@@ -32,6 +32,7 @@ export default function BookingEngineWidget() {
                     <div className="geoFence-hero-heading">Mobile Wallet
                         <br className='desktop' /> Confirmations</div>
                 </div>
+                
             </section>
             {/* section 2  */}
             <section className="padding ">
