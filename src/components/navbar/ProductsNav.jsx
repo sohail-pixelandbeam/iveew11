@@ -241,13 +241,6 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/Personalization',
             description: 'P Engine-AI aids the process of selects various offers. Purchase In Hotel and 3rd party offers prior to arrival'
         },
-        {
-            icon: icon6,
-            active: active6,
-            label: 'Guest Return - 360',
-            to: '/GuestReturn360',
-            description: 'OTA - Direct Conversions',
-        },
       
     ]
 
@@ -280,13 +273,6 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             label: 'Tickets Tours Activities',
             to: '/TickeitngTours',
             description: 'Relevant, Programmatic offers from around the world. Book in advance'
-        },
-        {
-            icon: icon4,
-            active: active4,
-            label: 'IBE - Mobile Wallet Confirms',
-            to: '/BookingEngineWidget',
-            description: 'Confirmation stored in Mobile Wallet. 9% hotel usage and 99% airlines.'
         },
     ]
 

@@ -176,7 +176,7 @@ export default function MessageMarketSegmentation() {
                     </Grid>
                 </div>
             </section>
-            <img src={geoFenceImg6} alt="img" width='100%' />
+            {/* <img src={geoFenceImg6} alt="img" width='100%' /> */}
             {/* section 3  */}
             <div className="mt-8per"></div>
             <Footer />
