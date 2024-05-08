@@ -12,6 +12,11 @@
     color: white;
 }
 
+.home-banner{
+    text-align: center;
+    padding: 0px 10%;
+}
+
 .home-banner-heading {
     font-family: Poppins-Bold;
     font-size: 53px;
@@ -24,7 +29,7 @@
 }
 
 .home-banner-content{
-    margin: 8% 0px;
+    margin: 8%;
     margin-right: 8%;
 }
 

@@ -76,16 +76,19 @@ export default function Home() {
                 {/* section 1 banner section  */}
                 <section className='home-banner-box'>
                     <Grid container spacing={5}>
-                        <Grid item sm={7} >
-                            <div className="home-banner-heading">
-                                ai Powered Hospitality Tools connecting <span> with </span> guests
-                            </div>
-                            <div className="home-banner-content">
-                                Using artificial intelligence (ai) and machine learning (ml), brands can analyze data objectively, improving insights and generating actionable reports that can be used to make data-driven decisions.
-                                <br /><br />
-                                With ai and ml, these insights are more sophisticated and valuable to brands, allowing them to enhance and improve the customer journey.
+                        <Grid item xs={12} >
+                            <div className='home-banner'>
+                                <div className="home-banner-heading">
+                                    ai Powered Hospitality Tools connecting <span> with </span> guests
+                                </div>
+                                <div className="home-banner-content">
+                                    Using artificial intelligence (ai) and machine learning (ml), brands can analyze data objectively, improving insights and generating actionable reports that can be used to make data-driven decisions.
+                                    <br /><br />
+                                    With ai and ml, these insights are more sophisticated and valuable to brands, allowing them to enhance and improve the customer journey.
 
+                                </div>
                             </div>
+
                         </Grid>
                         <Grid item sm={6} >
 
