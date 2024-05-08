@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './BookingEngineWidget.css';
-import bookingEngWidgetImg2 from '../../assets/imgs/bookingEngWidgetImg2.png';
+import bookingEngWidgetImg2 from '../../assets/imgs/bookingEngWidgetImg2.jpeg';
 import NavBar from '../../components/navbar/Navbar';
 import EastIcon from '@mui/icons-material/East';
 import Btn from '../../components/btn/Btn';
@@ -32,12 +32,11 @@ export default function BookingEngineWidget() {
                     <div className="geoFence-hero-heading">Mobile Wallet
                         <br className='desktop' /> Confirmations</div>
                 </div>
-                
+
             </section>
             {/* section 2  */}
             <section className="padding ">
-                <div className="global-heading1 mb-8per">Learn more about booking <br className="desktop" />
-                    engine widget</div>
+
                 <Grid container spacing={5}>
                     {isMobile && <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-leftBox">
@@ -46,14 +45,16 @@ export default function BookingEngineWidget() {
                     </Grid>}
                     <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-rightBox">
-                            <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Booking Engine Widget</div>
+                            <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Mobile Wallet Confirmation</div>
+                            <div>
+                                Application can be integrated to any Internet Booking Engine.
+                            </div>
                             <ul>
-                                <li>Hotels are increasingly adopting mobile wallet technology to provide a more seamless and contactless experience for guests. Some key ways hotels are using mobile wallets include, connecting incentives to the use of the mobile confirmation.  Major hotels comprise the list of users, the smaller hotels and chains do not have an easy way to do it.</li>
-                                <li>Integrating mobile wallet passes for things like gym access, breakfast coupons, or other hotel amenities, delivering them digitally to the guest's wallet</li>
-                                <li>
-                                    We add additional features to the mobile confirmation unlike other providers.</li>
+                                <li>Engage with guest before arriving based usage of mobile  confirmation
+                                </li>
+
                             </ul>
-                            <div className="home-card-btnTxt" style={{ marginTop: '20px' }}>Learn more about us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
+
 
                         </div>
                     </Grid>
@@ -96,9 +97,9 @@ export default function BookingEngineWidget() {
                         />
                         <div className="bookEngWid-inputsBox">
                             <SelectBox
-                            label='Languages/Pass'
-                            options={languages}
-                            selected='English'
+                                label='Languages/Pass'
+                                options={languages}
+                                selected='English'
 
                             />
                             <InputIcon
@@ -108,22 +109,22 @@ export default function BookingEngineWidget() {
                         </div>
                         <div className="bookEngWid-inputsBox">
                             <Btn
-                            label='Cancel'
-                            style={{
-                                flex:1,
-                                color:'black',
-                                border:'1px solid black',
-                                backgroundColor:'white'
-                            }}
+                                label='Cancel'
+                                style={{
+                                    flex: 1,
+                                    color: 'black',
+                                    border: '1px solid black',
+                                    backgroundColor: 'white'
+                                }}
                             />
                             <Btn
                                 label='Add'
                                 style={{
-                                    flex:3
+                                    flex: 3
                                 }}
                             />
                         </div>
-                    
+
                     </div>
                 </div>
             </section>
