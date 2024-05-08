@@ -31,11 +31,6 @@ export default function BookingEngineWidget() {
                 <div className="geoFence-hero-contentBox">
                     <div className="geoFence-hero-heading">Mobile Wallet
                         <br className='desktop' /> Confirmations</div>
-
-                    <div className="geoFence-hero-btns">
-                        <Btn label='Get Started' />
-                        <Btn label="Open an account" className='geoFence-hero-btn' style={{ padding: '0px 45px' }} />
-                    </div>
                 </div>
             </section>
             {/* section 2  */}
@@ -43,7 +38,6 @@ export default function BookingEngineWidget() {
                 <div className="global-heading1 mb-8per">Learn more about booking <br className="desktop" />
                     engine widget</div>
                 <Grid container spacing={5}>
-
                     {isMobile && <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-leftBox">
                             <img src={bookingEngWidgetImg2} alt="img" width='100%' />
