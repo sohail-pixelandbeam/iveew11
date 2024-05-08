@@ -34,8 +34,6 @@ export default function GuestReturn360() {
             </section>
             {/* section 2  */}
             <section className="padding ">
-                <div className="global-heading1 mb-8per">Learn more about Guest <br className="desktop" />
-                    Return - 360</div>
                 <Grid container spacing={5}>
 
                     {isMobile && <Grid item sm={6} xs={12}>

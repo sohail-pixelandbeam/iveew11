@@ -53,3 +53,65 @@
     font-family: Poppins-SemiBold;
 
 }
+
+/* section 3  */
+
+.tta-sec3-upper{
+    padding: 0% 20%;
+}
+
+.tta-sec3-upper img{
+    width:100%;
+}
+
+.tta-sec3-upper-heading{
+    font-family: Poppins-SemiBold;
+    font-size: 25px;
+    line-height: 33px;
+    margin: 20px 0px;
+}
+
+.tta-sec3-bottom{
+    padding: 3% 20%;
+    background-color: #f7f7f5;
+    margin-top: 50px;
+}
+
+.tta-sec3-header-box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.tta-sec3-header-box img{
+    width: 60px;
+    border-radius: 5px;
+}
+
+.tta-sec3-header-box div{
+    font-family: Poppins-SemiBold;
+    font-size: 20px;
+}
+
+.tta-sec3-bottom-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 30px;
+    box-shadow: 1px 5px 10x rgba(0, 0, 0, 0.1);
+}
+
+.tta-sec3-bottom-box-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Poppins-SemiBold;
+}
+
+.tta-sec3-bottom-box-offers{
+    color: blue;
+    text-decoration: underline;
+}

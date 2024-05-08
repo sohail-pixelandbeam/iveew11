@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/home/Home';
-import GeoFencing from '../pages/geoFencing/GeoFencing';
 import Message360 from '../pages/message360/Message360';
 import SpecialityMessaging from '../pages/speacialityMessaging/SpecialityMessaging';
 import GuestRecognition from '../pages/guestRecognition/GuestRecognition';
@@ -17,9 +16,9 @@ import SignIn from '../pages/signIn/SignIn';
 import BookingEngineWidget from '../pages/bookingEngineWidget/BookingEngineWidget';
 import Personalization from '../pages/personalization/Personalization';
 import GuestReturn360 from '../pages/guestReturn360/GuestReturn360';
-import GeoReferencing from '../pages/geoReferencing/GeoReferencing';
 import GeoConquestiong from '../pages/geoConquesting/GeoConguesting';
 import TicketingTours from '../pages/ticketingTours/TicketingTours';
+import GeoFencing from '../pages/geoReferencing/GeoFencing';
 
 
 
@@ -46,7 +45,7 @@ export default function AppRouter() {
                     <Route path='/GeoLocationMessaging' element={<GeoLocationMessagin />}></Route>
                     <Route path='/BookingEngineWidget' element={<BookingEngineWidget />}></Route>
                     <Route path='/GuestReturn360' element={<GuestReturn360 />}></Route>
-                    <Route path='/GeoReferencing' element={<GeoReferencing />}></Route>
+                    {/* <Route path='/GeoReferencing' element={<GeoReferencing />}></Route> */}
                     <Route path='/GeoConquesting' element={<GeoConquestiong/>}></Route>
                     <Route path='/TickeitngTours' element={<TicketingTours/>}></Route> 
                     <Route path='/SignUp' element={<SignUp />}></Route>

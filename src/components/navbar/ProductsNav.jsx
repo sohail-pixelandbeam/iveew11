@@ -216,7 +216,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
         {
             icon: icon18,
             active: active18,
-            label: 'Partneres',
+            label: 'Partners',
             to: '/',
             description: 'Integration with a quality of suppliers, providing over 20,000 hotel PMS and 100,000 tickets, tours and activities'
         },
@@ -235,13 +235,6 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             description: 'Encourage guests returns based on offers, convert OTA bookings to direct'
         },
         {
-            icon: icon6,
-            active: active6,
-            label: 'Guest Return - 360',
-            to: '/GuestReturn360',
-            description: 'OTA - Direct Conversions',
-        },
-        {
             icon: icon7,
             active: active7,
             label: 'Personalization',
@@ -249,29 +242,30 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             description: 'P Engine-AI aids the process of selects various offers. Purchase In Hotel and 3rd party offers prior to arrival'
         },
         {
+            icon: icon6,
+            active: active6,
+            label: 'Guest Return - 360',
+            to: '/GuestReturn360',
+            description: 'OTA - Direct Conversions',
+        },
+      
+    ]
+
+    const applications2 = [
+        {
             icon: icon3,
             active: active3,
             label: 'Market Segmentation',
             to: '/MessageMarketSegmentation',
             description: 'Personalization leads to knowing your guest, which serves up more segmented offers, which increase guest experiences'
         },
-    ]
-
-    const applications2 = [
 
         {
             icon: icon12,
             active: active12,
-            label: 'Geo Referencing',
-            to: '/GeoReferencing',
-            description: 'Geofencing, Geoconquestions, Geolocation are all factors in using GeoOffers'
-        },
-        {
-            icon: icon10,
-            active: active10,
             label: 'Geo Fencing',
             to: '/GeoFencing',
-            description: 'Geofencing is a versatile tool that has not been utilized in travel as much as others',
+            description: 'Geofencing, Geoconquestions, Geolocation are all factors in using GeoOffers'
         },
         {
             icon: icon14,
@@ -293,13 +287,6 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             label: 'IBE - Mobile Wallet Confirms',
             to: '/BookingEngineWidget',
             description: 'Confirmation stored in Mobile Wallet. 9% hotel usage and 99% airlines.'
-        },
-        {
-            icon: icon12,
-            active: active12,
-            label: 'Geo Conquesting',
-            to: '/GeoConquesting',
-            description: 'Geofencing, Geoconquestings, Geolocation are all factors in using GeoOffers'
         },
     ]
 
@@ -430,7 +417,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                         QR Generator
                                                     </div>
                                                     <div className="naved-anouncement-content">
-                                                        Liks to:
+                                                        Links to:
                                                         <ul>
                                                             <li>Tips</li>
                                                             <li>Pool and Lobby Service for Drinks</li>

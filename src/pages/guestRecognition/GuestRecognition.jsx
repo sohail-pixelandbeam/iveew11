@@ -37,8 +37,7 @@ export default function GuestRecognition() {
                 </div>
             </div>
             {/* section 2  */}
-            <section className="padding" style={{ paddingTop: '2%' }}>
-                <div className="global-heading1 mb-8per mt-8per">Learn more about guest recognition</div>
+            <section className="padding">
                 {/* 1st  */}
                 <div>
                     <Grid container spacing={5}>
