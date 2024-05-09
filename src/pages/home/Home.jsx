@@ -29,6 +29,7 @@ import SliderCustom2 from '../../components/sliderCustom2/SliderCustom2';
 import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
 import SliderCustom from '../../components/sliderCustom/SliderCustom'
 import { useNavigate } from 'react-router-dom';
+import AutoScroll from '../../components/autoScroll/AutoScroll';
 
 export default function Home() {
     let [hideModal, setHideModal] = useState(true);
@@ -69,17 +70,42 @@ export default function Home() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
+
+    const [highlightIndex, setHighlightIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setHighlightIndex((prevIndex) => (prevIndex + 1) % words.length); // Assuming there are 6 words in the heading
+        }, 1000); // Adjust the interval as needed
+
+        return () => clearInterval(interval);
+    }, []);
+
+    const words = ['ai', 'Powered', 'Hospitality', 'Tools', 'connecting', 'with', 'guests'];
+
+
     return (
         <>
             <NavBar hideModal={hideModal} />
+            {/* <AutoScroll /> */}
             <div onMouseEnter={() => setHideModal(!hideModal)}>
                 {/* section 1 banner section  */}
                 <section className='home-banner-box'>
                     <Grid container spacing={5}>
                         <Grid item xs={12} >
                             <div className='home-banner'>
-                                <div className="home-banner-heading">
+                                {/* <div className="home-banner-heading">
                                     ai Powered Hospitality Tools connecting <span> with </span> guests
+                                </div> */}
+                                <div className="home-banner-heading">
+                                    {words.map((word, index) => (
+                                        <span
+                                            key={index}
+                                            style={{ color: index === highlightIndex ? 'red' : 'inherit' }}
+                                        >
+                                            {word}{' '}
+                                        </span>
+                                    ))}
                                 </div>
                                 <div className="home-banner-content">
                                     Using artificial intelligence (ai) and machine learning (ml), brands can analyze data objectively, improving insights and generating actionable reports that can be used to make data-driven decisions.
@@ -151,11 +177,11 @@ export default function Home() {
                                     </div>
                                 </Grid>
                                 <Grid item sm={4} xs={12}>
-                                    <div className="home-watch-img1">
+                                    <div className="home-watch-img1" >
                                         {isVideoPlaying ? (
                                             <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
                                         ) : (
-                                            <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
+                                            <img src={imgWatch}  alt="Thumbnail" onClick={handleThumbnailClick} />
                                         )}
                                     </div>
                                     {/* <img src={imgWatch} alt="imgWatch" className='home-watch-img1' /> */}

@@ -10,6 +10,7 @@ import affImg5 from '../../assets/imgs/affImg5.png'
 import affImg6 from '../../assets/imgs/affImg6.png'
 import { Grid } from '@mui/material';
 import PricingCard from '../home/PricingCard'
+import AutoScroll from '../../components/autoScroll/AutoScroll'
 
 export default function Pricing() {
     const pricingData = [
@@ -44,6 +45,7 @@ export default function Pricing() {
     return (
         <>
             <NavBar />
+            {/* <AutoScroll/> */}
             <div className="pricing-blackDiv"/>
             <section className="padding pricing-sec1">
                 <div className="global-heading1 mt-8per mb-8per pricing-mobile-margintT" >Everything you need to   <br className='desktop' />spend smart</div>

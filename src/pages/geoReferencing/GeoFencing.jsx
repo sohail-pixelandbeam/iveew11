@@ -8,6 +8,7 @@ import NavBar from '../../components/navbar/Navbar';
 import { Grid } from '@mui/material';
 import Footer from '../../components/footer/Footer';
 import useIsMobile from '../../hooks/useIsMobile';
+import AutoScroll from '../../components/autoScroll/AutoScroll';
 
 
 export default function GeoFencing() {
@@ -18,7 +19,8 @@ export default function GeoFencing() {
     }, [])
     return (
         <>
-            <NavBar hideModal={hideModal} />
+            <AutoScroll />
+            <NavBar hideModal={hideModal} hideNote={true} />
             {/* section 1  */}
             <section className='bookingEngineWidget-hero'>
                 <div className="geoFence-hero-contentBox">
@@ -59,7 +61,7 @@ export default function GeoFencing() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-blackBox">
                             <img src={geoReferencingImg1} alt="img" />
-                            <div style={{textAlign:'center'}}>Contact Ginny at <br /> sales@iveew.co</div>
+                            <div style={{ textAlign: 'center' }}>Contact Ginny at <br /> sales@iveew.co</div>
                         </div>
                     </Grid>
                     <Grid item sm={6} xs={12}>
