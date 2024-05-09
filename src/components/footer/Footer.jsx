@@ -23,22 +23,19 @@ export default function Footer() {
                     <Grid item sm={2.5} xs={12} >
                         <img src={logo} alt="logo" className='f-logo' />
                     </Grid>
-                    <Grid item sm={3} xs={6} >
-                        <div className="f-linkBold">Product</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/GeoFencing')}>Geo-fence</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Personalizaiton</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/ReputationManagement')}>Reputation Management</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/Message360')}>Message-360</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Message- Segmentation</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Blast-M</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Chatbot AI</div>
+                    <Grid item sm={2.5} xs={6} >
+                        <div className="f-linkBold">Applications</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Partners</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/GuestRecognition')}>Guest Recognition</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/MobileMarketStrategies')}>Mobile Strategies</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/Personalization')}>Personalizaiton</div>
                     </Grid>
-                    <Grid item sm={2.25} xs={6} >
-                        <div className="f-linkBold">Solution</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>SMB</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>SME</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Enterprise</div>
-                        <div className="f-link"  onClick={()=>handleNavigate('/')}>Live Budgets</div>
+                    <Grid item sm={2.75} xs={6} >
+                        <div className="f-linkBold" style={{visibility:'hidden'}} >Applications</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/MessageMarketSegmentation')}>Market Segmentation</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/GeoFencing')}>Geo Fencing</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/SpecialityMessaging')}>Messaging</div>
+                        <div className="f-link"  onClick={()=>handleNavigate('/TickeitngTours')}>Ticket Tours Activities</div>
                     </Grid>
                     <Grid item sm={2.25} xs={6} >
                         <div className="f-linkBold" onClick={()=>handleNavigate('/Pricing')}>Pricing</div>
@@ -51,10 +48,7 @@ export default function Footer() {
                         <div className="f-linkBold">Resources</div>
                         <div className="f-link" onClick={()=>handleNavigate('/')} >Customer Hub</div>
                         <div className="f-link" onClick={()=>handleNavigate('/')} >Help center</div>
-                        <div className="f-link" onClick={()=>handleNavigate('/')} >Resource center & blog</div>
-                        <div className="f-link" onClick={()=>handleNavigate('/')}> Accounting services</div>
                         <div className="f-link" onClick={()=>handleNavigate('/')} >Status</div>
-                        <div className="f-link" onClick={()=>handleNavigate('/')} >Legal agreement</div>
                         <div className="f-link" onClick={()=>handleNavigate('/')} >Privacy</div>
                     </Grid>
                 </Grid>

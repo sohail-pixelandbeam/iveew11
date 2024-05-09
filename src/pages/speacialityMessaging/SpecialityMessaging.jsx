@@ -27,11 +27,7 @@ export default function SpecialityMessaging() {
           <Grid container spacing={5}>
             <Grid item sm={6} xs={12}>
               <div className="spMsg-hero-contentBox">
-                <div className="spMsg-hero-heading ">The speciality of  messaging</div>
-                <div className="spMsg-hero-btns">
-                  <Btn label='Get Started' />
-                  <Btn label="Open an account" className='geoFence-hero-btn' style={{ padding: '0px 25px' }} />
-                </div>
+                <div className="spMsg-hero-heading ">The <br className='desktop' /> specialty of  messaging</div>
               </div>
             </Grid>
             <Grid item sm={6} xs={12}>
@@ -53,11 +49,10 @@ export default function SpecialityMessaging() {
             <Grid item sm={7} xs={12}>
               <div className="message360Padding">
 
-                <div className="message360-heading1 mb-40">Speciality Messaging</div>
+                <div className="message360-heading1 mb-40">Specialty Messaging</div>
                 <div className="spMsg-text1 mb-40">
                   The global mobile marketing market size to be valued at USD 337.8 billion by 2027 and is expected to grow at a compound annual growth rate (CAGR) of 22.9% during the forecast period. Mobile marketing is a multi-channel digital promotional activity to reach the target audience through their mobile devices, via email, SMS and MMS, social media, websites, and apps.
                 </div>
-                <div className="home-card-btnTxt mb-30">Learn more about us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
               </div>
             </Grid>
           </Grid>
@@ -74,65 +69,13 @@ export default function SpecialityMessaging() {
               <div className="message360Padding">
                 <div className="message360-heading1 mt-40 mb-40">Speciality Messaging</div>
                 <div className="spMsg-text1 mb-40">
-                  This is dummy text to show the design reputation takeholder perceptions and public conversations about an  organization and its brands. It includes monitoring perceptions and conversations, responding to reputation threats, and  proactively seizing opportunities to boost reputation
+                  The global mobile marketing market size to be valued at USD 337.8 billion by 2027 and is expected to grow at a compound annual growth rate (CAGR) of 22.9% during the forecast period. Mobile marketing is a multi-channel digital promotional activity to reach the target audience through their mobile devices, via email, SMS and MMS, social media, websites, and apps.
                 </div>
-                <div className="home-card-btnTxt mb-30">Learn more about us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
               </div>
             </Grid>
             {!isMobile && <Grid item sm={6} xs={12}>
               <div className="">
                 <img src={spMsgImg3} alt="img" width='100%' />
-              </div>
-            </Grid>}
-          </Grid>
-        </div>
-        {/* 3rd  */}
-        <div className="">
-          <Grid container spacing={5}>
-            <Grid item sm={6} xs={12}>
-              <div className="spMsgImgSec2 marginT-mobile" >
-                <img src={spMsgImg4} alt="img" width='100%' />
-              </div>
-            </Grid>
-            <Grid item sm={6} xs={12}>
-              <div className="message360Padding">
-                <div className="message360-heading1 mb-40">Guest Back-60</div>
-                <div className="spMsg-text1 mb-40">
-                  Messaging provides businesses the opportunity to stay in contact with customers and guests. Delivering relevant content and offers is the most important.
-                  <br /><br />
-                  1) Guest Back provides all customers with the ability to send out messages based on the last time they visited the business or hotel.
-                  <br /><br />
-                  2) Integration with POS systems automates loyalty or frequency tracking of credit cards.
-                  <br /><br />
-                  3) As a hotel, we have integrated with a number of PMS to automate the process of reaching out to guests who have not been there in 60 days or more. If we are not currently in your PMS, please email us and we will set it up,
-                </div>
-                <div className="home-card-btnTxt mb-30">Learn more about us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
-              </div>
-            </Grid>
-          </Grid>
-        </div>
-        {/* 4th  */}
-        <div className="mb-8per">
-          <Grid container spacing={5}>
-            {isMobile && <Grid item sm={6} xs={12}>
-              <div className="message360Padding marginT-mobile">
-                <img src={spMsgImg5} alt="img" width='90%' />
-              </div>
-            </Grid>}
-            <Grid item sm={6} xs={12}>
-              <div className="message360Padding">
-                <div className="message360-heading1 spMsgcontentTopMargin mb-40">A recent survey</div>
-                <div className="spMsg-text1 mb-40">
-                  A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
-                  <br /> <br />
-                  There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
-                </div>
-                <div className="home-card-btnTxt mb-30">Learn more about us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
-              </div>
-            </Grid>
-            {!isMobile && <Grid item sm={6} xs={12}>
-              <div className="message360Padding">
-                <img src={spMsgImg5} alt="img" width='90%' />
               </div>
             </Grid>}
           </Grid>

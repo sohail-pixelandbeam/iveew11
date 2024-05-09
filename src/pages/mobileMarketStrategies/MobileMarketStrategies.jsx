@@ -187,7 +187,6 @@ export default function MobileMarketStrategies() {
                   <br /> <br />
                   There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
                 </div>
-                <div className="home-card-btnTxt mb-30">Learn more about us <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
               </div>
             </Grid>
             {!isMobile && <Grid item sm={6} xs={12}>

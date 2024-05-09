@@ -30,10 +30,6 @@ export default function MessageMarketSegmentation() {
                 <div style={{ textAlign: 'center' }}>
                     <div className="spMsg-hero-contentBox">
                         <div className="spMsg-hero-heading ">Message market <br className='desktop' /> segmentation</div>
-                        <div className="spMsg-hero-btns" style={{ justifyContent: 'center' }}>
-                            <Btn label='Get Started' />
-                            <Btn label="Open an account" className='geoFence-hero-btn' style={{ padding: '0px 45px' }} />
-                        </div>
                     </div>
                 </div>
             </div>
