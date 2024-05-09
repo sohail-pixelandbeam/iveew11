@@ -268,5 +268,24 @@
         font-size: 20px;
         line-height: 25px;
     }
+
+    /* Mixed */
+
+    .geoReference-sec2-blackBox{
+        margin: 8% 0%;
+    }
+
+    .geoReference-sec3-blackBox{
+        background-color: black;
+        margin: 8% 0%;
+        margin-bottom: 0%;
+        border-radius: 20px;
+        padding: 8% 10%;
+    }
+
+    .geoReference-sec3-right{
+        margin-top: 0px;
+        font-size: 20px;
+    }
     
 }
