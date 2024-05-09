@@ -31,11 +31,12 @@ export default function Footer() {
                         <div className="f-link"  onClick={()=>handleNavigate('/Personalization')}>Personalizaiton</div>
                     </Grid>
                     <Grid item sm={2.75} xs={6} >
-                        <div className="f-linkBold" style={{visibility:'hidden'}} >Applications</div>
+                        <div className="f-linkBold" style={{visibility:'hidden'}} >Application</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/MessageMarketSegmentation')}>Market Segmentation</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/GeoFencing')}>Geo Fencing</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/SpecialityMessaging')}>Messaging</div>
                         <div className="f-link"  onClick={()=>handleNavigate('/TickeitngTours')}>Ticket Tours Activities</div>
+
                     </Grid>
                     <Grid item sm={2.25} xs={6} >
                         <div className="f-linkBold" onClick={()=>handleNavigate('/Pricing')}>Pricing</div>
