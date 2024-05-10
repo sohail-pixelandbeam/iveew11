@@ -241,7 +241,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/Personalization',
             description: 'P Engine-AI aids the process of selects various offers. Purchase In Hotel and 3rd party offers prior to arrival'
         },
-      
+
     ]
 
     const applications2 = [
@@ -296,8 +296,8 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                 >
                     <div className='productsNav'
                         style={{
-                            top: showNote ? '100px' : '65px',
-                            maxHeight: showNote ? '82vh' : '88vh',
+                            top: '65px',
+                            maxHeight: '88vh',
                         }} >
                         <div className='navedContent'  >
                             <div className="productsNav-inner">
