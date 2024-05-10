@@ -10,6 +10,7 @@ import spMsgImg5 from '../../assets/imgs/spMsgImg5.png'
 import guestReturnImg1 from '../../assets/imgs/guestReturnImg.jpg';
 import msgSegImg2 from '../../assets/imgs/msgSegImg2.png'
 import msgSegImg3 from '../../assets/imgs/msgSegImg3.png'
+import spMsgImg2 from '../../assets/imgs/spMsgImg2.png'
 import msgMarketSegImg from '../../assets/imgs/msgMarketSegImg.png'
 import InputIcon from '../../components/inputIcon/InputIcon'
 import SelectBox from '../../components/selectBox/SelectBox'
@@ -66,7 +67,7 @@ export default function MobileMarketStrategies() {
                 </Grid>
             </section>
             {/* section 3  */}
-            <section className='padding'>
+            {/* <section className='padding'>
                 <div className="bookEngWid-formBox">
                     <div className="bookEngWid-heading1">Create IBE</div>
                     <div className="bookEngWid-formContentBox">
@@ -127,19 +128,19 @@ export default function MobileMarketStrategies() {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* section 4  */}
-            
+
             <section className="padding ">
                 <Grid container spacing={5}>
-
-                    {isMobile && <Grid item sm={6} xs={12}>
+                    <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-leftBox">
                             <img src={guestReturnImg1} alt="img" width='100%' />
                         </div>
-                    </Grid>}
+                    </Grid>
                     <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-rightBox">
+                            <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Guest Direct</div>
                             <div>Communicating with guests has never been easier.  Our Guest Return-360  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60 days.  You have full control of all communication and offers that are sent out.
                                 <br /><br />
                                 AI insights allow you to:
@@ -164,44 +165,40 @@ export default function MobileMarketStrategies() {
 
                         </div>
                     </Grid>
+                </Grid>
+            </section>
+            {/* 5th  */}
+            <div className="mb-8per">
+                <Grid container spacing={5}>
+                    {isMobile && <Grid item sm={6} xs={12}>
+                        <div className="message360Padding marginT-mobile">
+                            <img src={spMsgImg5} alt="img" width='90%' />
+                        </div>
+                    </Grid>}
+                    <Grid item sm={6} xs={12}>
+                        <div className="message360Padding">
+                            <div className="message360-heading1 spMsgcontentTopMargin mb-40">Reputation Management</div>
+                            <div className="spMsg-text1 mb-40">
+                                A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
+                                <br /> <br />
+                                There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
+                            </div>
+                        </div>
+                    </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>
-                        <div className="geoFence-sec7-leftBox">
-                            <img src={guestReturnImg1} alt="img" width='90%' />
+                        <div className="message360Padding">
+                            <img src={spMsgImg5} alt="img" width='90%' />
                         </div>
                     </Grid>}
                 </Grid>
-            </section>
-              {/* 5th  */}
-        <div className="mb-8per">
-          <Grid container spacing={5}>
-            {isMobile && <Grid item sm={6} xs={12}>
-              <div className="message360Padding marginT-mobile">
-                <img src={spMsgImg5} alt="img" width='90%' />
-              </div>
-            </Grid>}
-            <Grid item sm={6} xs={12}>
-              <div className="message360Padding">
-                <div className="message360-heading1 spMsgcontentTopMargin mb-40">A recent survey</div>
-                <div className="spMsg-text1 mb-40">
-                  A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
-                  <br /> <br />
-                  There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
-                </div>
-              </div>
-            </Grid>
-            {!isMobile && <Grid item sm={6} xs={12}>
-              <div className="message360Padding">
-                <img src={spMsgImg5} alt="img" width='90%' />
-              </div>
-            </Grid>}
-          </Grid>
-        </div>
-        {/* extra  */}
-        
+            </div>
+            {/* extra  */}
+
             {/* section 2  */}
             <section className="padding" style={{ paddingTop: '2%' }}>
                 {/* 0th  */}
-                <div className='mt-8per'>
+
+                {/* <div className='mt-8per'>
                     <Grid container spacing={5}>
                         <Grid item sm={5} xs={12}>
                             <div className="message360Padding ">
@@ -236,7 +233,6 @@ export default function MobileMarketStrategies() {
                                         <Grid item sm={4} xs={6}>
                                             <div className="msg-market-seg-selected">{gender}</div>
                                         </Grid>
-                                        {/* 2nd  */}
                                         <Grid item sm={9} xs={12}>
                                             <InputIcon
                                                 placeholder='https://iveew.co/wsshiop30A'
@@ -264,7 +260,6 @@ export default function MobileMarketStrategies() {
                                                 options={['Days']}
                                             />
                                         </Grid>
-                                        {/* 3rd  */}
                                         <Grid item sm={4} xs={12}>
                                             <InputIcon
                                             label='Longitude'
@@ -292,13 +287,14 @@ export default function MobileMarketStrategies() {
                             </div>
                         </Grid>
                     </Grid>
-                </div>
+                </div> */}
+
                 {/* 1st  */}
                 <div className='mt-8per'>
                     <Grid container spacing={5}>
                         {isMobile && <Grid item sm={6} xs={12}>
                             <div className="message360Padding marginT-mobile ">
-                                <img src={msgSegImg2} alt="img" />
+                                <img src={msgSegImg3} alt="img" />
                             </div>
                         </Grid>}
                         <Grid item sm={6} xs={12}>
@@ -311,17 +307,18 @@ export default function MobileMarketStrategies() {
                         </Grid>
                         {!isMobile && <Grid item sm={6} xs={12}>
                             <div className="message360Padding ">
-                                <img src={msgSegImg2} alt="img" />
+                                <img src={msgSegImg3} alt="img" />
                             </div>
                         </Grid>}
                     </Grid>
                 </div>
+
                 {/* 2nd  */}
                 <div className='mt-8per'>
                     <Grid container spacing={5}>
                         <Grid item sm={5} xs={12}>
                             <div className="message360Padding ">
-                                <img src={msgSegImg3} alt="img" />
+                                <img src={msgSegImg2} alt="img" />
                             </div>
                         </Grid>
                         {!isMobile && <Grid xs={1} />}
@@ -331,6 +328,26 @@ export default function MobileMarketStrategies() {
                                 <div className="message360-heading1 mb-40">Effective market segmentation    </div>
                                 <div className="spMsg-text1 mb-40">
                                     Effective market segmentation relies on careful analysis of various demographic, geographic, psychographic, and behavioral factors to identify meaningful differences among consumers. Through segmentation, businesses can identify niche markets with unmet needs or underserved segments where they can gain a competitive advantage.
+                                </div>
+                            </div>
+                        </Grid>
+                    </Grid>
+                </div>
+
+                {/* 3rd  */}
+                <div className="mb-8per mt-8per">
+                    <Grid container spacing={5}>
+                        <Grid item sm={5} xs={12}>
+                            <div className="message360Padding marginT-mobile">
+                                <img src={spMsgImg2} alt="img" />
+                            </div>
+                        </Grid>
+                        <Grid item sm={7} xs={12}>
+                            <div className="message360Padding">
+
+                                <div className="message360-heading1 mb-40">Special Messaging</div>
+                                <div className="spMsg-text1 mb-40">
+                                    The global mobile marketing market size to be valued at USD 337.8 billion by 2027 and is expected to grow at a compound annual growth rate (CAGR) of 22.9% during the forecast period. Mobile marketing is a multi-channel digital promotional activity to reach the target audience through their mobile devices, via email, SMS and MMS, social media, websites, and apps.
                                 </div>
                             </div>
                         </Grid>

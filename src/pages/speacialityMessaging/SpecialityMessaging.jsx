@@ -49,7 +49,7 @@ export default function SpecialityMessaging() {
             <Grid item sm={7} xs={12}>
               <div className="message360Padding">
 
-                <div className="message360-heading1 mb-40">Specialty Messaging</div>
+                <div className="message360-heading1 mb-40">Special Messaging</div>
                 <div className="spMsg-text1 mb-40">
                   The global mobile marketing market size to be valued at USD 337.8 billion by 2027 and is expected to grow at a compound annual growth rate (CAGR) of 22.9% during the forecast period. Mobile marketing is a multi-channel digital promotional activity to reach the target audience through their mobile devices, via email, SMS and MMS, social media, websites, and apps.
                 </div>
