@@ -64,12 +64,12 @@ export default function NavBar({ active, hideModal, hideNote }) {
 
     return (
         <div className="navBar-Parent">
-            {!hideNote && <div className="navBar-note"
+            {/* {!hideNote && <div className="navBar-note"
                 style={{
                     display: showNote ? 'block' : 'none',
                     opacity: (activeLink === '') ? 1 : 0.3,
                 }}
-            >🚀 The Winter '24 Release is here — with smarter bill pay, spend limits, and more </div>}
+            >🚀 The Winter '24 Release is here — with smarter bill pay, spend limits, and more </div>} */}
             <div className="navBar">
                 <div className="icon">
                     {(menu === false) ? <MenuIcon onClick={() => setMenu(!menu)} /> : <CloseIcon onClick={() => setMenu(!menu)} />}
