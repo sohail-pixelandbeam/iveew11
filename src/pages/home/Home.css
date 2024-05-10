@@ -42,6 +42,14 @@
 
 /* section 2  */
 
+.home-sec2-partners-label{
+    text-align: center;
+    font-size: 30px;
+    font-family: Poppins-Bold;
+    margin-top: 30px;
+    /* color: #F56B3F; */
+}
+
 .home-sec2-box {
     background-color: #FFFFFF;
     /* text-align: center; */

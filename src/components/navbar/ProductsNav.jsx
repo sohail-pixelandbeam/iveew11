@@ -343,7 +343,11 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                 {applications1.map(item => (
                                                     <div className="naved-item" key={item.label}
                                                         onMouseEnter={() => setHovered(item.label)}
-                                                        onClick={() => handleNavigation(item?.to)}
+                                                        onClick={() => {
+                                                            if(item?.label !== 'Partners'){
+                                                                handleNavigation(item?.to)
+                                                            }
+                                                        }}
                                                     >
                                                         <div className="naved-img-box">
                                                             {hovered === item.label ? <img src={item.active} alt="img" /> :

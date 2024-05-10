@@ -124,7 +124,6 @@ export default function Home() {
                 {/* section 2  */}
                 <section className='home-sec2-box padding'>
                     <div className="global-heading1 mb-8per" >Partners</div>
-                    {/* <div className="home-sec2-text">Trusted Partners</div> */}
                     <div className='home-sec2-imgs' >
                         <Grid container spacing={5}>
                             <Grid item sm={4} xs={12}>
@@ -158,6 +157,9 @@ export default function Home() {
                                 </div>
                             </Grid>
                         </Grid>
+                        <div className='global-heading2' >
+                            More on the Way
+                        </div>
                     </div>
                     {/* section 2 watch */}
                     <div className='home-sec2-watch-main' >
@@ -181,7 +183,7 @@ export default function Home() {
                                         {isVideoPlaying ? (
                                             <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
                                         ) : (
-                                            <img src={imgWatch}  alt="Thumbnail" onClick={handleThumbnailClick} />
+                                            <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
                                         )}
                                     </div>
                                     {/* <img src={imgWatch} alt="imgWatch" className='home-watch-img1' /> */}
