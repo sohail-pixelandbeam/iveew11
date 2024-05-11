@@ -19,7 +19,7 @@ export default function GeoFencing() {
     }, [])
     return (
         <>
-            <AutoScroll />
+            {/* <AutoScroll /> */}
             <NavBar hideModal={hideModal} hideNote={true} />
             {/* section 1  */}
             <section className='bookingEngineWidget-hero'>
