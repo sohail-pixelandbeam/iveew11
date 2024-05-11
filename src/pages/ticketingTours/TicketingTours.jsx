@@ -117,7 +117,7 @@ export default function TicketingTours() {
             </section>
             {/* section 2  */}
             <section className="padding">
-                <div className="global-heading1 mb-8per" >Over a 100,000 tickets, tours & activities
+                <div className="global-heading1 mb-8per" >Over a 150,000 tickets, tours & activities
                 </div>
                 <Grid container spacing={5}>
                     <Grid item sm={2.5} xs={12} >
@@ -168,7 +168,31 @@ export default function TicketingTours() {
                 <div className="global-heading1 mb-8per" style={{ marginTop: '-50px' }}>
                     Inspirations for hotel websites
                 </div>
-                <div className="tta-sec3-upper">
+                <div className='mt-8per'>
+                    <Grid container spacing={5}>
+                        <Grid item sm={6} xs={12}>
+                            <div className="message360Padding ">
+                                <img src={ttaImg4} alt="img" />
+                            </div>
+                        </Grid>
+                        <Grid item sm={6} xs={12}>
+                            <div>
+                                <div className="tta-sec3-upper-heading ">Underwater Adventure</div>
+                                <div>
+                                    Dive into the depths of excitement with our underwater adventure experiences! Explore vibrant coral reefs teeming with life, encounter majestic marine creatures, and uncover hidden treasures beneath the waves. Whether you're a seasoned diver or a first-time explorer, our thrilling expeditions promise unforgettable moments beneath the sea. Join us and embark on an aquatic journey like no other, where every dive is an opportunity for discovery and wonder.
+                                </div>
+                                <div className="tta-sec3-upper-heading">Highlights of tours and activities
+                                </div>
+                                <ul>
+                                    <li>1,600 destinations</li>
+                                    <li>Book online</li>
+                                    <li>Confirmed immediately</li>
+                                </ul>
+                            </div>
+                        </Grid>
+                    </Grid>
+                </div>
+                {/* <div className="tta-sec3-upper">
                     <img src={ttaImg4} alt="img" />
                     <div className="tta-sec3-upper-heading ">Underwater Adventure</div>
                     <div>
@@ -181,7 +205,7 @@ export default function TicketingTours() {
                         <li>Book online</li>
                         <li>Confirmed immediately</li>
                     </ul>
-                </div>
+                </div> */}
                 <div className="tta-sec3-bottom">
                     <div className="tta-sec3-header-box">
                         <img src={locationImg} alt="img" />
@@ -205,12 +229,12 @@ export default function TicketingTours() {
             </section>
             {/* section 4  */}
             <div className="padding">
-                 {/* 1st  */}
-                 <div>
+                {/* 1st  */}
+                <div>
                     <Grid container spacing={5}>
                         <Grid item sm={6} xs={12}>
                             <div className="message360Padding marginT-mobile">
-                                <img src={ttaImg5 } alt="img" />
+                                <img src={ttaImg5} alt="img" />
                             </div>
                         </Grid>
                         <Grid item sm={6} xs={12}>
@@ -229,7 +253,7 @@ export default function TicketingTours() {
                     <Grid container spacing={5}>
                         {isMobile && <Grid item sm={6} xs={12}>
                             <div className="message360Padding marginT-mobile">
-                                <img src={ttaImg6 } alt="img" />
+                                <img src={ttaImg6} alt="img" />
                             </div>
                         </Grid>}
                         <Grid item sm={6} xs={12}>
@@ -237,11 +261,11 @@ export default function TicketingTours() {
 
                                 <div className="message360-heading1 mb-40">Coral World</div>
                                 <div className="spMsg-text1 mb-40">
-                                    Coral World is located in the Island of St. Thomas United States Virgin Islands. The museum and park's structure consists of an over-water floor with gift shops, resturants, exhibitions, a touch pool and an underwater observatory where tourists can see non-captive fish going about their lives. 
+                                    Coral World is located in the Island of St. Thomas United States Virgin Islands. The museum and park's structure consists of an over-water floor with gift shops, resturants, exhibitions, a touch pool and an underwater observatory where tourists can see non-captive fish going about their lives.
                                     <br /><br />
                                     Coral World was inauguated in the 1970s. It has been one of St. Thomas' most important tourist attractions since then. In the 1990s world boxing champions julian jackson the third boxer from the Virgin islands to become a world champion and a big celebrity in St. Thomas was  hired as a  worker, to attract more tourists to the site.
                                     <br /><br /><br />
-                                    <font style={{fontFamily:'Poppins-SemiBold', fontSize:'20px'}}>Under Water Marine World Park</font>
+                                    <font style={{ fontFamily: 'Poppins-SemiBold', fontSize: '20px' }}>Under Water Marine World Park</font>
                                     <br /><br />
                                     The only one of kind in the Caribbean our air conditioned Under-sea Observatory Tower stands 100 feet offshore. Descend 15 feet  beneath the sea to the Undersea Observatory and view the ever changing life on a natural coral reef. At mid-level visit the Deep Reef Tank adn from the top level enjoy spectacular views of the St. Thomas shoreline and neighboring islands.
                                 </div>
@@ -249,7 +273,7 @@ export default function TicketingTours() {
                         </Grid>
                         {!isMobile && <Grid item sm={6} xs={12}>
                             <div className="message360Padding marginT-mobile">
-                                <img src={ttaImg6 } alt="img" />
+                                <img src={ttaImg6} alt="img" />
                             </div>
                         </Grid>}
                     </Grid>

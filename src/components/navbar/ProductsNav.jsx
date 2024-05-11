@@ -265,7 +265,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             active: active14,
             label: 'Messaging',
             to: '/SpecialityMessaging',
-            description: "1:1 \n Blast-M \n Special Occasions"
+            description: "1:1 \n  Blast-M \n Bulk Messaging "
         },
         {
             icon: icon9,
@@ -344,7 +344,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                     <div className="naved-item" key={item.label}
                                                         onMouseEnter={() => setHovered(item.label)}
                                                         onClick={() => {
-                                                            if(item?.label !== 'Partners'){
+                                                            if (item?.label !== 'Partners') {
                                                                 handleNavigation(item?.to)
                                                             }
                                                         }}
@@ -374,7 +374,9 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                         </div>
                                                         <div>
                                                             <div className="naved-item-label">{item?.label}</div>
-                                                            <div className="naved-item-description">{item?.description}</div>
+                                                            {item?.description.split('\n').map((line, index) => (
+                                                                <div key={index} className="naved-item-description">{line}</div>
+                                                            ))}
                                                         </div>
 
                                                     </div>

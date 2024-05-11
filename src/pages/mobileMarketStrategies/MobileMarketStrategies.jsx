@@ -141,7 +141,7 @@ export default function MobileMarketStrategies() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-rightBox">
                             <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Guest Direct</div>
-                            <div>Communicating with guests has never been easier.  Our Guest Return-360  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60 days.  You have full control of all communication and offers that are sent out.
+                            <div>Communicating with guests has never been easier.  Our Guest Direct  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60 days.  You have full control of all communication and offers that are sent out.
                                 <br /><br />
                                 AI insights allow you to:
 
