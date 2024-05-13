@@ -22,7 +22,7 @@ export default function GeoConquestiong() {
                         <br className='desktop' /> Conquesting</div>
                 </div>
             </section>
-            {/* section 2  */}
+            {/* section 2 */}
             <section className="padding ">
                 <div className="global-heading1 mb-8per">Learn more about Guest <br className="desktop" />
                     Geo Conquesting</div>
