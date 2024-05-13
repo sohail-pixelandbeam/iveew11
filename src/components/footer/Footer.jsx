@@ -50,7 +50,7 @@ export default function Footer() {
                         <div className="f-link" onClick={()=>handleNavigate('/')} >Customer Hub</div>
                         <div className="f-link" onClick={()=>handleNavigate('/')} >Help center</div>
                         <div className="f-link" onClick={()=>handleNavigate('/')} >Status</div>
-                        <div className="f-link" onClick={()=>handleNavigate('/')} >Privacy</div>
+                        <div className="f-link" onClick={()=>handleNavigate('/Privacy')} >Privacy</div>
                     </Grid>
                 </Grid>
                 <div className='f-bottom'>
@@ -64,12 +64,12 @@ export default function Footer() {
                                 <img src={social5} alt="social" />
                             </div>
                         </Grid>
-                        <Grid item sm={8} xs={12} >
+                        {/* <Grid item sm={8} xs={12} >
                             <div className="f-stores-imgs">
                                 <img src={appStore} alt="appStore" />
                                 <img src={playStore} alt="playStore" />
                             </div>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
                 </div>
             </div>

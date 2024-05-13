@@ -395,7 +395,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                         Coming Soon
                                                     </div>
                                                     <div className="naved-anouncement-content">
-                                                        Flight information widget can provide delays, cancellations and gate changes for your guests.  Male it easier for your guests to receive their travel information.
+                                                        Flight information widget can provide delays, cancellations and gate changes for your guests.  Makes it easier for your guests to receive their travel information.
                                                         <br /><br />
                                                         Links for:
                                                         <ul>

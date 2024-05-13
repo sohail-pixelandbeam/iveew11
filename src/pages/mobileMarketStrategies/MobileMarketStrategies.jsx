@@ -129,6 +129,7 @@ export default function MobileMarketStrategies() {
                     </div>
                 </div>
             </section> */}
+         
             {/* section 4  */}
 
             <section className="padding ">
@@ -167,31 +168,7 @@ export default function MobileMarketStrategies() {
                     </Grid>
                 </Grid>
             </section>
-            {/* 5th  */}
-            <div className="mb-8per">
-                <Grid container spacing={5}>
-                    {isMobile && <Grid item sm={6} xs={12}>
-                        <div className="message360Padding marginT-mobile">
-                            <img src={spMsgImg5} alt="img" width='90%' />
-                        </div>
-                    </Grid>}
-                    <Grid item sm={6} xs={12}>
-                        <div className="message360Padding">
-                            <div className="message360-heading1 spMsgcontentTopMargin mb-40">Reputation Management</div>
-                            <div className="spMsg-text1 mb-40">
-                                A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
-                                <br /> <br />
-                                There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
-                            </div>
-                        </div>
-                    </Grid>
-                    {!isMobile && <Grid item sm={6} xs={12}>
-                        <div className="message360Padding">
-                            <img src={spMsgImg5} alt="img" width='90%' />
-                        </div>
-                    </Grid>}
-                </Grid>
-            </div>
+
             {/* extra  */}
 
             {/* section 2  */}
@@ -313,26 +290,33 @@ export default function MobileMarketStrategies() {
                     </Grid>
                 </div>
 
-                {/* 2nd  */}
-                <div className='mt-8per'>
-                    <Grid container spacing={5}>
-                        <Grid item sm={5} xs={12}>
-                            <div className="message360Padding ">
-                                <img src={msgSegImg2} alt="img" />
+                   {/* 5th  */}
+            <div className="mb-8per">
+                <Grid container spacing={5}>
+                    {isMobile && <Grid item sm={6} xs={12}>
+                        <div className="message360Padding marginT-mobile">
+                            <img src={spMsgImg5} alt="img" width='90%' />
+                        </div>
+                    </Grid>}
+                    <Grid item sm={6} xs={12}>
+                        <div className="message360Padding">
+                            <div className="message360-heading1 spMsgcontentTopMargin mb-40">Recent Survey</div>
+                            <div className="spMsg-text1 mb-40">
+                                A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
+                                <br /> <br />
+                                There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
                             </div>
-                        </Grid>
-                        {!isMobile && <Grid xs={1} />}
-                        <Grid item sm={6} xs={12}>
-                            <div className="message360Padding">
-
-                                <div className="message360-heading1 mb-40">Effective market segmentation    </div>
-                                <div className="spMsg-text1 mb-40">
-                                    Effective market segmentation relies on careful analysis of various demographic, geographic, psychographic, and behavioral factors to identify meaningful differences among consumers. Through segmentation, businesses can identify niche markets with unmet needs or underserved segments where they can gain a competitive advantage.
-                                </div>
-                            </div>
-                        </Grid>
+                        </div>
                     </Grid>
-                </div>
+                    {!isMobile && <Grid item sm={6} xs={12}>
+                        <div className="message360Padding">
+                            <img src={spMsgImg5} alt="img" width='90%' />
+                        </div>
+                    </Grid>}
+                </Grid>
+            </div>
+
+               
 
                 {/* 3rd  */}
                 <div className="mb-8per mt-8per">
@@ -345,7 +329,7 @@ export default function MobileMarketStrategies() {
                         <Grid item sm={7} xs={12}>
                             <div className="message360Padding">
 
-                                <div className="message360-heading1 mb-40">Special Messaging</div>
+                                <div className="message360-heading1 mb-40">Specialty Messaging</div>
                                 <div className="spMsg-text1 mb-40">
                                     The global mobile marketing market size to be valued at USD 337.8 billion by 2027 and is expected to grow at a compound annual growth rate (CAGR) of 22.9% during the forecast period. Mobile marketing is a multi-channel digital promotional activity to reach the target audience through their mobile devices, via email, SMS and MMS, social media, websites, and apps.
                                 </div>
