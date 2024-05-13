@@ -119,6 +119,7 @@ export default function Personalization() {
                                 <img src={personalizationImg2} alt="img" />
                             </div>
                             {/* 2nd img  */}
+                            
                             <div className="message360Padding mt-8per">
                                 <img src={personalizationImg3} alt="img" />
                             </div>
