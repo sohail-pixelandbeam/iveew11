@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import guestRecImg2 from '../../assets/imgs/guestRecImg2.png'
 import perImg1 from '../../assets/imgs/perImg1.png'
 import personalizationImg2 from '../../assets/imgs/personalizationImg2.png'
+import personalizationImg3 from '../../assets/imgs/personalizationImg3.png'
 import { Grid } from '@mui/material'
 import Btn from '../../components/btn/Btn'
 import NavBar from '../../components/navbar/Navbar'
@@ -116,6 +117,9 @@ export default function Personalization() {
                         <Grid item sm={12} xs={12}>
                             <div className="message360Padding">
                                 <img src={personalizationImg2} alt="img" />
+                            </div>
+                            <div className="message360Padding mt-8per">
+                                <img src={personalizationImg3} alt="img" />
                             </div>
                         </Grid>
                     </Grid>
