@@ -291,13 +291,13 @@ export default function MobileMarketStrategies() {
                 </div>
 
                    {/* 5th  */}
-            <div className="mb-8per">
+            <div className="mb-8per mt-8per">
                 <Grid container spacing={5}>
-                    {isMobile && <Grid item sm={6} xs={12}>
+                  <Grid item sm={6} xs={12}>
                         <div className="message360Padding marginT-mobile">
                             <img src={spMsgImg5} alt="img" width='90%' />
                         </div>
-                    </Grid>}
+                    </Grid>
                     <Grid item sm={6} xs={12}>
                         <div className="message360Padding">
                             <div className="message360-heading1 spMsgcontentTopMargin mb-40">Recent Survey</div>
@@ -308,11 +308,6 @@ export default function MobileMarketStrategies() {
                             </div>
                         </div>
                     </Grid>
-                    {!isMobile && <Grid item sm={6} xs={12}>
-                        <div className="message360Padding">
-                            <img src={spMsgImg5} alt="img" width='90%' />
-                        </div>
-                    </Grid>}
                 </Grid>
             </div>
 
@@ -321,11 +316,11 @@ export default function MobileMarketStrategies() {
                 {/* 3rd  */}
                 <div className="mb-8per mt-8per">
                     <Grid container spacing={5}>
-                        <Grid item sm={5} xs={12}>
+                        {isMobile && <Grid item sm={5} xs={12}>
                             <div className="message360Padding marginT-mobile">
                                 <img src={spMsgImg2} alt="img" />
                             </div>
-                        </Grid>
+                        </Grid>}
                         <Grid item sm={7} xs={12}>
                             <div className="message360Padding">
 
@@ -335,6 +330,11 @@ export default function MobileMarketStrategies() {
                                 </div>
                             </div>
                         </Grid>
+                        {!isMobile && <Grid item sm={5} xs={12}>
+                            <div className="message360Padding marginT-mobile">
+                                <img src={spMsgImg2} alt="img" />
+                            </div>
+                        </Grid>}
                     </Grid>
                 </div>
             </section>
