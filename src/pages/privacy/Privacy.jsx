@@ -7,6 +7,7 @@ export default function Privacy() {
         <>
             <NavBar />
             <section className="padding">
+                <div className="global-heading1 mb-40r ">Privacy Policy</div>
                 <div className='mt-40'>
                     Compliance with the following guidelines for the US, Canada & EU
                     <br /><br />
