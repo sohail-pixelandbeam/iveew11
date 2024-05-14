@@ -387,7 +387,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                             <div className='naved-anouncements-box'>
                                                 <div className="naved-anouncements-heading-box">
                                                     <div>Anouncements</div>
-                                                    <div className='anouncements-view-all'>View all <ArrowForwardIcon fontSize='small' /> </div>
+                                                    {/* <div className='anouncements-view-all'>View all <ArrowForwardIcon fontSize='small' /> </div> */}
                                                 </div>
                                                 <div className="naved-anouncement">
                                                     <div className="naved-anouncement-heading">

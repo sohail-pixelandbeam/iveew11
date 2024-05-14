@@ -30,36 +30,13 @@ import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
 import SliderCustom from '../../components/sliderCustom/SliderCustom'
 import { useNavigate } from 'react-router-dom';
 import AutoScroll from '../../components/autoScroll/AutoScroll';
+import pricingData from '../../assets/json/pricingData.json'
+
 
 export default function Home() {
     let [hideModal, setHideModal] = useState(true);
     const navigate = useNavigate()
-    const pricingData = [
-        {
-            heading: "SMB-Essentials",
-            explanation: "Per Location",
-            price: "$350/month per location",
-            btnLabel: "Set-up account to get started",
-            features: ['Messaging', 'Market Segmentation', 'Personalization', 'Reputation Management', 'Booking/Purchase Confirmation', 'Chatbot AI', 'QR Platform (20 Codes)'],
-            specialNote: 'Select 4'
-        },
-        {
-            heading: "SME-Premium",
-            explanation: "Per Location",
-            price: "$450/month per location",
-            btnLabel: "Contact sales",
-            features: ['Customer Recognition', 'Blast-M', 'Message-360', 'Loyality Integration', 'Geofencing', 'Voucher & Gift Cards'],
-            specialNote: 'Select 4',
-        },
-        {
-            heading: "Enterprise",
-            explanation: "Per Location",
-            price: "$700/month per location",
-            btnLabel: "Contact sales",
-            features: ['Inspirations', 'Asset Tracking', 'RFID (100 tags)', 'QR Platform (100 Codes)'],
-            specialNote: 'All Platforms',
-        },
-    ]
+ 
 
     const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
@@ -229,7 +206,6 @@ export default function Home() {
                                                 features={item.features}
                                                 btnLabel={item.btnLabel}
                                                 note={item?.specialNote}
-                                                price={item.price}
                                                 explanation={item.explanation}
                                             />
                                         </Grid>

@@ -38,7 +38,7 @@ export default function Footer() {
                         <div className="f-link-description">
                             Sorry, it’s for our customers!
 
-                            Fill out this form and we will set up an appointment.
+                            Fill out this form and will set up an appointment.
 
                         </div>
                         <div className="f-link" onClick={() => handleNavigate('/')} >Status</div>
@@ -84,8 +84,8 @@ export default function Footer() {
                         <Grid item sm={2.5} xs={12} >
                             <div className="f-bottom-socials">
                                 <img src={social1} alt="social" />
-                                <img src={social2} alt="social" />
-                                <img src={social3} alt="social" />
+                                {/* <img src={social2} alt="social" /> */}
+                                {/* <img src={social3} alt="social" /> */}
                                 <img src={social4} alt="social" />
                                 <img src={social5} alt="social" />
                             </div>

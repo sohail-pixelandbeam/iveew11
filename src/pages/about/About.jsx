@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import NavBar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 
 export default function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
             <NavBar />
@@ -14,7 +17,7 @@ export default function About() {
 
                     ai-  Personalization Engine connected to guest pre-arrival at their destination.  Automated functionality behind it connects at various times prior to arrival, upon arrival at the hotel or business.
                     <br /><br />
-                    ai- Merchandising that includes over 250,000 + tickets, tours and activities covering over 1600 destinations around the world.  In 20 languages and over 100 currencies.
+                    ai- Merchandising that includes over 150,000 + tickets, tours and activities covering over 1600 destinations around the world.  In 20 languages and over 100 currencies.
                     <br /><br />
                     ai- Messaging with built-in applications with easy to complete widgets that include geo-fencing of properties, market segmentation, hyper local offers,1:1 messaging, bulk messaging , guest direct and more.
                     <br /><br />

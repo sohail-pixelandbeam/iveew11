@@ -1,0 +1,45 @@
+[
+    {
+        "heading": "SMB-Essentials",
+        "explanation": "Per Location",
+        "price": "$350/month per location",
+        "btnLabel": "Set-up account to get started",
+        "features": [
+            "Messaging",
+            "Market Segmentation",
+            "Personalization",
+            "Reputation Management",
+            "Booking/Purchase Confirmation"
+        ],
+        "specialNote": "Select 4"
+    },
+    {
+        "heading": "SME-Premium",
+        "explanation": "Per Location",
+        "price": "$450/month per location",
+        "btnLabel": "Contact sales",
+        "features": [
+            "Customer Recognition",
+            "Blast-M",
+            "Message-360",
+            "Loyality Integration",
+            "Geofencing",
+            "Voucher & Gift Cards"
+        ],
+        "specialNote": "Select 4"
+    },
+    {
+        "heading": "Enterprise",
+        "explanation": "Per Location",
+        "price": "$700/month per location",
+        "btnLabel": "Contact sales",
+        "features": [
+            "Inspirations",
+            "Asset Tracking",
+            "RFID (100 tags)",
+            "QR Platform (20 Codes)",
+            "Chatbot AI"
+        ],
+        "specialNote": "All Platforms"
+    }
+]

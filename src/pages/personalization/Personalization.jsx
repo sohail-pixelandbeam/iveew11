@@ -105,11 +105,11 @@ export default function Personalization() {
                                         <li>Automation is key to being successful with Personalization
                                         </li>
                                         <li>AI can identify their interest and automatically send personalized product information via email or SMS </li>
-                                        <li>Tickets Activities, Adventures & Tours in over 2,000 destinations
+                                        <li>Tickets Activities, Adventures & Tours in over 130 countries
                                         </li>
-                                        <li>Message platform serves over 2,000 destinations
+                                        <li>Message platform serves over 130 countries
                                         </li>
-                                        <li>Currency in over 1,000</li>
+                                        <li>Currency in over 100 countries</li>
                                     </ul>
                                 </div>
                             </div>
