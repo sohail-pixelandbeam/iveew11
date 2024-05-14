@@ -21,6 +21,7 @@ import TicketingTours from '../pages/ticketingTours/TicketingTours';
 import GeoFencing from '../pages/geoReferencing/GeoFencing';
 import Privacy from '../pages/privacy/Privacy';
 import About from '../pages/about/About';
+import Partners from '../pages/partners/Partners';
 
 
 
@@ -49,6 +50,7 @@ export default function AppRouter() {
                     <Route path='/GuestReturn360' element={<GuestReturn360 />}></Route>
                     <Route path='/Privacy' element={<Privacy />}></Route>
                     <Route path='/About' element={<About/>}></Route>
+                    <Route path='/Partners' element={<Partners/>}></Route>
                     <Route path='/GeoConquesting' element={<GeoConquestiong/>}></Route>
                     <Route path='/TickeitngTours' element={<TicketingTours/>}></Route> 
                     <Route path='/SignUp' element={<SignUp />}></Route>

@@ -85,15 +85,6 @@ export default function NavBar({ active, hideModal, hideNote }) {
                         </div>}
                         <div
                             className="link-nb"
-                            onMouseEnter={() => onCursorEnter('Home')}
-                            onClick={() => {
-                                onCursorEnter('Home');
-                                navigate('/');
-                            }}
-                        >Home
-                        </div>
-                        <div
-                            className="link-nb"
                             onMouseEnter={() => onCursorEnter('Products')}
                             onClick={() => onCursorEnter('Products')}
                         >Applications

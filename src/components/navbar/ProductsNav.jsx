@@ -55,169 +55,12 @@ export default function ProductsNav({ showNote, setActiveLink }) {
     const navigate = useNavigate();
 
 
-    const data1 = [
-        {
-            icon: icon2,
-            active: active2,
-            label: '1-1 Message',
-            to: '/'
-        },
-        {
-            icon: icon3,
-            active: active3,
-            label: 'Message Market Segmentaion',
-            to: '/MessageMarketSegmentation'
-        },
-        {
-            icon: icon4,
-            active: active4,
-            label: 'Blast-M',
-            to: '/'
-        },
-        {
-            icon: icon5,
-            active: active5,
-            label: 'Booking Engine-Script',
-            to: '/BookingEngineScript'
-        },
-
-    ]
-    const data2 = [
-        {
-            icon: icon6,
-            active: active6,
-            label: 'Guest Return (OTA Con)',
-            to: '/'
-        },
-        {
-            icon: icon7,
-            active: active7,
-            label: 'Guest Recognition',
-            to: '/GuestRecognition'
-        },
-        {
-            icon: icon8,
-            active: active8,
-            label: 'Special Occasions',
-            to: '/'
-        },
-
-        {
-            icon: icon9,
-            active: active9,
-            label: 'Voucher-Loyalty-Gift cards',
-            to: '/'
-        },
-        {
-            icon: icon19,
-            active: active19,
-            label: 'Mobile Market Strategies',
-            to: '/MobileMarketStrategies'
-        },
-    ]
-
-    const data3 = [
-        {
-            icon: icon11,
-            active: active11,
-            label: 'Geo-fencing',
-            to: '/GeoFencing'
-        },
-        {
-            icon: icon12,
-            active: active12,
-            label: 'Geo-Location Messaging ',
-            to: '/GeoLocationMessaging'
-        },
-        {
-            icon: icon13,
-            active: active13,
-            label: 'Chatbot AI',
-            to: '/AIBot'
-        },
-        {
-            icon: icon14,
-            active: active14,
-            label: 'Messaging',
-            to: '/SpecialityMessaging',
-        },
-
-    ]
-    const data4 = [
-
-        {
-            icon: icon15,
-            active: active15,
-            label: 'Confirmations & Vouchers',
-            to: '/'
-        },
-        {
-            icon: icon16,
-            active: active16,
-            label: 'Merchandising',
-            to: '/'
-        },
-        {
-            icon: icon17,
-            active: active17,
-            label: 'RFID - Marketing',
-            to: '/'
-        },
-        {
-            icon: icon18,
-            active: active18,
-            label: 'QR Platform',
-            to: '/'
-        },
-        {
-            icon: icon10,
-            active: active10,
-            label: 'Personalization',
-            to: '/'
-        },
-
-    ]
-
-    const data5 = [
-        {
-            icon: icon20,
-            active: active20,
-            label: 'Internet Booking Engine',
-            to: '/BookingEngineWidget'
-        },
-        {
-            icon: icon12,
-            active: active12,
-            label: 'Geo-Location Messaging ',
-            to: '/GeoLocationMessaging'
-        },
-        {
-            icon: icon14,
-            active: active14,
-            label: 'Messaging',
-            to: '/SpecialityMessaging',
-        },
-        {
-            icon: icon9,
-            active: active9,
-            label: 'Voucher-Loyalty-Gift cards',
-            to: '/'
-        },
-        {
-            icon: icon8,
-            active: active8,
-            label: 'Special Occasions',
-            to: '/'
-        },
-
-    ]
-
     const applications1 = [
         {
             icon: icon18,
             active: active18,
             label: 'Partners',
-            to: '/',
+            to: '/Partners',
             description: 'Integration with a quality of suppliers, providing over 20,000 hotel PMS and 100,000 tickets, tours and activities'
         },
         {
@@ -245,14 +88,6 @@ export default function ProductsNav({ showNote, setActiveLink }) {
     ]
 
     const applications2 = [
-        {
-            icon: icon3,
-            active: active3,
-            label: 'Market Segmentation',
-            to: '/MessageMarketSegmentation',
-            description: 'Personalization leads to knowing your guest, which serves up more segmented offers, which increase guest experiences'
-        },
-
         {
             icon: icon12,
             active: active12,
@@ -343,11 +178,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                 {applications1.map(item => (
                                                     <div className="naved-item" key={item.label}
                                                         onMouseEnter={() => setHovered(item.label)}
-                                                        onClick={() => {
-                                                            if (item?.label !== 'Partners') {
-                                                                handleNavigation(item?.to)
-                                                            }
-                                                        }}
+                                                        onClick={() => { handleNavigation(item?.to)}}
                                                     >
                                                         <div className="naved-img-box">
                                                             {hovered === item.label ? <img src={item.active} alt="img" /> :

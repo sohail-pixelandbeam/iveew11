@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './MobileMarketStrategies.css'
 import { Grid } from '@mui/material'
-import Btn from '../../components/btn/Btn'
 import NavBar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import useIsMobile from '../../hooks/useIsMobile'
@@ -11,12 +10,6 @@ import guestReturnImg1 from '../../assets/imgs/guestReturnImg.jpg';
 import msgSegImg2 from '../../assets/imgs/msgSegImg2.png'
 import msgSegImg3 from '../../assets/imgs/msgSegImg3.png'
 import spMsgImg2 from '../../assets/imgs/spMsgImg2.png'
-import msgMarketSegImg from '../../assets/imgs/msgMarketSegImg.png'
-import InputIcon from '../../components/inputIcon/InputIcon'
-import SelectBox from '../../components/selectBox/SelectBox'
-import languages from '../../assets/json/languages.json';
-import EastIcon from '@mui/icons-material/East';
-
 
 export default function MobileMarketStrategies() {
     let [gender, setGender] = useState('')
@@ -267,6 +260,25 @@ export default function MobileMarketStrategies() {
                 </div> */}
 
                 {/* 1st  */}
+                <div className='mt-8per'>
+                    <Grid container spacing={5}>
+                        <Grid item sm={5} xs={12}>
+                            <div className="message360Padding ">
+                                <img src={msgSegImg3} alt="img" />
+                            </div>
+                        </Grid>
+                        {!isMobile && <Grid xs={1} />}
+                        <Grid item sm={6} xs={12}>
+                            <div className="message360Padding">
+
+                                <div className="message360-heading1 mb-40">Effective market segmentation    </div>
+                                <div className="spMsg-text1 mb-40">
+                                    Effective market segmentation relies on careful analysis of various demographic, geographic, psychographic, and behavioral factors to identify meaningful differences among consumers. Through segmentation, businesses can identify niche markets with unmet needs or underserved segments where they can gain a competitive advantage.
+                                </div>
+                            </div>
+                        </Grid>
+                    </Grid>
+                </div>
                 <div className='mt-8per'>
                     <Grid container spacing={5}>
                         {isMobile && <Grid item sm={6} xs={12}>

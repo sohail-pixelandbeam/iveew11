@@ -2,34 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Home.css';
 import NavBar from '../../components/navbar/Navbar';
 import { Grid } from '@mui/material';
-import Btn from '../../components/btn/Btn';
 import imgWatch from '../../assets/imgs/imgWatch.png'
-import img9 from '../../assets/imgs/img9.png';
-import img10 from '../../assets/imgs/img10.png';
-import img11 from '../../assets/imgs/img11.png';
-import img12 from '../../assets/imgs/img12.png';
-import img13 from '../../assets/imgs/img13.png';
-import img14 from '../../assets/imgs/img14.png';
-import img15 from '../../assets/imgs/img15.png';
-import img16 from '../../assets/imgs/img16.png';
-import affImg1 from '../../assets/imgs/affImg1.jpeg'
-import affImg2 from '../../assets/imgs/affImg2.jpeg'
-import affImg3 from '../../assets/imgs/affImg3.jpeg'
-import affImg4 from '../../assets/imgs/affImg4.png'
-import affImg5 from '../../assets/imgs/affImg5.png'
-import affImg6 from '../../assets/imgs/affImg6.png'
-import { CardLeft } from './CardLeft';
-import { CardRight } from './CardRight';
-import EastIcon from '@mui/icons-material/East';
 import PricingCard from './PricingCard';
 import Footer from '../../components/footer/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SliderCustom2 from '../../components/sliderCustom2/SliderCustom2';
 import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
-import SliderCustom from '../../components/sliderCustom/SliderCustom'
 import { useNavigate } from 'react-router-dom';
-import AutoScroll from '../../components/autoScroll/AutoScroll';
 import pricingData from '../../assets/json/pricingData.json'
 
 
@@ -100,44 +79,7 @@ export default function Home() {
                 </section>
                 {/* section 2  */}
                 <section className='home-sec2-box padding'>
-                    <div className="global-heading1 mb-8per" >Partners</div>
-                    <div className='home-sec2-imgs' >
-                        <Grid container spacing={5}>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg1} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg2} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg3} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg4} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg5} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg6} alt="companies" />
-                                </div>
-                            </Grid>
-                        </Grid>
-                        <div className='global-heading2' >
-                            More on the Way
-                        </div>
-                    </div>
+                    
                     {/* section 2 watch */}
                     <div className='home-sec2-watch-main' >
                         <div className="home-sec2-watch-box">
@@ -184,35 +126,6 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                    </div>
-                </section>
-
-                {/* section 3  */}
-
-
-                {/* section 7  */}
-                <section>
-                    <div className="home-sec7-box padding">
-                        <div className="global-heading1">Everything you need to <br /> spend smart.</div>
-                        <div className='margin-home'>
-                            <Grid container spacing={5}>
-                                {
-                                    pricingData.map(item => (
-                                        <Grid item md={4} sm={6} xs={12}
-                                            key={item.heading}>
-                                            <PricingCard
-                                                onClick={() => navigate('/Pricing')}
-                                                heading={item.heading}
-                                                features={item.features}
-                                                btnLabel={item.btnLabel}
-                                                note={item?.specialNote}
-                                                explanation={item.explanation}
-                                            />
-                                        </Grid>
-                                    ))
-                                }
-                            </Grid>
-                        </div>
                     </div>
                 </section>
                 {/* section 8  */}
