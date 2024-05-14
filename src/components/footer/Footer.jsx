@@ -20,7 +20,7 @@ export default function Footer() {
     }
     return (
         <div className='f-box'>
-            <div className="padding" style={{ paddingBottom: '3%' }}>
+            <div className="padding" style={{ paddingBottom: '2%' }}>
                 <Grid container spacing={3}>
                     <Grid item sm={2.5} xs={12} >
                         <img src={logo} alt="logo" className='f-logo' />
@@ -90,12 +90,6 @@ export default function Footer() {
                                 <img src={social5} alt="social" />
                             </div>
                         </Grid>
-                        {/* <Grid item sm={8} xs={12} >
-                            <div className="f-stores-imgs">
-                                <img src={appStore} alt="appStore" />
-                                <img src={playStore} alt="playStore" />
-                            </div>
-                        </Grid> */}
                     </Grid>
                 </div>
             </div>
