@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Grid } from '@mui/material'
 import affImg1 from '../../assets/imgs/affImg1.jpeg'
 import affImg2 from '../../assets/imgs/affImg2.jpeg'
@@ -10,6 +10,9 @@ import NavBar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 
 export default function Partners() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (<>
         <NavBar />
         <div className='home-sec2-box padding'>

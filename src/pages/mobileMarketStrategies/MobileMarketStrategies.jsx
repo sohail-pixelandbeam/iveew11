@@ -10,6 +10,7 @@ import guestReturnImg1 from '../../assets/imgs/guestReturnImg.jpg';
 import msgSegImg2 from '../../assets/imgs/msgSegImg2.png'
 import msgSegImg3 from '../../assets/imgs/msgSegImg3.png'
 import spMsgImg2 from '../../assets/imgs/spMsgImg2.png'
+import spMsgImg3 from '../../assets/imgs/spMsgImg3.png'
 
 export default function MobileMarketStrategies() {
     let [gender, setGender] = useState('')
@@ -347,6 +348,12 @@ export default function MobileMarketStrategies() {
                                 <img src={spMsgImg2} alt="img" />
                             </div>
                         </Grid>}
+                        <Grid item sm={12} xs={12}>
+                            <div className="message360Padding mt-40">
+                                <img src={spMsgImg3} alt="img" />
+                            </div>
+                           
+                        </Grid>
                     </Grid>
                 </div>
             </section>

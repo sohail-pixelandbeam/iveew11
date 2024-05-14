@@ -77,6 +77,11 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/MobileMarketStrategies',
             description: 'Encourage guests returns based on offers, convert OTA bookings to direct'
         },
+      
+
+    ]
+
+    const applications2 = [
         {
             icon: icon7,
             active: active7,
@@ -84,23 +89,12 @@ export default function ProductsNav({ showNote, setActiveLink }) {
             to: '/Personalization',
             description: 'P Engine-AI aids the process of selects various offers. Purchase In Hotel and 3rd party offers prior to arrival'
         },
-
-    ]
-
-    const applications2 = [
         {
             icon: icon12,
             active: active12,
             label: 'Geo Fencing',
             to: '/GeoFencing',
             description: 'Geofencing, Geoconquestions, Geolocation are all factors in using GeoOffers'
-        },
-        {
-            icon: icon14,
-            active: active14,
-            label: 'Messaging',
-            to: '/SpecialityMessaging',
-            description: "1:1 \n  Blast-M \n Bulk Messaging "
         },
         {
             icon: icon9,
@@ -226,7 +220,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                         Coming Soon
                                                     </div>
                                                     <div className="naved-anouncement-content">
-                                                        Flight information widget can provide delays, cancellations and gate changes for your guests.  Makes it easier for your guests to receive their travel information.
+                                                        Flight information widget can provide delays, cancellations and gate changes for your guests.  Make it easier for your guests to receive their travel information.
                                                         <br /><br />
                                                         Links for:
                                                         <ul>
