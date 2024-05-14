@@ -41,12 +41,12 @@ export default function GuestRecognition() {
                 {/* 1st  */}
                 <div>
                     <Grid container spacing={5}>
-                        <Grid item sm={5} xs={12}>
-                            <div className="message360Padding marginT-mobile">
-                                <img src={guestRecImg2} alt="img" />
+                        <Grid item sm={7} xs={12}>
+                            <div className=" marginT-mobile">
+                                <img src={guestRecImg2} alt="img" width='100%' />
                             </div>
                         </Grid>
-                        <Grid item sm={7} xs={12}>
+                        <Grid item sm={5} xs={12}>
                             <div className="message360Padding">
 
                                 <div className="message360-heading1 mb-40">Guest recognition</div>

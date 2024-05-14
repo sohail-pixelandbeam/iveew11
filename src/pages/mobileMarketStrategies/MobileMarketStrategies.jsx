@@ -142,7 +142,7 @@ export default function MobileMarketStrategies() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-rightBox">
                             <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Guest Direct</div>
-                            <div>Communicating with guests has never been easier.  Our Guest Direct  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60 days.  You have full control of all communication and offers that are sent out.
+                            <div>Communicating with guests has never been easier.  Our Guest Direct  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60+ days.  You have full control of all communication and offers that are sent out.
                                 <br /><br />
                                 AI insights allow you to:
 
@@ -271,7 +271,7 @@ export default function MobileMarketStrategies() {
                     <Grid container spacing={5}>
                         {isMobile && <Grid item sm={6} xs={12}>
                             <div className="message360Padding marginT-mobile ">
-                                <img src={msgSegImg3} alt="img" />
+                                <img src={msgSegImg2} alt="img" />
                             </div>
                         </Grid>}
                         <Grid item sm={6} xs={12}>
@@ -284,7 +284,7 @@ export default function MobileMarketStrategies() {
                         </Grid>
                         {!isMobile && <Grid item sm={6} xs={12}>
                             <div className="message360Padding ">
-                                <img src={msgSegImg3} alt="img" />
+                                <img src={msgSegImg2} alt="img" />
                             </div>
                         </Grid>}
                     </Grid>
@@ -300,7 +300,7 @@ export default function MobileMarketStrategies() {
                     </Grid>
                     <Grid item sm={6} xs={12}>
                         <div className="message360Padding">
-                            <div className="message360-heading1 spMsgcontentTopMargin mb-40">Recent Survey</div>
+                            <div className="message360-heading1 spMsgcontentTopMargin mb-40">Reputation Management</div>
                             <div className="spMsg-text1 mb-40">
                                 A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
                                 <br /> <br />
