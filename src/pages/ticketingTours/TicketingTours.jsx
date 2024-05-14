@@ -101,9 +101,10 @@ export default function TicketingTours() {
         },
 
     ]
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, [])
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <>
             <NavBar hideModal={true} />
