@@ -1,9 +1,14 @@
 import { Grid } from '@mui/material'
 import React from 'react'
 import EastIcon from '@mui/icons-material/East';
+import { useNavigate } from 'react-router-dom';
 
 
-export const CardRight = ({ img, heading, content }) => {
+export const CardRight = ({ img, heading, content,to }) => {
+    const navigate = useNavigate()
+    const handleNavigation = () => {
+        navigate(to)
+    }
     return (
         <div className='card-marginT'>
             <div>
@@ -12,7 +17,7 @@ export const CardRight = ({ img, heading, content }) => {
                         <div className="home-card-data">
                             <div className="home-card-heading">{heading}</div>
                             <div className="home-card-content">{content}</div>
-                            <div className="home-card-btnTxt">Explore iVeeW cards <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
+                            <div className="home-card-btnTxt" onClick={handleNavigation} >Explore More <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
                         </div>
                     </Grid>
                     <Grid item sm={6} xs={12}>

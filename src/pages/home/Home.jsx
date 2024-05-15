@@ -3,13 +3,22 @@ import './Home.css';
 import NavBar from '../../components/navbar/Navbar';
 import { Grid } from '@mui/material';
 import imgWatch from '../../assets/imgs/imgWatch.png'
-import PricingCard from './PricingCard';
 import Footer from '../../components/footer/Footer';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
 import { useNavigate } from 'react-router-dom';
-import pricingData from '../../assets/json/pricingData.json'
+import img9 from '../../assets/imgs/img9.png';
+import img10 from '../../assets/imgs/img10.png';
+import img11 from '../../assets/imgs/img11.png';
+import img12 from '../../assets/imgs/img12.png';
+import img13 from '../../assets/imgs/img13.png';
+import img14 from '../../assets/imgs/img14.png';
+import guestRecImg2 from '../../assets/imgs/guestRecImg2.png'
+import guestReturnImg1 from '../../assets/imgs/guestReturnImg.jpg';
+import ttaImg5 from '../../assets/imgs/ttaImg5.png';
+import geoImg1 from '../../assets/imgs/geoImg1.png'
+import perImg1 from '../../assets/imgs/perImg1.png'
+import { CardLeft } from './CardLeft';
+import { CardRight } from './CardRight';
 
 
 export default function Home() {
@@ -129,6 +138,54 @@ export default function Home() {
                     </div>
                 </section>
                 {/* section 8  */}
+                 {/* section 5  */}
+                 <section className="home-sec5-box padding">
+                    <div className="global-heading1">Applications</div>
+                    <div className="sec5-cards-box">
+                        <CardLeft
+                            img={img9}
+                            heading="Partners "
+                            content="Integration with a quality of suppliers, providing over 20,000 hotel PMS and 100,000 tickets, tours and activities.Our partners are Oracle, Sabre SynXis Platform, Stayntouch, Viator, GetYourGuide, Ready and more on the way"
+                            to='/Partners'
+                        />
+                        <CardRight
+                            img={guestRecImg2}
+                            heading="Guest Recognition"
+                            content="Our patented guest recognition application allows hotels and businesses to recognize guests and customers when approaching the hotel or entering a store.  Geofencing and beacons allow hotels and businesses to recognize guests and customers."
+                            to='/GuestRecognition'
+                        />
+                        <CardLeft
+                            img={guestReturnImg1}
+                            heading="Mobile Strategies"
+                            content="Communicating with guests has never been easier.  Our Guest Direct  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60+ days.  You have full control of all communication and offers that are sent out."
+                            to='/MobileMarketStrategies'
+                        />
+                        <CardRight
+                            img={perImg1}
+                            heading="Personalization"
+                            content="Automation is key to being successful with personalization. AI can identify customer interests and automatically send personalized product information via email or SMS. The message platform serves over 130 countries, providing tickets for activities, adventures, and tours in these locations. Additionally, it supports transactions in currencies from over 100 countries."
+                            to='/Personalization'
+                        />
+                        <CardLeft
+                            img={geoImg1}
+                            heading="Geo Fencing"
+                            content="Geofencing your property can help identify guests, location and interest. Partner with local businesses that provide the same qualities that you guest may like. Impove Guest Experience.
+                            For more satisfied guests, partner with like minded retail stores, gyms, we will provide a list or select the ones we feel match your property.
+                            Provide your guests offer from local Business where they will shop. This creates a hyper-local market opportunity.
+                            We will set it up, provide access to your information, set up automated messages when in proximity to an amenity at the hotel or surrounding area
+                            "
+                            to='/GeoFencing'
+                        />
+                        <CardRight
+                            img={ttaImg5}
+                            heading="Tickets Tours & Activities"
+                            content="With over 150,000, covering 1,600 airports in cities around the world. 
+                            Fascinated by water-and its power to cut through the rock adn change the shape of landscapes adn coastlines? Then consider our Aquatic Wonder itinerary. Experience the crahed thunder of Niagara Falls and the diverse beaches of Sydney and Miami. Explore the stiking Norwegian fjords. Marvel at the man-made Panama Canal, offering a short-cut across the centre of the Americas and bringing new-found prosperity to the country it crosses.
+                            "
+                            to='/TickeitngTours'
+                        />
+                    </div>
+                </section>
                 {/* Footer  */}
                 <Footer />
             </div>
