@@ -20,7 +20,7 @@ export const CardLeft = ({ img, heading, content, to }) => {
                         <div className="home-card-data">
                             <div className="home-card-heading">{heading}</div>
                             <div className="home-card-content">{content}</div>
-                            <div className="home-card-btnTxt" onClick={handleNavigation} >Explore More <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
+                            <div className="home-card-btnTxt" onClick={handleNavigation} >Explore {heading} <EastIcon fontSize='small' sx={{ color: '#F56B3F' }} /></div>
                         </div>
                     </Grid>
                 </Grid >
