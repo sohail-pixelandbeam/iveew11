@@ -51,7 +51,7 @@ export default function Partners() {
                     </Grid>
                 </Grid>
                 <div className='global-heading2' >
-                    More on the Way
+                    More are on the Way
                 </div>
             </div>
         </div>

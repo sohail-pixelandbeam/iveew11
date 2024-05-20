@@ -112,7 +112,7 @@ export default function TicketingTours() {
             <section className='message360-hero'>
                 <div className="geoFence-hero-contentBox">
                     <div className="message360-hero-heading">Tickets Tours <br />& Activities</div>
-                    <div className="message360-hero-content">With over 150,000, covering 1,600 airports in cities around the world.
+                    <div className="message360-hero-content">With over 150,000, covering 1,600 destinations in cities around the world.
                     </div>
                 </div>
             </section>

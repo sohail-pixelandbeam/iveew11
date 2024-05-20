@@ -4,11 +4,11 @@ import geoReferencingImg1 from '../../assets/imgs/geoReferencingImg1.jpeg';
 import geoConquestingImg1 from '../../assets/imgs/geoConquestingImg1.jpeg'
 import geoImg1 from '../../assets/imgs/geoImg1.png'
 import geoFenceImg2 from '../../assets/imgs/geoFenceImg2.png'
+import geoFenceImg20 from '../../assets/imgs/geoFenceImg20.png'
 import NavBar from '../../components/navbar/Navbar';
 import { Grid } from '@mui/material';
 import Footer from '../../components/footer/Footer';
 import useIsMobile from '../../hooks/useIsMobile';
-import AutoScroll from '../../components/autoScroll/AutoScroll';
 
 
 export default function GeoFencing() {
@@ -24,8 +24,7 @@ export default function GeoFencing() {
             {/* section 1  */}
             <section className='bookingEngineWidget-hero'>
                 <div className="geoFence-hero-contentBox">
-                    <div className="geoFence-hero-heading">Geo
-                        <br className='desktop' /> Fencing</div>
+                    <div className="geoFence-hero-heading">Geofencing</div>
                 </div>
             </section>
             {/* section 2  */}
@@ -48,7 +47,7 @@ export default function GeoFencing() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
                             For more satisfied guests, partner with like minded retail stores, gyms, we will provide a list or select the ones we feel match your property.
-
+                            <img src={geoFenceImg20} alt='img' width='100%' style={{marginTop:'50px'}} />
                         </div>
                     </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>

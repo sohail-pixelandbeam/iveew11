@@ -145,7 +145,7 @@ export default function Home() {
                         <CardLeft
                             img={img9}
                             heading="Partners "
-                            content="Integration with a quality of suppliers, providing over 20,000 hotel PMS and 100,000 tickets, tours and activities.Our partners are Oracle, Sabre SynXis Platform, Stayntouch, Viator, GetYourGuide, Ready and more on the way"
+                            content="Integration with quality of suppliers, providing over 20,000 hotels and 150,000 tickets, tours and activities. Our partners include Oracle, Sabre SynXis Platform, Stayntouch, Viator, GetYourGuide, Rezdy and more are on the way"
                             to='/Partners'
                         />
                         <CardRight
@@ -171,7 +171,7 @@ export default function Home() {
                             heading="Geo Fencing"
                             content="Geofencing your property can help identify guests, location and interest. Partner with local businesses that provide the same qualities that you guest may like. Impove Guest Experience.
                             For more satisfied guests, partner with like minded retail stores, gyms, we will provide a list or select the ones we feel match your property.
-                            Provide your guests offer from local Business where they will shop. This creates a hyper-local market opportunity.
+                            Provide your guests offer from local Business where they will shop. This create a hyper-local market opportunity.
                             We will set it up, provide access to your information, set up automated messages when in proximity to an amenity at the hotel or surrounding area
                             "
                             to='/GeoFencing'

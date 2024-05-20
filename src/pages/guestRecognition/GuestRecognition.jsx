@@ -27,7 +27,7 @@ export default function GuestRecognition() {
             <div className="guestRec-hero">
                 <div>
                     <Grid container spacing={5}>
-                        <Grid item sm={6} xs={12}>
+                        <Grid item xs={12}>
                             <div className="spMsg-hero-contentBox">
                                 <div className="spMsg-hero-heading ">Patented <br className='desktop' /> Guest Recognition</div>
                             </div>

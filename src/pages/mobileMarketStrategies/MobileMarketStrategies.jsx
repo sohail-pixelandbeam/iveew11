@@ -11,6 +11,7 @@ import msgSegImg2 from '../../assets/imgs/msgSegImg2.png'
 import msgSegImg3 from '../../assets/imgs/msgSegImg3.png'
 import spMsgImg2 from '../../assets/imgs/spMsgImg2.png'
 import spMsgImg3 from '../../assets/imgs/spMsgImg3.png'
+import mobileMarketImg5 from '../../assets/imgs/mobileMarketImg5.png'
 
 export default function MobileMarketStrategies() {
     let [gender, setGender] = useState('')
@@ -41,16 +42,16 @@ export default function MobileMarketStrategies() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-rightBox">
                             <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Mobile Wallet Confirmation</div>
-                            <div>
-                                Application can be integrated to any Internet Booking Engine.
-                            </div>
                             <ul>
-                                <li>Engage with guest before arriving based usage of mobile  confirmation
+                                <li>Application integration into almost any web or mobile based booking engine
                                 </li>
+                                <li>Engage with guest before arriving based usage of mobile confirmation</li>
+                                <li>Automate guest engagement with a link to our Personalization Profile.</li>
 
                             </ul>
-
-
+                            <div className='text-center'>
+                            <img src={mobileMarketImg5} alt='img' width='40%' style={{marginTop: '60px'}}  />
+                            </div>
                         </div>
                     </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>
