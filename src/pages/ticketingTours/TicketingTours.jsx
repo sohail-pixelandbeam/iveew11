@@ -20,6 +20,7 @@ import './TicketingTours.css'
 import SelectBox from '../../components/selectBox/SelectBox';
 import { CheckBox } from '@mui/icons-material';
 import { FaPlane } from "react-icons/fa";
+import MultipleSelectChip from '../../components/multipleSelectChip/MutipleSelectChip';
 
 
 export default function TicketingTours() {
@@ -101,7 +102,28 @@ export default function TicketingTours() {
         },
 
     ]
+
+    const labels = [
+        'Select All',
+        'Air, Helicopter & Balloon Tours',
+        'Bike Rentals',
+        'Classes & Workshops',
+        'Cultural & Theme Tour',
+        'Day Trips & Excursions',
+        'Food, Wine, Nightlife',
+        'Kids Friendly',
+        'Luxury & Special Occasions',
+        'Outdoor Activities Private & Custom Tours',
+        'Shore Excursions',
+        'Shows, Concerts & Sports',
+        'Sightseeing Tickets & Passes',
+        'Tours & Sightseeing',
+        'Transfer & Ground Transport',
+        'Walking & Bike Tours',
+        'Water Tours & Activities'
+    ];
     
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
@@ -134,9 +156,16 @@ export default function TicketingTours() {
                                 selected={"Bangkok"}
                             />
                             <div className="tta-sec2-left-heading" style={{ borderTop: 'none' }}>Categories</div>
-                            <FormControlLabel control={<Checkbox />} label='Select All' />
+                            <MultipleSelectChip
+                            label='In Hotel'
+                            options={['Breakfast Specials', 'Spa Treatments', 'Private Car']}
+                            />
                             <br />
-                            <FormControlLabel control={<Checkbox />} label='Air' />
+                            <MultipleSelectChip
+                            label='Select'
+                            options={labels}
+                            />
+                          
 
                         </div>
                     </Grid>
