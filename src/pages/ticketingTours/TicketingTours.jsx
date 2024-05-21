@@ -21,6 +21,7 @@ import SelectBox from '../../components/selectBox/SelectBox';
 import { CheckBox } from '@mui/icons-material';
 import { FaPlane } from "react-icons/fa";
 import MultipleSelectChip from '../../components/multipleSelectChip/MutipleSelectChip';
+import MultipleSelectCheckmarks from '../../components/multipleSelectCheckmarks/MultipleSelectCheckmarks';
 
 
 export default function TicketingTours() {
@@ -122,7 +123,7 @@ export default function TicketingTours() {
         'Walking & Bike Tours',
         'Water Tours & Activities'
     ];
-    
+
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -156,16 +157,16 @@ export default function TicketingTours() {
                                 selected={"Bangkok"}
                             />
                             <div className="tta-sec2-left-heading" style={{ borderTop: 'none' }}>Categories</div>
-                            <MultipleSelectChip
-                            label='In Hotel'
-                            options={['Breakfast Specials', 'Spa Treatments', 'Private Car']}
+                            <MultipleSelectCheckmarks
+                                label='In Hotel'
+                                options={['Select All', 'Breakfast Specials', 'Spa Treatments', 'Private Car']}
                             />
                             <br />
-                            <MultipleSelectChip
-                            label='Select'
-                            options={labels}
+                            <MultipleSelectCheckmarks
+                                label='Select'
+                                options={labels}
                             />
-                          
+
 
                         </div>
                     </Grid>
@@ -181,6 +182,7 @@ export default function TicketingTours() {
                                                 value={product?.rating}
                                                 readOnly
                                             />
+
                                             <span className='tta-sec2-product-rating-text'>{product?.numberOfReviews} Reviews</span>
                                         </div>
                                         <div className="tta-sec2-product-label" > from USD</div>
