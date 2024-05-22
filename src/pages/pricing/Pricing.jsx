@@ -22,41 +22,7 @@ export default function Pricing() {
             {/* <AutoScroll/> */}
             <div className="pricing-blackDiv"/>
             <section className="padding pricing-sec1">
-                <div className="global-heading1 mt-8per mb-8per pricing-mobile-margintT" >Everything you need to   <br className='desktop' />spend smart</div>
-                <div className='home-sec2-imgs' >
-                <Grid container spacing={5}>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg1} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg2} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg3} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg4} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg5} alt="companies" />
-                                </div>
-                            </Grid>
-                            <Grid item sm={4} xs={12}>
-                                <div className='home-sec-2-img-box' >
-                                    <img className='home-sec-2-img' src={affImg6} alt="companies" />
-                                </div>
-                            </Grid>
-                        </Grid>
-                </div>
+                <div className="global-heading1  mb-8per pricing-mobile-margintT" >Everything you need to   <br className='desktop' />spend smart</div>
                 <div className='margin-home'>
                     <Grid container spacing={5}>
                         {
