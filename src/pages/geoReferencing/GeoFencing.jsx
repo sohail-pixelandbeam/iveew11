@@ -32,7 +32,7 @@ export default function GeoFencing() {
                 <div className="geoReference-sec2-blackBox">
                     <img src={geoImg1} alt="img" width='100%' />
                     <div>
-                        Geofencing your property can help identify guests, location and interest. Partner with local businesses that provide the same qualities that you guest may like. Impove Guest Experience.
+                    Partner with likeminded local businesses that your guest may appreciate.
                     </div>
                 </div>
                 {/* section 3  */}

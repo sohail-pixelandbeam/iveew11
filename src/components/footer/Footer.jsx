@@ -43,8 +43,8 @@ export default function Footer() {
                         </div>
                         <div className="f-link" onClick={() => handleNavigate('/')} >Status</div>
                         <div className="f-link-description">
-                            We are always up and we our connections are too.  If you are having problems please email us at
-                            <a href='mailto:service@iveew.co'> service@iveew.co</a>
+                        We are always up and ready to serve clients if having problems. Please email us at 
+                        <a href='mailto:service@iveew.co'> service@iveew.co</a>
                         </div>
 
 

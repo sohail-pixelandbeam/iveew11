@@ -19,10 +19,12 @@ import geoImg1 from '../../assets/imgs/geoImg1.png'
 import perImg1 from '../../assets/imgs/perImg1.png'
 import { CardLeft } from './CardLeft';
 import { CardRight } from './CardRight';
+import useIsMobile from '../../hooks/useIsMobile';
 
 
 export default function Home() {
     let [hideModal, setHideModal] = useState(true);
+    const isMobile = useIsMobile();
     const navigate = useNavigate()
  
 
@@ -106,7 +108,7 @@ export default function Home() {
                                         </ul>
                                     </div>
                                 </Grid>
-                                <Grid item sm={4} xs={12}>
+                               {isMobile && <Grid item sm={12} xs={12}>
                                     <div className="home-watch-img1" >
                                         {isVideoPlaying ? (
                                             <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
@@ -114,11 +116,10 @@ export default function Home() {
                                             <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
                                         )}
                                     </div>
-                                    {/* <img src={imgWatch} alt="imgWatch" className='home-watch-img1' /> */}
-                                </Grid>
+                                </Grid>}
                             </Grid>
                         </div>
-                        <div className="home-sec2-video-box">
+                       {!isMobile && <div className="home-sec2-video-box">
                             <Grid container spacing={5}>
                                 <Grid item md={7} xs={12}>
                                 </Grid>
@@ -132,7 +133,7 @@ export default function Home() {
                                     </div>
                                 </Grid>
                             </Grid>
-                        </div>
+                        </div>}
                     </div>
                     <div>
                     </div>
