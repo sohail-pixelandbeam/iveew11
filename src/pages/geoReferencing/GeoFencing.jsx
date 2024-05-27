@@ -29,12 +29,41 @@ export default function GeoFencing() {
             </section>
             {/* section 2  */}
             <section className="padding ">
-                <div className="geoReference-sec2-blackBox">
-                    <img src={geoImg1} alt="img" width='100%' />
-                    <div>
-                    Partner with likeminded local businesses that your guest may appreciate.
-                    </div>
-                </div>
+                The hospitality industry has seen a significant shift towards innovative technologies to enhance guest experiences. Geofencing is one of them, it is a location-based service that allows businesses, including hotels, resorts, and restaurants to target guests with specific information to enhance guest experiences.
+                <br /><br />
+                Geofencing technology relies on GPS, utilizing longitude and latitude coordinates to establish a virtual fence, and other established technologies such as RFID, WiFi and Bluetooth Low Energy (BLE) beacons. Combining these 4 technologies provides the hotel, resort, and restaurants with the ability to message offers, specials, surveys, all tied to specific points within the property or business.
+
+                <Grid container spacing={5}>
+
+                    {/* 2nd  */}
+
+                    <Grid item sm={5} xs={12}>
+                        <div className="geoReference-sec3-right">
+                            <b>
+                                Benefits of Geofencing:
+                                <br /><br />
+                                <ol>
+                                    <li>Enhanced Guest Experience</li>
+                                    <br /> <li>Increased Revenue</li>
+                                    <br /> <li>Improved Marketing Effectiveness:</li>
+                                    <br /> <li>Operational Optimization:</li>
+                                    <br /> <li>Reward loyalty program members:</li>
+                                </ol>
+                            </b>
+                        </div>
+                    </Grid>
+                    <Grid item sm={7} xs={12}>
+                        <div className="geoReference-sec2-blackBox">
+                            <img src={geoImg1} alt="img" width='100%' />
+                            <div>
+                                Partner with likeminded local businesses that your guest may appreciate.
+                            </div>
+                        </div>
+                    </Grid>
+                </Grid>
+
+
+
                 {/* section 3  */}
                 <Grid container spacing={5}>
                     {/* 1st  */}
@@ -47,7 +76,7 @@ export default function GeoFencing() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
                             For more satisfied guests, partner with like minded retail stores, gyms, we will provide a list or select the ones we feel match your property.
-                            <img src={geoFenceImg20} alt='img' width='100%' style={{marginTop:'50px'}} />
+                            <img src={geoFenceImg20} alt='img' width='100%' style={{ marginTop: '50px' }} />
                         </div>
                     </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>

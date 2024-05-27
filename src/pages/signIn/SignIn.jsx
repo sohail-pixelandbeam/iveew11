@@ -22,15 +22,12 @@ export default function SignIn() {
             </div>
             <div className="signIn-main">
                 <div className="signIn-main-heading mb-8per">Sign in to your iVeew account</div>
-                {/* <div className="signIn-main-subHeading">Sign in to your IVeeW account</div> */}
+                <div className="signIn-main-subHeading">Sign in to your IVeeW account</div>
                 <InputIcon
                     label='Email address'
                     placeholder='Email address'
                 />
-                {/* <div className="checkBox-style-global">
-                    <input type="checkBox" />
-                    <div>Remember this account</div>
-                </div> */}
+                
                 <div className="mb-8per"></div>
                 <Btn label='Sign In' style={{ width: '100%', borderRadius: '11px' }} />
                 <div className="signIn-text">OR</div>
@@ -42,13 +39,6 @@ export default function SignIn() {
                     label='Sign in with Facebook'
                     icon={facebook}
                 />
-
-                {/* <div className="signIn-footer">
-                    <div>        Copyright © 2024 Brex Inc.</div>
-                    <p className='signIn-link-text'> Brex Platform Agreement</p>
-                    <div>|</div>
-                    <p className='signIn-link-text'>Privacy Policy</p>
-                </div> */}
             </div>
 
         </div>
