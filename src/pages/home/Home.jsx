@@ -11,7 +11,7 @@ import img10 from '../../assets/imgs/img10.png';
 import img11 from '../../assets/imgs/img11.png';
 import img12 from '../../assets/imgs/img12.png';
 import img13 from '../../assets/imgs/img13.png';
-import img14 from '../../assets/imgs/img14.png';
+import iveewSteps from '../../assets/imgs/iveewSteps.png';
 import guestRecImg2 from '../../assets/imgs/guestRecImg2.png'
 import guestReturnImg1 from '../../assets/imgs/guestReturnImg.jpg';
 import ttaImg5 from '../../assets/imgs/ttaImg5.png';
@@ -139,6 +139,10 @@ export default function Home() {
                     </div>
                 </section>
                 {/* section 8  */}
+                <section className="padding">
+                <div className="global-heading1 mb-8per">How we do what we do</div>
+                    <img src={iveewSteps} alt="img" width='100%' />
+                </section>
                  {/* section 5  */}
                  <section className="home-sec5-box padding">
                     <div className="global-heading1">Applications</div>
