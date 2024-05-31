@@ -95,8 +95,9 @@ export default function GeoFencing() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
                             We will set it up, provide access to your information, set up automated messages when in proximity to an amenity at the hotel or surrounding area
-
-
+                        </div>
+                        <div style={{textDecoration:'underline', fontSize:20, marginTop:'20px'}}>
+                            Onboarding your Hotel
                         </div>
                     </Grid>
                 </Grid>

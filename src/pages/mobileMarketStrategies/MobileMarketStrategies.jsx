@@ -272,13 +272,13 @@ export default function MobileMarketStrategies() {
                     <Grid container spacing={5}>
                         <Grid item sm={5} xs={12}>
                             <div className="message360Padding ">
-                                <img src={msgSegImg3} alt="img" />
+                                <img src={msgSegImg2} alt="img" />
+
                             </div>
                         </Grid>
                         {!isMobile && <Grid xs={1} />}
                         <Grid item sm={6} xs={12}>
                             <div className="message360Padding">
-
                                 <div className="message360-heading1 mb-40">Effective market segmentation    </div>
                                 <div className="spMsg-text1 mb-40">
                                     Effective market segmentation relies on careful analysis of various demographic, geographic, psychographic, and behavioral factors to identify meaningful differences among consumers. Through segmentation, businesses can identify niche markets with unmet needs or underserved segments where they can gain a competitive advantage.
@@ -289,12 +289,12 @@ export default function MobileMarketStrategies() {
                 </div>
                 <div className='mt-8per'>
                     <Grid container spacing={5}>
-                        {isMobile && <Grid item sm={6} xs={12}>
+                        {isMobile && <Grid item sm={5} xs={12}>
                             <div className="message360Padding marginT-mobile ">
-                                <img src={msgSegImg2} alt="img" />
+                            <img src={msgSegImg3} alt="img" />
                             </div>
                         </Grid>}
-                        <Grid item sm={6} xs={12}>
+                        <Grid item sm={7} xs={12}>
                             <div className="message360Padding">
                                 <div className="message360-heading1 mb-40">Market segmentation</div>
                                 <div className="spMsg-text1 mb-40">
@@ -302,9 +302,10 @@ export default function MobileMarketStrategies() {
                                 </div>
                             </div>
                         </Grid>
-                        {!isMobile && <Grid item sm={6} xs={12}>
+                        {!isMobile && <Grid item sm={5} xs={12}>
                             <div className="message360Padding ">
-                                <img src={msgSegImg2} alt="img" />
+                                <img src={msgSegImg3} alt="img" />
+
                             </div>
                         </Grid>}
                     </Grid>

@@ -138,11 +138,7 @@ export default function Home() {
                     <div>
                     </div>
                 </section>
-                {/* section 8  */}
-                <section className="padding">
-                <div className="global-heading1 mb-8per">How we do what we do</div>
-                    <img src={iveewSteps} alt="img" width='100%' />
-                </section>
+              
                  {/* section 5  */}
                  <section className="home-sec5-box padding">
                     <div className="global-heading1">Applications</div>
