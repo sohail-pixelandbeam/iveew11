@@ -12,10 +12,14 @@ import msgSegImg3 from '../../assets/imgs/msgSegImg3.png'
 import spMsgImg2 from '../../assets/imgs/spMsgImg2.png'
 import spMsgImg3 from '../../assets/imgs/spMsgImg3.png'
 import mobileMarketImg5 from '../../assets/imgs/mobileMarketImg5.png'
+import Btn from '../../components/btn/Btn'
+import { useNavigate } from 'react-router-dom'
 
 export default function MobileMarketStrategies() {
     let [gender, setGender] = useState('')
     let isMobile = useIsMobile();
+    const navigate = useNavigate();
+    
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -138,7 +142,7 @@ export default function MobileMarketStrategies() {
                         <div className="geoFence-sec7-rightBox">
                             <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Guest Direct</div>
                             <div>Communicating with guests has never been easier.  Our Guest Direct  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60+ days.  You have full control of all communication and offers that are sent out.
-                                <br /><br />
+                                <br />
                                 AI insights allow you to:
 
                             </div>
@@ -154,11 +158,13 @@ export default function MobileMarketStrategies() {
                             </ul>
                             <div>
                                 Integrating a 2-way interface with hotels through their PMSs, iVeew determines how to bring them back with incentives and special offers. If we are currently not a partner with your PMS, please email sales@iveew.co.
-                                <br /><br />
+                                <br />
                                 Ask about our SaaS application to increase bookings and creates incentives for your returning guests to bring friends.
-
                             </div>
-
+                            <Btn
+                            label='Check Details'
+                            onClick={() => navigate('/Pricing')}
+                            />
                         </div>
                     </Grid>
                 </Grid>
