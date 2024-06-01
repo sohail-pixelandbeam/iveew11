@@ -58,16 +58,6 @@ export default function Personalization() {
                             <div className="global-heading1 text-center mb-40">How it all works
                             </div>
                             <div className="message360Padding">
-                                Guest complete their booking, then on the confirmation page sits a link that asks if they would rather store their confirmation in their mobile wallet.
-                                When the guest selects yes, then the information regarding the registration is sent over to our backend system.
-                                Process begins by breaking down who is traveling, are kids traveling, when they are traveling and how long will they be there.
-                                <br /><br />
-                                They receive a link to their mobilephone which they open and save to wallet.
-                                <br /><br />
-                                The personalization process begins by sending them a link to the personalization profile, information will be taken from the confirmation and will ask for additional information such as hotel offers and then 3rd party offers.
-                                <br /><br />
-                                Once completed, the guest hits submit, and within minutes a message and link appear to choose which ones they want.
-                                Once that is complete, then the guest receives a message again by SMS to save their bookings to their mobile wallet and phone.
                                 <br /><br />
                                 <div className='personalization-img'>
                                     <img src={personalizationImg1} alt="img" />
