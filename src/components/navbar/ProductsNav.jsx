@@ -216,6 +216,21 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                 </div>
                                                 <div className="naved-anouncement">
                                                     <div className="naved-anouncement-heading">
+                                                    What is coming
+
+                                                    </div>
+                                                    <div className="naved-anouncement-content">
+                                                    
+                                                        <ol>
+                                                            <li>Flight information will provide your guests with information on their flights regarding, delays, cancellations and gate changes.
+</li>
+                                                            <li>Cancellation notices can help your hotel to generate additional revenue by rebooking their room.  </li>
+                                                            <li>Gate changes provide information to your guest that they need to get to their new gate.  </li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                {/* <div className="naved-anouncement">
+                                                    <div className="naved-anouncement-heading">
                                                         Flight Information Widget
                                                         Coming Soon
                                                     </div>
@@ -228,7 +243,7 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                             <li>Cancellations</li>
                                                         </ul>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                                 <div className="naved-anouncement">
                                                     <div className="naved-anouncement-heading">
                                                         QR Generator

@@ -19,7 +19,7 @@ export default function MobileMarketStrategies() {
     let [gender, setGender] = useState('')
     let isMobile = useIsMobile();
     const navigate = useNavigate();
-    
+
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -46,16 +46,26 @@ export default function MobileMarketStrategies() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoFence-sec7-rightBox">
                             <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Mobile Wallet Confirmation</div>
-                            <ul>
+                            <div>
+                                Guest complete their booking, then on the confirmation page sits a link that asks if they would rather store their confirmation in their mobile wallet. When the guest selects yes, then the information regarding the registration is sent over to our backend system. Process begins by breaking down who is traveling, are kids traveling, when they are traveling and how long will they be there.
+                                <br /><br />
+                                They receive a link to their mobile phone which they open and save to wallet.
+                                The personalization process begins by sending them a link to the personalization profile, information will be taken from the confirmation and will ask for additional information such as hotel offers and then 3rd party offers.
+                                <br /><br />
+                                Once completed, the guest hits submit, and within minutes a message and link appear to choose which ones they want. Once that is complete, then the guest receives a message again by SMS to save their bookings to their mobile wallet and phone.
+
+                            </div>
+                            {/* <ul>
                                 <li>Application integration into almost any web or mobile based booking engine
                                 </li>
                                 <li>Engage with guest before arriving based usage of mobile confirmation</li>
                                 <li>Automate guest engagement with a link to our Personalization Profile.</li>
 
-                            </ul>
-                            <div className='text-center'>
-                            <img src={mobileMarketImg5} alt='img' width='40%' style={{marginTop: '60px'}}  />
-                            </div>
+                            </ul> */}
+
+                            {/* <div className='text-center'>
+                                <img src={mobileMarketImg5} alt='img' width='40%' style={{ marginTop: '60px' }} />
+                            </div> */}
                         </div>
                     </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>
@@ -128,7 +138,7 @@ export default function MobileMarketStrategies() {
                     </div>
                 </div>
             </section> */}
-         
+
             {/* section 4  */}
 
             <section className="padding ">
@@ -161,10 +171,7 @@ export default function MobileMarketStrategies() {
                                 <br />
                                 Ask about our SaaS application to increase bookings and creates incentives for your returning guests to bring friends.
                             </div>
-                            <Btn
-                            label='Check Details'
-                            onClick={() => navigate('/Pricing')}
-                            />
+                           
                         </div>
                     </Grid>
                 </Grid>
@@ -291,7 +298,7 @@ export default function MobileMarketStrategies() {
                     <Grid container spacing={5}>
                         {isMobile && <Grid item sm={5} xs={12}>
                             <div className="message360Padding marginT-mobile ">
-                            <img src={msgSegImg3} alt="img" />
+                                <img src={msgSegImg3} alt="img" />
                             </div>
                         </Grid>}
                         <Grid item sm={7} xs={12}>
@@ -311,28 +318,28 @@ export default function MobileMarketStrategies() {
                     </Grid>
                 </div>
 
-                   {/* 5th  */}
-            <div className="mb-8per mt-8per">
-                <Grid container spacing={5}>
-                  <Grid item sm={6} xs={12}>
-                        <div className="message360Padding marginT-mobile">
-                            <img src={spMsgImg5} alt="img" width='90%' />
-                        </div>
-                    </Grid>
-                    <Grid item sm={6} xs={12}>
-                        <div className="message360Padding">
-                            <div className="message360-heading1 spMsgcontentTopMargin mb-40">Reputation Management</div>
-                            <div className="spMsg-text1 mb-40">
-                                A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
-                                <br /> <br />
-                                There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
+                {/* 5th  */}
+                <div className="mb-8per mt-8per">
+                    <Grid container spacing={5}>
+                        <Grid item sm={6} xs={12}>
+                            <div className="message360Padding marginT-mobile">
+                                <img src={spMsgImg5} alt="img" width='90%' />
                             </div>
-                        </div>
+                        </Grid>
+                        <Grid item sm={6} xs={12}>
+                            <div className="message360Padding">
+                                <div className="message360-heading1 spMsgcontentTopMargin mb-40">Reputation Management</div>
+                                <div className="spMsg-text1 mb-40">
+                                    A recent survey indicated that 19x more revenue per message from campaigns that use both SMS+ Mobile Wallet coupons. Reward them for becoming a loyal member.
+                                    <br /> <br />
+                                    There is more of a” stop” message when  “checking in” with a customer instead of sending them an offer
+                                </div>
+                            </div>
+                        </Grid>
                     </Grid>
-                </Grid>
-            </div>
+                </div>
 
-               
+
 
                 {/* 3rd  */}
                 <div className="mb-8per mt-8per">
@@ -360,7 +367,7 @@ export default function MobileMarketStrategies() {
                             <div className="message360Padding mt-40">
                                 <img src={spMsgImg3} alt="img" />
                             </div>
-                           
+
                         </Grid>
                     </Grid>
                 </div>

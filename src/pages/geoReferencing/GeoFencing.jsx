@@ -56,7 +56,7 @@ export default function GeoFencing() {
                         <div className="geoReference-sec2-blackBox">
                             <img src={geoImg1} alt="img" width='100%' />
                             <div>
-                                Partner with likeminded local businesses that your guest may appreciate.
+                                Partner with like minded local business that your guest may appreciate.
                             </div>
                         </div>
                     </Grid>
@@ -96,7 +96,7 @@ export default function GeoFencing() {
                         <div className="geoReference-sec3-right">
                             We will set it up, provide access to your information, set up automated messages when in proximity to an amenity at the hotel or surrounding area
                         </div>
-                        <div style={{textDecoration:'underline', fontSize:20, marginTop:'20px'}}>
+                        <div style={{ textDecoration: 'underline', fontSize: 20, marginTop: '20px' }}>
                             Onboarding your Hotel
                         </div>
                     </Grid>

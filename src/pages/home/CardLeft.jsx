@@ -4,7 +4,7 @@ import EastIcon from '@mui/icons-material/East';
 import { useNavigate } from 'react-router-dom';
 
 
-export const CardLeft = ({ img, heading, content, to }) => {
+export const CardLeft = ({ img, heading, content, to, imgMarginTop }) => {
     const navigate = useNavigate()
     const handleNavigation = () => {
         navigate(to)
@@ -14,7 +14,9 @@ export const CardLeft = ({ img, heading, content, to }) => {
             <div className="cardLeft-desktop" >
                 <Grid container spacing={2}>
                     <Grid item sm={6} xs={12}>
+                        <div style={{marginTop:imgMarginTop}}>
                         <img src={img} alt="img" width='95%' />
+                        </div>
                     </Grid>
                     <Grid item sm={6} xs={12}>
                         <div className="home-card-data">

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import './Personalization.css'
 import guestRecImg2 from '../../assets/imgs/guestRecImg2.png'
 import perImg1 from '../../assets/imgs/perImg1.png'
+import personalizationImg1 from '../../assets/imgs/personalizationImg1.png'
 import personalizationImg2 from '../../assets/imgs/personalizationImg2.png'
 import personalizationImg3 from '../../assets/imgs/personalizationImg3.png'
 import { Grid } from '@mui/material'
@@ -66,6 +68,10 @@ export default function Personalization() {
                                 <br /><br />
                                 Once completed, the guest hits submit, and within minutes a message and link appear to choose which ones they want.
                                 Once that is complete, then the guest receives a message again by SMS to save their bookings to their mobile wallet and phone.
+                                <br /><br />
+                                <div className='personalization-img'>
+                                    <img src={personalizationImg1} alt="img" />
+                                </div>
                             </div>
                             <div className="global-heading2 text-center mb-40 mt-8per">Six  Easy Steps to Guest Engagement</div>
                             <div className="message360Padding mb-40 mt-40 ">

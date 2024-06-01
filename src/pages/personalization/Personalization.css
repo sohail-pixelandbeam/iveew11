@@ -1,0 +1,16 @@
+.personalization-img{
+    text-align: center;
+}
+.personalization-img img{
+    width: 50%;
+}
+
+@media screen and (max-width:700px) {
+    .personalization-img{
+        width: 100%;
+    }
+
+    .personalization-img img{
+        width: 90%;
+    }
+}

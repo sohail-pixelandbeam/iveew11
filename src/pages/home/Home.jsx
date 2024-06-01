@@ -6,7 +6,7 @@ import imgWatch from '../../assets/imgs/imgWatch.png'
 import Footer from '../../components/footer/Footer';
 import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
 import { useNavigate } from 'react-router-dom';
-import img9 from '../../assets/imgs/img9.png';
+import img9 from '../../assets/imgs/img9.jpeg';
 import img10 from '../../assets/imgs/img10.png';
 import img11 from '../../assets/imgs/img11.png';
 import img12 from '../../assets/imgs/img12.png';
@@ -148,6 +148,8 @@ export default function Home() {
                             heading="Partners "
                             content="Integration with quality of suppliers, providing over 20,000 hotels and 150,000 tickets, tours and activities. Our partners include Oracle, Sabre SynXis Platform, Stayntouch, Viator, GetYourGuide, Rezdy and more are on the way"
                             to='/Partners'
+                            imgMarginTop='70px'
+                            
                         />
                         <CardRight
                             img={guestRecImg2}
@@ -164,7 +166,13 @@ export default function Home() {
                         <CardRight
                             img={perImg1}
                             heading="Personalization"
-                            content="Automation is key to being successful with personalization. AI can identify customer interests and automatically send personalized product information via email or SMS. The message platform serves over 130 countries, providing tickets for activities, adventures, and tours in these locations. Additionally, it supports transactions in currencies from over 100 countries."
+                            content="Select mobile confirmation from the page that shows the travel information.
+                            Link to Personalization Engine that utilizes AI to help the guest figure out what their best options are.
+                            Guest receives the information
+                            Guest reviews offers based on their personal references
+                            Guest purchases or places on hold a ticket
+                            Guest receives a customized curated page that can be saved to their mobile phone along with their digital vouchers to save in mobile wallet
+                            "
                             to='/Personalization'
                         />
                         <CardLeft
