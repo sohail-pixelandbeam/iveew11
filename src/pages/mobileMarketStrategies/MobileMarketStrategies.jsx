@@ -52,7 +52,7 @@ export default function MobileMarketStrategies() {
                                 They receive a link to their mobile phone which they open and save to wallet.
                                 The personalization process begins by sending them a link to the personalization profile, information will be taken from the confirmation and will ask for additional information such as hotel offers and then 3rd party offers.
                                 <br /><br />
-                                Once completed, the guest hits submit, and within minutes a message and link appear to choose which ones they want. Once that is complete, then the guest receives a message again by SMS to save their bookings to their mobile wallet and phone.
+                                
 
                             </div>
                             {/* <ul>
@@ -63,9 +63,9 @@ export default function MobileMarketStrategies() {
 
                             </ul> */}
 
-                            {/* <div className='text-center'>
+                            <div className='text-center'>
                                 <img src={mobileMarketImg5} alt='img' width='40%' style={{ marginTop: '60px' }} />
-                            </div> */}
+                            </div>
                         </div>
                     </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>
