@@ -1,0 +1,24 @@
+.form-control{
+    border: 1px solid #838383;
+    background-color: rgba(241, 241, 241, 0.1);
+    position: relative;
+  }
+  
+  .container-form {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .gradient-button {
+    background: linear-gradient(90deg, #3EA2FF 100%, #045CAD 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

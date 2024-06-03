@@ -6,7 +6,7 @@ import imgWatch from '../../assets/imgs/imgWatch.png'
 import Footer from '../../components/footer/Footer';
 import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
 import { useNavigate } from 'react-router-dom';
-import img9 from '../../assets/imgs/img9.jpeg';
+import img9 from '../../assets/imgs/personalizationImg2.png';
 import img10 from '../../assets/imgs/img10.png';
 import img11 from '../../assets/imgs/img11.png';
 import img12 from '../../assets/imgs/img12.png';
@@ -148,7 +148,6 @@ export default function Home() {
                             heading="Partners "
                             content="Integration with quality of suppliers, providing over 20,000 hotels and 150,000 tickets, tours and activities. Our partners include Oracle, Sabre SynXis Platform, Stayntouch, Viator, GetYourGuide, Rezdy and more are on the way"
                             to='/Partners'
-                            imgMarginTop='70px'
                             
                         />
                         <CardRight

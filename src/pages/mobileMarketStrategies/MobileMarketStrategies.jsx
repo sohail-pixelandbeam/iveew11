@@ -14,6 +14,7 @@ import spMsgImg3 from '../../assets/imgs/spMsgImg3.png'
 import mobileMarketImg5 from '../../assets/imgs/mobileMarketImg5.png'
 import Btn from '../../components/btn/Btn'
 import { useNavigate } from 'react-router-dom'
+import Form from '../../components/form/Form'
 
 export default function MobileMarketStrategies() {
     let [gender, setGender] = useState('')
@@ -171,7 +172,7 @@ export default function MobileMarketStrategies() {
                                 <br />
                                 Ask about our SaaS application to increase bookings and creates incentives for your returning guests to bring friends.
                             </div>
-                           
+                           <Form/>
                         </div>
                     </Grid>
                 </Grid>
