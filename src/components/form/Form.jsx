@@ -152,16 +152,16 @@ const Form = () => {
 
       <br />
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-lg-11">
           <hr />
         </div>
       </div>
       
       <div className="row">
-        <div className="col-lg-2">
+        <div className="col-lg-5">
           <label>Total Savings (Per Year):</label>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-6">
           <input type="text" className="form-control" value={savings} readOnly />
         </div>
       </div>
