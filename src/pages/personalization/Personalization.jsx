@@ -55,27 +55,35 @@ export default function Personalization() {
                         </Grid> */}
 
                         <Grid item sm={12} xs={12}>
-                            <div className="global-heading1 text-center mb-40">How it all works
-                            </div>
-                            <div className="message360Padding">
+                           
+                           
+                            <div className="global-heading2 text-center mb-40 mt-8per">Six  Easy Steps to Guest Engagement</div>
+                            <div className="message360Padding mb-40 mt-40 ">
+                                <div className='mb-40'>
+                                The personalization process begins by sending them a link to the personalization profile, the following 6 steps begins and within minutes, the guest will receive a link with their choices. 
+                                </div>
+                                <ol>
+                                    <li>Gust selects mobile confirmation from the hotel booking engine
+</li>
+                                    <li>Guest will receive the personalization form that highlights what is available in their chosen destination
+</li>
+                                    <li>Select the in hotel offers and activities that interest them
+</li>
+                                    <li>Guest will receive a link to all that were selected as “specially curated offers”
+</li>
+                                    <li>Guest books  their choices that interest them
+</li>
+                                    <li>Guest receives vouchers to save to their mobile wallet
+</li>
+                                </ol>
+                                <div className="message360Padding">
                                 <br /><br />
                                 <div className='personalization-img'>
                                     <img src={personalizationImg1} alt="img" />
                                 </div>
                             </div>
-                            <div className="global-heading2 text-center mb-40 mt-8per">Six  Easy Steps to Guest Engagement</div>
-                            <div className="message360Padding mb-40 mt-40 ">
-                                <ol>
-                                    <li>Select mobile confirmation</li>
-                                    <li>Link to personalization form</li>
-                                    <li> Select things that interest them</li>
-                                    <li>Receive all that  interest</li>
-                                    <li>Select which to buy or place on hold</li>
-                                    <li>Receive link to coupons to save to mobile wallet & a link to save to their phone as mobile web app</li>
-                                </ol>
                                 <div className="mt-40">
                                     All of these are handled by AI and automation, selecting the items of interest.
-                                    <br /><br />
                                     All of this does not take more than a few minutes to get to the final page to make selections
                                 </div>
                             </div>
@@ -101,11 +109,10 @@ export default function Personalization() {
                                         <li>Automation is key to being successful with Personalization
                                         </li>
                                         <li>AI can identify their interest and automatically send personalized product information via email or SMS </li>
-                                        <li>Tickets Activities, Adventures & Tours in over 130 countries
+                                        <li>Tickets Activities, Adventures & Tours in over 1600 destinations
                                         </li>
-                                        <li>Message platform serves over 130 countries
+                                        <li>Message platform serves over 1600 destinations
                                         </li>
-                                        <li>Currency in over 100 countries</li>
                                     </ul>
                                 </div>
                             </div>

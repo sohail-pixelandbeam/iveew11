@@ -6,12 +6,7 @@ import imgWatch from '../../assets/imgs/imgWatch.png'
 import Footer from '../../components/footer/Footer';
 import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
 import { useNavigate } from 'react-router-dom';
-import img9 from '../../assets/imgs/personalizationImg2.png';
-import img10 from '../../assets/imgs/img10.png';
-import img11 from '../../assets/imgs/img11.png';
-import img12 from '../../assets/imgs/img12.png';
-import img13 from '../../assets/imgs/img13.png';
-import iveewSteps from '../../assets/imgs/iveewSteps.png';
+import img9 from '../../assets/imgs/partnersImg.png';
 import guestRecImg2 from '../../assets/imgs/guestRecImg2.png'
 import guestReturnImg1 from '../../assets/imgs/guestReturnImg.jpg';
 import ttaImg5 from '../../assets/imgs/ttaImg5.png';

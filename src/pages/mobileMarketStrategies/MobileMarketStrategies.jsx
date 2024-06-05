@@ -172,7 +172,7 @@ export default function MobileMarketStrategies() {
                                 <br />
                                 Ask about our SaaS application to increase bookings and creates incentives for your returning guests to bring friends.
                             </div>
-                           <Form/>
+                         
                         </div>
                     </Grid>
                 </Grid>

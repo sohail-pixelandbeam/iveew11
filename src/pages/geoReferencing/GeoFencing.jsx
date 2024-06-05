@@ -55,9 +55,6 @@ export default function GeoFencing() {
                     <Grid item sm={7} xs={12}>
                         <div className="geoReference-sec2-blackBox">
                             <img src={geoImg1} alt="img" width='100%' />
-                            <div>
-                                Partner with like minded local business that your guest may appreciate.
-                            </div>
                         </div>
                     </Grid>
                 </Grid>
@@ -75,7 +72,9 @@ export default function GeoFencing() {
                     </Grid>}
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
-                            For more satisfied guests, partner with like minded retail stores, gyms, we will provide a list or select the ones we feel match your property.
+                            For more satisfied guests, partner with like minded retail stores, gyms, we will provide a list or select the ones we feel match your property. 
+                            Improve the guest experience is key to keeping and retaining guests.  
+
                             <img src={geoFenceImg20} alt='img' width='100%' style={{ marginTop: '50px' }} />
                         </div>
                     </Grid>
@@ -95,9 +94,6 @@ export default function GeoFencing() {
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
                             We will set it up, provide access to your information, set up automated messages when in proximity to an amenity at the hotel or surrounding area
-                        </div>
-                        <div style={{ textDecoration: 'underline', fontSize: 20, marginTop: '20px' }}>
-                            Onboarding your Hotel
                         </div>
                     </Grid>
                 </Grid>
