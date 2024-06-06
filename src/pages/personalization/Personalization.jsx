@@ -111,7 +111,7 @@ export default function Personalization() {
                                         <li>AI can identify their interest and automatically send personalized product information via email or SMS </li>
                                         <li>Tickets Activities, Adventures & Tours in over 1600 destinations
                                         </li>
-                                        <li>Message platform serves over 1600 destinations
+                                        <li>Message platform serves over 100 countries
                                         </li>
                                     </ul>
                                 </div>

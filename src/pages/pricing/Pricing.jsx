@@ -19,7 +19,7 @@ import SportsScoreIcon from '@mui/icons-material/SportsScore';
 export default function Pricing() {
     let [isPriceUnlocked, setIsPriceUnlocked] = useState(false);
 
-    const features = ['Messaging', 'Market Segmentation', 'Personalization', 'Reputation Management', 'Booking/Purchase Confirmation', 'Customer Recognition', 'Blast M', 'Message-360', 'Loyalty Integration', 'Geofencing', 'Voucher & Gift Cards', 'Inspirations']
+    const features = ['Messaging', 'Market Segmentation', 'Personalization', 'Reputation Management', 'Booking/Purchase Confirmation', 'Customer Recognition', 'Message-360', 'Loyalty Integration', 'Geofencing', 'Voucher & Gift Cards', 'Inspirations']
 
     const handlePriceUnlock = () => {
         setIsPriceUnlocked(true)
@@ -41,7 +41,7 @@ export default function Pricing() {
                 {!isPriceUnlocked && <Grid container spacing={5}>
                     <Grid item sm={6} xs={12}>
                         <div className="signIn-main1 ">
-                            <div className="signIn-main-subHeading">Enter your details to get a personalized pricing.</div>
+                            <div className="signIn-main-subHeading">Enter details to receieve pricing for your hotel or business.</div>
                             <InputIcon
                                 placeholder='Your name'
                             />

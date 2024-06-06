@@ -10,7 +10,7 @@ export default function About() {
         <>
             <NavBar />
             <section className="padding">
-                <div className="global-heading1 mb-40r ">About IVeew</div>
+                <div className="global-heading1 mb-40r ">About iVeew</div>
                 <div className='message360Padding mt-40'>
                     iVeew operates 6 platforms and over 50+ applications running on Azure & Oracle Cloud.
                     Platforms include the following:

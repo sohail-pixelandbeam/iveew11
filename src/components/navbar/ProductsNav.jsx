@@ -229,58 +229,10 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                         </ol>
                                                     </div>
                                                 </div>
-                                                {/* <div className="naved-anouncement">
-                                                    <div className="naved-anouncement-heading">
-                                                        Flight Information Widget
-                                                        Coming Soon
-                                                    </div>
-                                                    <div className="naved-anouncement-content">
-                                                        Flight information widget can provide delays, cancellations and gate changes for your guests.  Make it easy for your guests to receive their travel information.
-                                                        <br /><br />
-                                                        Links for:
-                                                        <ul>
-                                                            <li>Delays</li>
-                                                            <li>Cancellations</li>
-                                                        </ul>
-                                                    </div>
-                                                </div> */}
-                                                <div className="naved-anouncement">
-                                                    <div className="naved-anouncement-heading">
-                                                        QR Generator
-                                                    </div>
-                                                    <div className="naved-anouncement-content">
-                                                        Links to:
-                                                        <ul>
-                                                            <li>Tips</li>
-                                                            <li>Pool and Lobby Service for Drinks</li>
-                                                            <li>Driver License Verification</li>
-                                                            <li>Information</li>
-
-                                                        </ul>
-                                                    </div>
-                                                </div>
+                                              
+                                             
                                             </div>
                                         </Grid>
-                                        {/* {isMobile && <Grid item xs={10}>
-                                            <div className="naved-heading">Platform</div>
-                                        </Grid>} */}
-
-                                        {/* <Grid item sm={3} xs={12}>
-                                            <div className="naved-items">
-                                                {data4.map(item => (
-                                                    <div className="naved-item" key={item.label} onMouseEnter={() => setHovered(item.label)}
-                                                        onClick={() => handleNavigation(item?.to)}
-                                                    >
-                                                        <div className="naved-img-box">
-                                                            {hovered === item.label ? <img src={item.active} alt="img" /> :
-                                                                <img src={item.icon} alt="img" />}
-                                                        </div>
-                                                        <div className="naved-item-label">{item.label}</div>
-
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        </Grid> */}
 
                                     </Grid>
 

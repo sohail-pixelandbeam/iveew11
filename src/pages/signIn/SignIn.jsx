@@ -16,13 +16,13 @@ export default function SignIn() {
             <div className="signIn-header">
                 <img src={logo} alt="logo" onClick={() => navigate('/')} />
                 <div>
-                    New to IVeeW?
+                    New to iVeew?
                     <span onClick={()=>navigate('/SignUp')} >Sign up</span>
                 </div>
             </div>
             <div className="signIn-main">
                 <div className="signIn-main-heading mb-8per">Sign in to your iVeew account</div>
-                <div className="signIn-main-subHeading">Sign in to your IVeeW account</div>
+                <div className="signIn-main-subHeading">Sign in to your iVeew account</div>
                 <InputIcon
                     label='Email address'
                     placeholder='Email address'

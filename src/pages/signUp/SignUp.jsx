@@ -20,7 +20,7 @@ export default function SignUp() {
                 {!isMobile && <Grid item sm={5}>
                     <div className="signUP-left">
                         <img src={logo} alt="logo" className='signUp-logo' onClick={() => navigate('/')} />
-                        <div className="global-heading2 mt-40" style={{ textAlign: 'left' }}>Get started with iVeeW</div>
+                        <div className="global-heading2 mt-40" style={{ textAlign: 'left' }}>Get started with iVeew</div>
                         <div>Answer a couple of questions and we'll connect you with the right team member</div>
                     </div>
                 </Grid>}
