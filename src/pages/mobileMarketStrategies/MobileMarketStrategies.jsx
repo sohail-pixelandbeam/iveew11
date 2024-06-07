@@ -48,27 +48,34 @@ export default function MobileMarketStrategies() {
                         <div className="geoFence-sec7-rightBox">
                             <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Mobile Wallet Confirmation</div>
                             <div>
-                                Guest complete their booking, then on the confirmation page sits a link that asks if they would rather store their confirmation in their mobile wallet. When the guest selects yes, then the information regarding the registration is sent over to our backend system.
+                                Our automated process takes the pressure off your hotel staff and allows them to focus on improving the guest experience.
+
                                 <Grid container spacing={5}>
                                     <Grid item sm={6} xs={12}>
                                         <br /><br />
-                                        Process begins by breaking down who is traveling, are kids traveling, when they are traveling and how long will they be there.
-                                        They receive a link to their mobile phone which they open and save to wallet.
+                                        When a guest completes a booking, there will be a link asking if they would like to store the confirmation to their mobile wallet.
                                         <br /><br />
-                                        The personalization process begins by sending them a link to the personalization profile, information will be taken from the confirmation and will ask for additional information such as hotel offers and then 3rd party offers.
+                                        If the guest selects yes, the information regarding the booking is sent over to our backend system.
 
+                                        <br /><br />
+                                        An SMS message will be sent with a link to open and save  confirmation to their mobile wallet. (Like an Airline Confirmation)
+                                        <br /><br />
+                                        If the guest selects the personalization option, they will receive all of the special offers the hotel provides as well as  3rd party tickets, tours and activities.
+                                        <br /><br />
+                                        Options are selected and then submitted.
+                                        <br /><br />
+                                        At that point, a page with all the selected offers comes back  for immediate purchase.
                                     </Grid>
                                     <Grid item sm={6} xs={12}>
                                         <div className='text-center'>
-                                            <img src={mobileMarketImg5} alt='img' width='100%' style={{ marginTop: '60px' }}  />
+                                            <img src={mobileMarketImg5} alt='img' width='100%' style={{ marginTop: '60px' }} />
                                         </div>
+                                        <br /><br />
+                                        The process is complete, the guests have made their purchases and there is no reason to have your front desk take time to upsell or cross sell.
+
+                                
                                     </Grid>
                                 </Grid>
-                                <br /><br />
-                                Once completed, the guest hits submit, and within minutes a message and link appear to choose which ones they want. Once that is complete, then the guest receives a message again by SMS to save their bookings to their mobile wallet and phone.
-
-
-
                             </div>
 
 

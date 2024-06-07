@@ -197,29 +197,22 @@ export default function TicketingTours() {
             </section>
             {/* section 3  */}
             <section className="padding">
-                <div className="global-heading1 mb-8per" style={{ marginTop: '-50px' }}>
+                <div className="global-heading1 mb-40" style={{ marginTop: '-50px' }}>
+                What inspires travelers to book your hotel over another
+                </div>
+                <div className=' tt-mx'>
+                Travelers prioritize destinations based on specific interests such as cultural experiences, adventure activities, or relaxation opportunities. This prioritization helps in narrowing the options and making a more informed decision about where to go. Since the activities and experiences available at a destination are crucial factors that influence the decision on where to travel , we can help by providing over 150,000 tours and activities in over 1,600 destinations. We can provide offers almost anywhere.
+
+                </div>
+                <div className="global-heading1 mb-8per mt-40" >
                     Inspirations for hotel websites
                 </div>
                 <div className='mt-8per'>
                     <Grid container spacing={5}>
+                        {!isMobile && <Grid xs={3} /> }
                         <Grid item sm={6} xs={12}>
                             <div className="message360Padding ">
                                 <img src={ttaImg4} alt="img" />
-                            </div>
-                        </Grid>
-                        <Grid item sm={6} xs={12}>
-                            <div>
-                                <div className="tta-sec3-upper-heading ">Underwater Adventure</div>
-                                <div>
-                                    Dive into the depths of excitement with our underwater adventure experiences! Explore vibrant coral reefs teeming with life, encounter majestic marine creatures, and uncover hidden treasures beneath the waves. Whether you're a seasoned diver or a first-time explorer, our thrilling expeditions promise unforgettable moments beneath the sea. Join us and embark on an aquatic journey like no other, where every dive is an opportunity for discovery and wonder.
-                                </div>
-                                <div className="tta-sec3-upper-heading">Highlights of tours and activities
-                                </div>
-                                <ul>
-                                    <li>1,600 destinations</li>
-                                    <li>Book online</li>
-                                    <li>Confirmed immediately</li>
-                                </ul>
                             </div>
                         </Grid>
                     </Grid>
@@ -257,6 +250,19 @@ export default function TicketingTours() {
                             ))
                         }
                     </Grid>
+                </div>
+                <div className=' tt-mx' style={{marginTop:'40px'}}>
+                    <div>
+                    Whether you have 1 or 100  locations, we have the content that can be shared and booked from your website. Generate the ancillary revenue that you want without the need to be involved in the booking process.  
+                    </div>
+                    <ul className='mt-40'>
+                        <li>TripBot will help your guest find their way
+                        </li>
+                        <li>Geofenced location guide
+                        </li>
+                        <li>Messaging & geo location  built in the process for notification 
+                        </li>
+                    </ul>
                 </div>
             </section>
             {/* section 4  */}
