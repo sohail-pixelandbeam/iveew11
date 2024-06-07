@@ -48,25 +48,30 @@ export default function MobileMarketStrategies() {
                         <div className="geoFence-sec7-rightBox">
                             <div className="geoFence-heading1" style={{ margin: '25px 0px' }}>Mobile Wallet Confirmation</div>
                             <div>
-                                Guest complete their booking, then on the confirmation page sits a link that asks if they would rather store their confirmation in their mobile wallet. When the guest selects yes, then the information regarding the registration is sent over to our backend system. Process begins by breaking down who is traveling, are kids traveling, when they are traveling and how long will they be there.
+                                Guest complete their booking, then on the confirmation page sits a link that asks if they would rather store their confirmation in their mobile wallet. When the guest selects yes, then the information regarding the registration is sent over to our backend system.
+                                <Grid container spacing={5}>
+                                    <Grid item sm={6} xs={12}>
+                                        <br /><br />
+                                        Process begins by breaking down who is traveling, are kids traveling, when they are traveling and how long will they be there.
+                                        They receive a link to their mobile phone which they open and save to wallet.
+                                        <br /><br />
+                                        The personalization process begins by sending them a link to the personalization profile, information will be taken from the confirmation and will ask for additional information such as hotel offers and then 3rd party offers.
+
+                                    </Grid>
+                                    <Grid item sm={6} xs={12}>
+                                        <div className='text-center'>
+                                            <img src={mobileMarketImg5} alt='img' width='100%' style={{ marginTop: '60px' }}  />
+                                        </div>
+                                    </Grid>
+                                </Grid>
                                 <br /><br />
-                                They receive a link to their mobile phone which they open and save to wallet.
-                                The personalization process begins by sending them a link to the personalization profile, information will be taken from the confirmation and will ask for additional information such as hotel offers and then 3rd party offers.
-                                <br /><br />
-                                
+                                Once completed, the guest hits submit, and within minutes a message and link appear to choose which ones they want. Once that is complete, then the guest receives a message again by SMS to save their bookings to their mobile wallet and phone.
+
+
 
                             </div>
-                            {/* <ul>
-                                <li>Application integration into almost any web or mobile based booking engine
-                                </li>
-                                <li>Engage with guest before arriving based usage of mobile confirmation</li>
-                                <li>Automate guest engagement with a link to our Personalization Profile.</li>
 
-                            </ul> */}
 
-                            <div className='text-center'>
-                                <img src={mobileMarketImg5} alt='img' width='40%' style={{ marginTop: '60px' }} />
-                            </div>
                         </div>
                     </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>
@@ -172,7 +177,7 @@ export default function MobileMarketStrategies() {
                                 <br />
                                 Ask about our SaaS application to increase bookings and creates incentives for your returning guests to bring friends.
                             </div>
-                         
+
                         </div>
                     </Grid>
                 </Grid>
