@@ -19,7 +19,8 @@ import SportsScoreIcon from '@mui/icons-material/SportsScore';
 export default function Pricing() {
     let [isPriceUnlocked, setIsPriceUnlocked] = useState(false);
 
-    const features = ['Messaging', 'Market Segmentation', 'Personalization', 'Reputation Management', 'Booking/Purchase Confirmation', 'Customer Recognition', 'Message-360', 'Loyalty Integration', 'Geofencing', 'Voucher & Gift Cards', 'Inspirations']
+
+    const features = ['Personalization','Geofencing','Messaging', 'Market Segmentation', 'Reputation Management', 'Booking/Purchase Confirmation', 'Customer Recognition', 'Message-360', 'Loyalty Integration',  'Voucher & Gift Cards', 'Inspirations']
 
     const handlePriceUnlock = () => {
         setIsPriceUnlocked(true)
