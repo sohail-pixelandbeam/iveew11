@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import NavBar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 
 export default function Privacy() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <NavBar />
