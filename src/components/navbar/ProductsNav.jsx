@@ -222,10 +222,10 @@ export default function ProductsNav({ showNote, setActiveLink }) {
                                                     <div className="naved-anouncement-content">
                                                     
                                                         <ol>
-                                                            <li>Flight information will provide your guests with information on their flights regarding, delays, cancellations and gate changes.
+                                                            <li style={{textAlign:'left'}}>Flight information will provide your guests with information on their flights regarding, delays, cancellations and gate changes.
 </li>
-                                                            <li>Cancellation notices can help your hotel to generate additional revenue by rebooking their room.  </li>
-                                                            <li>Gate changes provide information to your guest that they need to get to their new gate.  </li>
+                                                            <li style={{textAlign:'left'}}>Cancellation notices can help your hotel to generate additional revenue by rebooking their room.  </li>
+                                                            <li style={{textAlign:'left'}}>Gate changes provide information to your guest that they need to get to their new gate.  </li>
                                                         </ol>
                                                     </div>
                                                 </div>
