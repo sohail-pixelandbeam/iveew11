@@ -32,29 +32,15 @@ export default function Footer() {
                         <div className="f-link-description">
                             Ask our Help Desk Bot, if you need any information regarding your account.
 
-                            Click here to connect.
+                            Email us at <a href='mailto:info@iveew.co'>info@iveew.co</a>
                         </div>
-                        <div className="f-link" onClick={() => handleNavigate('/')} >Customer Hub</div>
-                        <div className="f-link-description">
-                            Sorry, it’s for our customers!
 
-                            Fill out this form and will set up an appointment.
-
-                        </div>
-                        <div className="f-link" onClick={() => handleNavigate('/')} >Status</div>
-                        <div className="f-link-description">
-                        We are always up and ready to serve clients if having problems. Please email us at 
-                        <a href='mailto:service@iveew.co'> service@iveew.co</a>
-                        </div>
 
 
                     </Grid>
                     <Grid item sm={3.5} xs={6} >
                         <div className="f-linkBold">Useful Links</div>
-                        <div className="f-link">Careers</div>
-                        <div className='f-link-description'>
-                            Check us out and if you think there is a match, email us at <a href='mailto:info@iveew.co'>info@iveew.co</a>
-                        </div>
+
                         <div className="f-link" onClick={() => handleNavigate('/Privacy')} >Privacy</div>
                         <div className="f-link-description">
                             California Consumer Privacy Act (CCPA

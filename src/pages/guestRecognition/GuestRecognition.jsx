@@ -39,56 +39,57 @@ export default function GuestRecognition() {
                     </Grid>
                 </div>
             </div>
-             {/* section 2  */}
-             <section className='home-sec2-box padding'>
-                    
-                    {/* section 2 watch */}
-                    <div className='home-sec2-watch-main' >
-                        <div className="home-sec2-watch-box">
-                            <Grid container spacing={5}>
-                                <Grid item md={6.5} xs={12}>
-                                    <div className="home-watch-heading">Guest Recognition</div>
-                                    <div className="home-watch-content">
-                                        <ul>
-                                            <li>Knowing your guests on a deeper level makes it easier to identify high-value customers and cater to their needs
-                                            </li>
-                                            <li>Provide more personalized service based on guest preferences and behavior
-                                            </li>
-                                            <li>Improve marketing efforts by targeting guests with a relevant, personalized message
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </Grid>
-                               {isMobile && <Grid item sm={12} xs={12}>
-                                    <div className="home-watch-img1" >
-                                        {isVideoPlaying ? (
-                                            <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
-                                        ) : (
-                                            <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
-                                        )}
-                                    </div>
-                                </Grid>}
+            {/* section 2  */}
+            <section className='home-sec2-box padding'>
+
+                {/* section 2 watch */}
+                <div className='home-sec2-watch-main' >
+                    <div className="home-sec2-watch-box">
+                        <Grid container spacing={5}>
+                            <Grid item md={6.5} xs={12}>
+                                <div className="home-watch-heading">Guest Recognition</div>
+                                <div className="home-watch-content">
+                                    <ul>
+                                        <li>Know guests on a different level makes it easier to identify high-value customers
+
+                                        </li>
+                                        <li>Provide more personalized service based on guest preferences and behavior
+                                        </li>
+                                        <li>Improve marketing efforts by targeting guests with a relevant, personalized message
+                                        </li>
+                                    </ul>
+                                </div>
                             </Grid>
-                        </div>
-                       {!isMobile && <div className="home-sec2-video-box">
-                            <Grid container spacing={5}>
-                                <Grid item md={7} xs={12}>
-                                </Grid>
-                                <Grid item md={5} xs={12}>
-                                    <div className="home-watch-img">
-                                        {isVideoPlaying ? (
-                                            <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
-                                        ) : (
-                                            <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
-                                        )}
-                                    </div>
-                                </Grid>
+                            {isMobile && <Grid item sm={12} xs={12}>
+                                <div className="home-watch-img1" >
+                                    {isVideoPlaying ? (
+                                        <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
+                                    ) : (
+                                        <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
+                                    )}
+                                </div>
+                            </Grid>}
+                        </Grid>
+                    </div>
+                    {!isMobile && <div className="home-sec2-video-box">
+                        <Grid container spacing={5}>
+                            <Grid item md={7} xs={12}>
                             </Grid>
-                        </div>}
-                    </div>
-                    <div>
-                    </div>
-                </section>
+                            <Grid item md={5} xs={12}>
+                                <div className="home-watch-img">
+                                    {isVideoPlaying ? (
+                                        <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
+                                    ) : (
+                                        <img src={imgWatch} alt="Thumbnail" onClick={handleThumbnailClick} />
+                                    )}
+                                </div>
+                            </Grid>
+                        </Grid>
+                    </div>}
+                </div>
+                <div>
+                </div>
+            </section>
             <Footer />
         </>
     )

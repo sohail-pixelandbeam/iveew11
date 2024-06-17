@@ -6,7 +6,8 @@ import imgWatch from '../../assets/imgs/imgWatch.png'
 import Footer from '../../components/footer/Footer';
 import FullScreenVideo from '../../components/fullScreenVideo/FullScreenVideo';
 import { useNavigate } from 'react-router-dom';
-import img9 from '../../assets/imgs/partnersImg.png';
+import img90 from '../../assets/imgs/partnersImg.png';
+import img9 from '../../assets/imgs/partnersImg1.png';
 import guestRecImg2 from '../../assets/imgs/guestRecImg2.png'
 import guestReturnImg1 from '../../assets/imgs/guestReturnImg.jpg';
 import ttaImg5 from '../../assets/imgs/ttaImg5.png';
@@ -21,7 +22,7 @@ export default function Home() {
     let [hideModal, setHideModal] = useState(true);
     const isMobile = useIsMobile();
     const navigate = useNavigate()
- 
+
 
     const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
@@ -43,7 +44,7 @@ export default function Home() {
         return () => clearInterval(interval);
     }, []);
 
-    const words = ['ai', 'Powered', 'Hospitality', 'Tools', 'connecting', 'with', 'guests'];
+    const words = ['AI', 'Powered', 'Hospitality', 'Tools', 'connecting', 'with', 'guests'];
 
 
     return (
@@ -85,7 +86,7 @@ export default function Home() {
                 </section>
                 {/* section 2  */}
                 <section className='home-sec2-box padding'>
-                    
+
                     {/* section 2 watch */}
                     <div className='home-sec2-watch-main' >
                         <div className="home-sec2-watch-box">
@@ -94,7 +95,8 @@ export default function Home() {
                                     <div className="home-watch-heading">Guest Recognition</div>
                                     <div className="home-watch-content">
                                         <ul>
-                                            <li>Knowing your guests on a deeper level makes it easier to identify high-value customers and cater to their needs
+                                            <li>Know guests on a different level makes it easier to identify high-value customers
+
                                             </li>
                                             <li>Provide more personalized service based on guest preferences and behavior
                                             </li>
@@ -103,7 +105,7 @@ export default function Home() {
                                         </ul>
                                     </div>
                                 </Grid>
-                               {isMobile && <Grid item sm={12} xs={12}>
+                                {isMobile && <Grid item sm={12} xs={12}>
                                     <div className="home-watch-img1" >
                                         {isVideoPlaying ? (
                                             <FullScreenVideo isVideoPlaying={isVideoPlaying} setIsVideoPlaying={setIsVideoPlaying} />
@@ -114,7 +116,7 @@ export default function Home() {
                                 </Grid>}
                             </Grid>
                         </div>
-                       {!isMobile && <div className="home-sec2-video-box">
+                        {!isMobile && <div className="home-sec2-video-box">
                             <Grid container spacing={5}>
                                 <Grid item md={7} xs={12}>
                                 </Grid>
@@ -133,9 +135,9 @@ export default function Home() {
                     <div>
                     </div>
                 </section>
-              
-                 {/* section 5  */}
-                 <section className="home-sec5-box padding">
+
+                {/* section 5  */}
+                <section className="home-sec5-box padding">
                     <div className="global-heading1">Applications</div>
                     <div className="sec5-cards-box">
                         <CardLeft
@@ -143,7 +145,7 @@ export default function Home() {
                             heading="Partners "
                             content="Integration with quality of suppliers, providing over 20,000 hotels and 150,000 tickets, tours and activities. Our partners include Oracle, Sabre SynXis Platform, Stayntouch, Viator, GetYourGuide, Rezdy and more are on the way"
                             to='/Partners'
-                            
+
                         />
                         <CardRight
                             img={guestRecImg2}
@@ -153,8 +155,11 @@ export default function Home() {
                         />
                         <CardLeft
                             img={guestReturnImg1}
-                            heading="Mobile Strategies"
-                            content="Communicating with guests has never been easier.  Our Guest Direct  application uses AI insights to help hotels automate communication with guests who booked through a 3rd party site and have not visited for 60+ days.  You have full control of all communication and offers that are sent out."
+                            heading="Guest Direct "
+                            content="Converting guest bookings  from OTAs to the hotel website saves  20-30% per booking.  Calculating the annual saving reveals the value of direct bookings versus OTAs.  
+
+                            Use the Guest Direct Calculator to determine your potential savings.
+                            "
                             to='/MobileMarketStrategies'
                         />
                         <CardRight

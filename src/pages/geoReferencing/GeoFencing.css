@@ -1,64 +1,64 @@
-.geoReference-sec2-blackBox{
+.geoReference-sec2-blackBox {
     background-color: black;
     margin: 8% 0%;
     border-radius: 20px;
     padding: 5%;
 }
 
-.geoReference-sec2-blackBox img{
+.geoReference-sec2-blackBox img {
     height: 280px;
     margin-bottom: 5%;
 }
 
-.geoReference-sec2-blackBox div{
+.geoReference-sec2-blackBox div {
     color: white;
     font-size: 22px;
 }
 
 /* section 3  */
-.geoReference-sec3-blackBox{
+.geoReference-sec3-blackBox {
     background-color: black;
     margin: 8%;
     border-radius: 20px;
     padding: 8% 10%;
 }
 
-.geoReference-sec3-blackBox img{
+.geoReference-sec3-blackBox img {
     width: 100%;
     margin-bottom: 5%;
 }
 
-.geoReference-sec3-blackBox div{
+.geoReference-sec3-blackBox div {
     color: white;
     font-size: 20px;
 }
 
-.geoReference-sec3-right{
+.geoReference-sec3-right {
     margin-top: 120px;
     font-size: 20px;
 }
 
 /* Geo Fencing  */
 
-.geoFence-heading1{
+.geoFence-heading1 {
     color: black;
     font-family: Poppins-SemiBold;
     font-size: 26px;
     line-height: 34px;
 }
 
-.geoFence-text1{
+.geoFence-text1 {
     font-size: 16px;
     font-family: Poppins-Regular;
     color: black;
 }
 
-.geoFence-icon{
+.geoFence-icon {
     width: 42px;
 }
 
 
-.geoFence-hero{
+.geoFence-hero {
     background-image: url('../../assets/imgs/geoImg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@
     width: 100%;
 }
 
-.geoFence-hero-contentBox{
+.geoFence-hero-contentBox {
     padding: 5% 30%;
     padding-top: 10%;
     display: flex;
@@ -74,14 +74,14 @@
     gap: 50px;
 }
 
-.geoFence-hero-heading{
+.geoFence-hero-heading {
     color: white;
     font-family: Poppins-ExtraBold;
-    font-size: 80px;
+    font-size: 100px;
     text-align: center;
 }
 
-.geoFence-hero-content{
+.geoFence-hero-content {
     font-size: 23px;
     color: #97969A;
     font-family: Poppins-SemiBold;
@@ -89,7 +89,7 @@
     text-align: center;
 }
 
-.geoFence-hero-btns{
+.geoFence-hero-btns {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +102,7 @@
     outline: none;
     border: none;
     border: 2px solid white;
-    color: white;   
+    color: white;
     border-radius: 15px;
     min-height: 47px;
     display: flex;
@@ -120,32 +120,33 @@
     padding: 0px 3%;
 }
 
-.geoFence-sec2-content>p> span{
+.geoFence-sec2-content>p>span {
     font-weight: 800;
     font-family: Poppins-ExtraBold;
 }
 
 /* section 3  */
-.geoFence-sec3-leftBox{
- display: flex;
- flex-direction: column;
- gap: 10px;
+.geoFence-sec3-leftBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.geoFence-sec3-leftBox img{
+
+.geoFence-sec3-leftBox img {
     width: 42px;
 }
 
-.geoFence-sec3-inpBtn{
+.geoFence-sec3-inpBtn {
     display: flex;
-    gap:20px
+    gap: 20px
 }
 
 /* section 4  */
-.geoFence-sec4-leftBox img{
+.geoFence-sec4-leftBox img {
     margin-top: -80px;
 }
 
-.geoFence-heading2{
+.geoFence-heading2 {
     color: black;
     font-family: Poppins-SemiBold;
     font-size: 26px;
@@ -153,7 +154,7 @@
     margin-left: 7%;
 }
 
-.geoFence-heading2 span{
+.geoFence-heading2 span {
     color: #7BADB8;
     font-family: Poppins-Regular;
     font-size: 26px;
@@ -164,13 +165,13 @@
 
 /* section 5  */
 .geoFence-sec5-leftBox,
-.geoFence-sec6-rightBox{
+.geoFence-sec6-rightBox {
     margin-top: -80px;
 }
 
 /* section 8  */
 
-.geoFence-sec8-text{
+.geoFence-sec8-text {
     font-size: 23px;
     line-height: 34px;
     color: black;
@@ -179,62 +180,62 @@
     text-align: center;
 }
 
-.geoFence-sec8-dataBox{
+.geoFence-sec8-dataBox {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
 }
 
-.geoFence-sec8-dataBox p{
+.geoFence-sec8-dataBox p {
     padding: 0px 12%;
     text-align: center;
 }
 
-.geoFence-sec8-btn{
+.geoFence-sec8-btn {
     display: flex;
     justify-content: center;
 }
 
 @media (max-width:699px) {
-    
-    
-    .geoFence-hero-contentBox{
+
+
+    .geoFence-hero-contentBox {
         padding: 15% 10%;
         padding-top: 50%;
         display: flex;
         flex-direction: column;
         gap: 50px;
     }
-    
-    .geoFence-hero-heading{
+
+    .geoFence-hero-heading {
         color: white;
         font-family: Poppins-ExtraBold;
         font-size: 30px;
         text-align: center;
     }
-    
-    .geoFence-hero-content{
+
+    .geoFence-hero-content {
         font-size: 16px;
         color: #97969A;
         font-family: Poppins-SemiBold;
         line-height: 22px;
         text-align: center;
     }
-    
-    .geoFence-hero-btns{
+
+    .geoFence-hero-btns {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .geoFence-hero-btn {
         box-sizing: border-box;
         background: transparent;
         outline: none;
         border: none;
         border: 2px solid white;
-        color: white;   
+        color: white;
         border-radius: 15px;
         min-height: 47px;
         display: flex;
@@ -245,15 +246,15 @@
 
     /* section 4  */
 
-    .geoFence-heading2{
+    .geoFence-heading2 {
         color: black;
         font-family: Poppins-SemiBold;
         font-size: 20px;
         line-height: 25px;
         margin-left: 7%;
     }
-    
-    .geoFence-heading2 span{
+
+    .geoFence-heading2 span {
         color: #7BADB8;
         font-family: Poppins-Regular;
         font-size: 20px;
@@ -264,18 +265,18 @@
 
     /* section 8  */
 
-    .geoFence-sec8-text{
+    .geoFence-sec8-text {
         font-size: 20px;
         line-height: 25px;
     }
 
     /* Mixed */
 
-    .geoReference-sec2-blackBox{
+    .geoReference-sec2-blackBox {
         margin: 8% 0%;
     }
 
-    .geoReference-sec3-blackBox{
+    .geoReference-sec3-blackBox {
         background-color: black;
         margin: 8% 0%;
         margin-bottom: 0%;
@@ -283,9 +284,9 @@
         padding: 8% 10%;
     }
 
-    .geoReference-sec3-right{
+    .geoReference-sec3-right {
         margin-top: 0px;
         font-size: 20px;
     }
-    
+
 }

@@ -24,7 +24,7 @@ export default function GeoFencing() {
             {/* section 1  */}
             <section className='bookingEngineWidget-hero'>
                 <div className="geoFence-hero-contentBox">
-                    <div className="geoFence-hero-heading">Geofencing</div>
+                    <div className="geoFence-hero-heading geoFence-hero-heading1">Geofencing</div>
                 </div>
             </section>
             {/* section 2  */}
@@ -72,8 +72,8 @@ export default function GeoFencing() {
                     </Grid>}
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
-                            For more satisfied guests, partner with like minded retail stores, gyms, we will provide a list or select the ones we feel match your property. 
-                            Improve the guest experience is key to keeping and retaining guests.  
+                            Hotels can leverage their local connections to provide personalized recommendations and concierge services tailored to guests' interests and preferences. This could include suggesting local hidden gems, making reservations, arranging tours or activities, and more - adding significant value to the stay
+
 
                             <img src={geoFenceImg20} alt='img' width='100%' style={{ marginTop: '50px' }} />
                         </div>
@@ -81,7 +81,8 @@ export default function GeoFencing() {
                     {!isMobile && <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-blackBox">
                             <img src={geoFenceImg2} alt="img" />
-                            <div>Provide your guests offer from local Business where they will shop. This creates a hyper-local market opportunity.</div>
+                            <div>Improve guest satisfaction by introducing them to businesses that compliments your hotel.  Local marketing is an important attribute towards a positive guest experience.
+                            </div>
                         </div>
                     </Grid>}
                     {/* 2nd  */}
@@ -93,7 +94,8 @@ export default function GeoFencing() {
                     </Grid>
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
-                            We will set it up, provide access to your information, set up automated messages when in proximity to an amenity at the hotel or surrounding area
+                            Our staff will help you build the right message when a guest crosses the virtual geofence.  Whether it is an offer or special notice about an event.  We can build a message when a guest is within  close proximity to an amenity the hotel provides.
+
                         </div>
                     </Grid>
                 </Grid>
@@ -107,7 +109,8 @@ export default function GeoFencing() {
                     </Grid>}
                     <Grid item sm={6} xs={12}>
                         <div className="geoReference-sec3-right">
-                            In the same way as we can help with complementary businesses around a location,  can provide incentives from your business when a guest approaches a competitive business.
+                            GeoConquesting is used when a business wants to advertise to its competitors.  Geofencing the competitor business and sending out messages when a customer  is in proximity of their business may be a way to draw the customer back to your business. An offer is very important at this point.
+
                         </div>
                     </Grid>
                     {!isMobile && <Grid item sm={6} xs={12}>

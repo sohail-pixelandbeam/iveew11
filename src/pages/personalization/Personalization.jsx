@@ -55,33 +55,33 @@ export default function Personalization() {
                         </Grid> */}
 
                         <Grid item sm={12} xs={12}>
-                           
-                           
-                            <div className="global-heading2 text-center mb-40 mt-8per">Six  Easy Steps to Guest Engagement</div>
+
+
+                            <div className="global-heading2 text-center mb-40 mt-8per">Six  Easy Steps to Guest Personalization</div>
                             <div className="message360Padding mb-40 mt-40 ">
                                 <div className='mb-40'>
-                                The personalization process begins by sending them a link to the personalization profile, the following 6 steps begins and within minutes, the guest will receive a link with their choices. 
+                                    The personalization process begins by sending them a link to the personalization profile, the following 6 steps begins and within minutes, the guest will receive a link with their choices.
                                 </div>
                                 <ol>
                                     <li>Gust selects mobile confirmation from the hotel booking engine
-</li>
+                                    </li>
                                     <li>Guest will receive the personalization form that highlights what is available in their chosen destination
-</li>
+                                    </li>
                                     <li>Select the in hotel offers and activities that interest them
-</li>
+                                    </li>
                                     <li>Guest will receive a link to all that were selected as “specially curated offers”
-</li>
+                                    </li>
                                     <li>Guest books  their choices that interest them
-</li>
+                                    </li>
                                     <li>Guest receives vouchers to save to their mobile wallet
-</li>
+                                    </li>
                                 </ol>
                                 <div className="message360Padding">
-                                <br /><br />
-                                <div className='personalization-img'>
-                                    <img src={personalizationImg1} alt="img" />
+                                    <br /><br />
+                                    <div className='personalization-img'>
+                                        <img src={personalizationImg1} alt="img" />
+                                    </div>
                                 </div>
-                            </div>
                                 <div className="mt-40">
                                     All of these are handled by AI and automation, selecting the items of interest.
                                     All of this does not take more than a few minutes to get to the final page to make selections
