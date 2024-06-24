@@ -74,9 +74,10 @@ export default function Pricing() {
             try {
                 // Prepare data for sending email
                 const data = {
-                    service_id: 'service_piq64qa',
-                    template_id: 'template_aq46n2v',
-                    user_id: 'BOenlnGkWAQVfZWxA',
+                    service_id: 'service_b9u9agh',
+                    template_id: 'template_70jlrsa',
+                    user_id: 'TY1c5CpNFvXKdnWcA',
+                    
                     template_params: {
                         name,
                         email,
